@@ -5,7 +5,7 @@ export ActionPointConsumptionGridConstants is TActionPointConsumptionGridConstan
     //---------------------------------------------------------------------------------------//
     TerrainsBloquants = [
         ~/ETerrainType/BocageLourd,
-        ~/ETerrainType/Eau,             //Rivers/Lake
+         //Rivers/Lake
     ]
      TerrainsRalentisseurs = [
          //~/ETerrainType/ForetLegere,

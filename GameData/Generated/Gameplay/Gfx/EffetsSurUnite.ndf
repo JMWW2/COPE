@@ -1,6 +1,27 @@
 // Ne pas éditer, ce fichier est auto-généré !
 
 
+export UnitEffect_Disable_Influence is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{7f377f5f-7177-4e73-8714-4625a2fb5eea}
+    NameForDebug       = 'A_BonusType_Calcul'
+    EffectsDescriptors = [
+        // BonusInfluenceValue
+        TUnitEffectIncreaseInfluenceValueDescriptor
+        (
+            ModifierType       = ~/ModifierType_Remplacement
+            Bonus              = 0.3
+        ),
+
+        // BonusInfluenceValueMin
+        TUnitEffectIncreaseInfluenceValueMinDescriptor
+        (
+            ModifierType       = ~/ModifierType_Remplacement
+            Bonus              = 0
+        ),
+
+    ]
+)
 export UnitEffect_A_BonusType_Calcul is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{86e9fbaa-eccc-4187-81a6-763cc70ad490}
@@ -45,6 +66,21 @@ export UnitEffect_Ajoute_Tag_Allie_Proche_Discipline is TEffectsPackDescriptor
 
     ]
 )
+export UnitEffect_Ajoute_Tag_Ennemi_Proche_750 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{46f85aee-31fc-4783-95db-ce12aca27ce1}
+    NameForDebug       = 'Ajoute_Tag_Ennemi_Proche'
+    EffectsDescriptors = [
+        // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Ennemi_Proche_750",
+            ]
+        ),
+
+    ]
+)
 export UnitEffect_Ajoute_Tag_Ennemi_Proche is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{75d437fe-aa71-4b00-aa48-c84631f217a2}
@@ -55,6 +91,51 @@ export UnitEffect_Ajoute_Tag_Ennemi_Proche is TEffectsPackDescriptor
         (
             TagListToRaise = [
                  "Ennemi_Proche",
+            ]
+        ),
+
+    ]
+)
+export UnitEffect_Ajoute_Tag_Neutre_Proche_1 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{8aedb160-aa74-4195-a8eb-eef76c833c5d}
+    NameForDebug       = 'Ajoute_Tag_Neutre_Proche'
+    EffectsDescriptors = [
+        // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Neutre_Proche_1",
+            ]
+        ),
+
+    ]
+)
+export UnitEffect_Ajoute_Tag_Neutre_Proche_2 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{dcb1e065-ba3f-44c9-9721-ee800184615f}
+    NameForDebug       = 'Ajoute_Tag_Neutre_Proche'
+    EffectsDescriptors = [
+        // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Neutre_Proche_2",
+            ]
+        ),
+
+    ]
+)
+export UnitEffect_Ajoute_Tag_Neutre_Proche_3 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{62709490-88e1-4386-bc91-b00047e3a1f3}
+    NameForDebug       = 'Ajoute_Tag_Neutre_Proche'
+    EffectsDescriptors = [
+        // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Neutre_Proche_3",
             ]
         ),
 
@@ -169,6 +250,46 @@ export UnitEffect_ArtInf_Engaged is TEffectsPackDescriptor
             TagListToRaise = [
                  "Infanterie_Engaged",
             ]
+        ),
+
+    ]
+)
+export UnitEffect_OffMap_Warning is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{5ca5ee81-12fc-41f9-9fd2-f76c73561125}
+    NameForDebug       = 'OffMap_Warning'
+    EffectsDescriptors = [
+        // BonusWeaponTempsEntreDeuxTirs
+        TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Multiplicatif
+            ModificationTempsEntreDeuxTirs   = 1.50
+        ),
+        TUnitEffectIncreaseDispersionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusDispersion  = 25
+        ),
+        // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "OffMap_firing_Warning",
+            ]
+        ),
+
+    ]
+)
+export UnitEffect_OffMap_Warning_Follow_Up is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{9b13a4d4-0c3e-4275-861f-3f1196fe92cb}
+    NameForDebug       = 'OffMap_Warning_follow_up'
+    EffectsDescriptors = [
+        // BonusWeaponTempsEntreDeuxTirs
+        TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Multiplicatif
+            ModificationTempsEntreDeuxTirs   = 1.25
         ),
 
     ]
@@ -449,9 +570,101 @@ export UnitEffect_Aura_Commandement_Plus is TEffectsPackDescriptor
 
     ]
 )
+export UnitEffect_Awareness_lv1 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{ea311931-796e-48d8-b896-ed61221620c5}
+    NameForDebug       = 'UnitEffect_Awareness_lv1'
+    EffectsDescriptors = [
+        // BonusWeaponPorteeMax
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType         = ~/ModifierType_Additionnel
+            BonusWeaponPorteeMax = ((625) * Metre)
+        ),
+                // BonusWeaponPrecisionArret
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Multiplicatif
+            BonusWeaponPrecisionArret = 0.95
+        ),
+
+        // BonusWeaponPrecisionMouvement
+        TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Multiplicatif
+            BonusWeaponPrecisionMouvement = 0.95
+        ),
+        // TUnitEffectShowLabelIconDescriptor
+        // (
+        //     TextureToken         = "icone_awareness"
+        //     CanBeSeenByEnemy         = true
+        // ),
+    ]
+)
+export UnitEffect_Awareness_lv2 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{94fbd185-3e89-4e08-bf9d-780f1d5136ad}
+    NameForDebug       = 'UnitEffect_Awareness_lv2'
+    EffectsDescriptors = [
+        // BonusWeaponPorteeMax
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType         = ~/ModifierType_Additionnel
+            BonusWeaponPorteeMax = ((1250) * Metre)
+        ),
+                        // BonusWeaponPrecisionArret
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Multiplicatif
+            BonusWeaponPrecisionArret = 0.90
+        ),
+        // BonusWeaponPrecisionMouvement
+        TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Multiplicatif
+            BonusWeaponPrecisionMouvement = 0.90
+        ),
+        // TUnitEffectShowLabelIconDescriptor
+        // (
+        //     TextureToken         = "icone_awareness"
+        //     CanBeSeenByEnemy         = true
+        // ),
+    ]
+)
+export UnitEffect_Awareness_lv3 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{ec50718a-6a0b-49eb-8d3d-dcba69969ea9}
+    NameForDebug       = 'UnitEffect_Awareness_lv3'
+    EffectsDescriptors = [
+        // BonusWeaponPorteeMax
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType         = ~/ModifierType_Additionnel
+            BonusWeaponPorteeMax = ((1875) * Metre)
+        ),                     
+		// BonusWeaponPrecisionArret
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Multiplicatif
+            BonusWeaponPrecisionArret = 0.85
+        ),
+
+        // BonusWeaponPrecisionMouvement
+        TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Multiplicatif
+            BonusWeaponPrecisionMouvement = 0.85
+        ),
+        // TUnitEffectShowLabelIconDescriptor
+        // (
+        //     TextureToken         = "icone_awareness"
+        //     CanBeSeenByEnemy         = true
+        // ),
+    ]
+)
 export UnitEffect_Autoprotection is TEffectsPackDescriptor
 (
-    DescriptorId       = GUID:{d621a5b9-9d73-48dc-8475-f80bd68c3eed}
+    DescriptorId       = GUID:{206e9df0-fcf4-4604-8163-b7526e1dbaf6}
     NameForDebug       = 'Autoprotection'
     EffectsDescriptors = [
         // BonusVitesse
@@ -545,6 +758,107 @@ export UnitEffect_Autoprotection is TEffectsPackDescriptor
         // SetSelectable
         TUnitEffectSetSelectableDescriptor
         (
+            Selectable = True
+        ),
+
+    ]
+)
+export UnitEffect_Autoprotection_Auto is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{d621a5b9-9d73-48dc-8475-f80bd68c3eed}
+    NameForDebug       = 'Autoprotection'
+    EffectsDescriptors = [
+        // BonusVitesse
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Pourcentage
+            BonusSpeedBaseInPercent  = 50
+        ),
+
+        // BonusWeaponMaxRangeSW
+        TUnitEffectIncreaseWeaponMaxRangeSWDescriptor_ModernWarfare
+        (
+            ModifierType         = ~/ModifierType_Pourcentage
+            BonusWeaponMaxRangeSW = -100
+        ),
+
+        // BonusWeaponPorteeMax
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType         = ~/ModifierType_Pourcentage
+            BonusWeaponPorteeMax = -100
+        ),
+
+        // BonusWeaponPorteeMaxHA
+        TUnitEffectIncreaseWeaponPorteeMaxHADescriptor
+        (
+            ModifierType           = ~/ModifierType_Pourcentage
+            BonusWeaponPorteeMaxHA = -100
+        ),
+
+        // BonusWeaponPorteeMaxProj
+        TUnitEffectIncreaseWeaponPorteeMaxProjectileDescriptor
+        (
+            ModifierType                   = ~/ModifierType_Pourcentage
+            BonusWeaponPorteeMaxProjectile = -100
+        ),
+
+        // BonusWeaponPorteeMaxTBA
+        TUnitEffectIncreaseWeaponPorteeMaxTBADescriptor
+        (
+            ModifierType            = ~/ModifierType_Pourcentage
+            BonusWeaponPorteeMaxTBA = -100
+        ),
+
+        // FleeFromAttackers
+        TUnitEffectFleeFromAttackersDescriptor
+        (
+            FleeOnlyOnIdle = False
+        ),
+
+        // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Retraite",
+            ]
+        ),
+
+        // ReplaceBlindageFront
+        TUnitEffectReplaceArmorDescriptor
+        (
+            ModifierType        = ~/ModifierType_Remplacement
+            ReplacementBlindage = ~/EArmureType/Infanterie_Lourd
+            BlindageLocation    = ~/EArmorLocation/Front
+        ),
+
+        // ReplaceBlindageRear
+        TUnitEffectReplaceArmorDescriptor
+        (
+            ModifierType        = ~/ModifierType_Remplacement
+            ReplacementBlindage = ~/EArmureType/Infanterie_Lourd
+            BlindageLocation    = ~/EArmorLocation/Rear
+        ),
+
+        // ReplaceBlindageSides
+        TUnitEffectReplaceArmorDescriptor
+        (
+            ModifierType        = ~/ModifierType_Remplacement
+            ReplacementBlindage = ~/EArmureType/Infanterie_Lourd
+            BlindageLocation    = ~/EArmorLocation/Sides
+        ),
+
+        // ReplaceBlindageTop
+        TUnitEffectReplaceArmorDescriptor
+        (
+            ModifierType        = ~/ModifierType_Remplacement
+            ReplacementBlindage = ~/EArmureType/Infanterie_Lourd
+            BlindageLocation    = ~/EArmorLocation/Top
+        ),
+
+        // SetSelectable
+        TUnitEffectSetSelectableDescriptor
+        (
             Selectable = False
         ),
 
@@ -632,6 +946,21 @@ export UnitEffect_Bouclier_Suppression_50 is TEffectsPackDescriptor
         (
             ModifierType        = ~/ModifierType_Pourcentage
             BonusDamage         = -50
+            DamageType          = EDamageType/Suppress
+        ),
+
+    ]
+)
+export UnitEffect_Bouclier_Suppression_25 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{3f572df2-98c1-4fbf-bb56-f2b78ed63542}
+    NameForDebug       = 'Bouclier_Suppression_25'
+    EffectsDescriptors = [
+        // BonusDamageTaken
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = -25
             DamageType          = EDamageType/Suppress
         ),
 
@@ -836,6 +1165,60 @@ export UnitEffect_CanonAT_Suppressed is TEffectsPackDescriptor
 
     ]
 )
+export UnitEffect_Artillery_Dispersion_Decreased_1 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{ea066282-bc58-4cfb-9c9b-46292d04e697}
+    NameForDebug       = 'CanonAT_Suppressed'
+    EffectsDescriptors = [
+        // BonusDispersion
+        TUnitEffectIncreaseDispersionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusDispersion  = -15
+        ),
+		        // BonusWeaponAimtime
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.85
+        ),
+    ]
+)
+export UnitEffect_Artillery_Dispersion_Decreased_2 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{ead89c9c-135b-4e88-8593-3459487aae14}
+    NameForDebug       = 'CanonAT_Suppressed'
+    EffectsDescriptors = [
+        // BonusDispersion
+        TUnitEffectIncreaseDispersionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusDispersion  = -25
+        ),
+		        // BonusWeaponAimtime
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.75
+        ),
+    ]
+)
+export UnitEffect_Artillery_Dispersion_Decreased_3 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{20630ecd-3225-4111-ab3e-7b8cc3590b83}
+    NameForDebug       = 'CanonAT_Suppressed'
+    EffectsDescriptors = [
+        // BonusDispersion
+        TUnitEffectIncreaseDispersionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusDispersion  = -33
+        ),
+		        // BonusWeaponAimtime
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.66
+        ),
+    ]
+)
 export UnitEffect_Critic_Bailed_Out is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{49d6a07e-fd24-477c-9aa9-d383901d6b87}
@@ -966,7 +1349,7 @@ export UnitEffect_Critic_Bailed_Out is TEffectsPackDescriptor
         // SetSelectable
         TUnitEffectSetSelectableDescriptor
         (
-            Selectable = False
+            Selectable = True
         ),
 
         // TransportSlotNumberModification
@@ -975,7 +1358,166 @@ export UnitEffect_Critic_Bailed_Out is TEffectsPackDescriptor
             ModifierType                 = ~/ModifierType_Remplacement
             EffectOnTransportSlotNumber  = 0
         ),
+        TUnitEffectChangeTeamDescriptor
+        (
+            FutureTeam = TTeamIdentifierForUnitEffect(
+                TeamType = ~/ETeamTypeForUnitEffect/Neutral
+            )
+        ),
+    ]
+)
+export UnitEffect_Critic_Bailed_Out_Old is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{feec7abf-4bee-4b48-b0e2-7a2501ebd9ac}
+    NameForDebug       = 'Critic_Bailed_Out'
+    EffectsDescriptors = [
+        // BonusVitesseRotationChassis
+        TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusChassisRotationSpeed  = 0
+        ),
 
+        // BonusDamageTaken
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Multiplicatif
+            BonusDamage         = 0
+            DamageType          = EDamageType/Suppress
+        ),
+
+        // BonusDangerousness
+        TUnitEffectIncreaseDangerousnessDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusDangerousness    = 0
+        ),
+
+        // BonusDetectionBase
+        TUnitEffectIncreaseVisionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Remplacement
+            BonusVisionBase    = 0
+        ),
+
+        // BonusDetectionBuildings
+        TUnitEffectIncreaseSpecializedDetectionDescriptor
+        (
+            ModifierType            = ~/ModifierType_Remplacement
+            VisionType              = ~/EVisionUnitType/Building
+            BonusValue              = 0
+        ),
+
+        // BonusDetectionHA
+        TUnitEffectIncreaseSpecializedDetectionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Remplacement
+            VisionType         = ~/EVisionUnitType/AlwaysInHighAltitude
+            BonusValue         = ((0) * Metre)
+        ),
+
+        // BonusInfluenceValue
+        TUnitEffectIncreaseInfluenceValueDescriptor
+        (
+            ModifierType       = ~/ModifierType_Remplacement
+            Bonus              = 0
+        ),
+
+        // BonusInfluenceValueMin
+        TUnitEffectIncreaseInfluenceValueMinDescriptor
+        (
+            ModifierType       = ~/ModifierType_Remplacement
+            Bonus              = 0
+        ),
+
+        // BonusVitesseRotationTurret
+        TUnitEffectIncreaseTurretRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusTurretRotationSpeed  = 0
+        ),
+
+        // BonusUnitDisableObserver
+        TUnitEffectDisableObserverDescriptor
+        (
+            BonusDisableObserver = True
+        ),
+
+        // BonusVitesse
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 0
+        ),
+
+        // BonusWeaponMaxRangeSW
+        TUnitEffectIncreaseWeaponMaxRangeSWDescriptor_ModernWarfare
+        (
+            ModifierType         = ~/ModifierType_Remplacement
+            BonusWeaponMaxRangeSW = ((0) * Metre)
+        ),
+
+        // BonusWeaponPorteeMax
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType         = ~/ModifierType_Remplacement
+            BonusWeaponPorteeMax = ((0) * Metre)
+        ),
+
+        // BonusWeaponPorteeMaxHA
+        TUnitEffectIncreaseWeaponPorteeMaxHADescriptor
+        (
+            ModifierType           = ~/ModifierType_Remplacement
+            BonusWeaponPorteeMaxHA = ((0) * Metre)
+        ),
+
+        // BonusWeaponPorteeMaxProj
+        TUnitEffectIncreaseWeaponPorteeMaxProjectileDescriptor
+        (
+            ModifierType                   = ~/ModifierType_Remplacement
+            BonusWeaponPorteeMaxProjectile = ((0) * Metre)
+        ),
+
+        // BonusWeaponPorteeMaxTBA
+        TUnitEffectIncreaseWeaponPorteeMaxTBADescriptor
+        (
+            ModifierType            = ~/ModifierType_Remplacement
+            BonusWeaponPorteeMaxTBA = ((0) * Metre)
+        ),
+
+        // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Bailed_Out",
+            ]
+        ),
+
+        // SetSelectable
+        TUnitEffectSetSelectableDescriptor
+        (
+            Selectable = True
+        ),
+
+        // TransportSlotNumberModification
+        TUnitEffectTransportSlotNumberModificationDescriptor
+        (
+            ModifierType                 = ~/ModifierType_Remplacement
+            EffectOnTransportSlotNumber  = 0
+        ),
+    ]
+)
+export UnitEffect_Influence_Military_Police is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{477307f7-c2d4-4939-a354-e44f432cde23}
+    NameForDebug       = 'Influence_Military_Police'
+    EffectsDescriptors = [
+        // BonusInfluenceValue
+        TUnitEffectIncreaseInfluenceValueDescriptor
+        (
+            ModifierType       = ~/ModifierType_Remplacement
+            Bonus              = 0.3
+        ),
     ]
 )
 export UnitEffect_Critic_Chenille_Detruite is TEffectsPackDescriptor
@@ -1049,7 +1591,7 @@ export UnitEffect_Critic_Deroute is TEffectsPackDescriptor
         // SetSelectable
         TUnitEffectSetSelectableDescriptor
         (
-            Selectable = False
+            Selectable = True
         ),
 
     ]
@@ -1089,7 +1631,7 @@ export UnitEffect_Critic_Perd_1_PV is TEffectsPackDescriptor
 
     ]
 )
-export UnitEffect_Critic_Pert_2_PV is TEffectsPackDescriptor
+export UnitEffect_Critic_Perd_2_PV is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{51a8f41f-a972-4cb3-91e9-861c360ff7aa}
     NameForDebug       = 'Critic_Pert_2_PV'
@@ -1099,6 +1641,34 @@ export UnitEffect_Critic_Pert_2_PV is TEffectsPackDescriptor
         (
             ModifierType             = ~/ModifierType_Additionnel
             PhysicalDamageValue      = 2
+        ),
+
+    ]
+)
+export UnitEffect_Critic_Perd_3_PV is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{d6ab0d6a-8f1b-4495-adc6-441453cc26a1}
+    NameForDebug       = 'Critic_Pert_3_PV'
+    EffectsDescriptors = [
+        // InflictPhysicalDamage
+        TEffectInflictPhysicalDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            PhysicalDamageValue      = 3
+        ),
+
+    ]
+)
+export UnitEffect_Critic_Perd_4_PV is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{4872e9ef-c32b-4179-b1de-fac1b19176e6}
+    NameForDebug       = 'Critic_Pert_4_PV'
+    EffectsDescriptors = [
+        // InflictPhysicalDamage
+        TEffectInflictPhysicalDamageDescriptor
+        (
+            ModifierType             = ~/ModifierType_Additionnel
+            PhysicalDamageValue      = 4
         ),
 
     ]
@@ -1206,6 +1776,47 @@ export UnitEffect_Critic_Tourelle_Bloquee is TEffectsPackDescriptor
             TagListToRaise = [
                  "Bloque_MoveAndAttack",
             ]
+        ),
+
+    ]
+)
+export UnitEffect_Critic_Aim_Speed_75 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{44c91499-e63f-434b-8bcf-00526aeeff4b}
+    NameForDebug       = 'Critic_Visee_vitesse_50'
+    EffectsDescriptors = [
+        // BonusDispersion
+        TUnitEffectIncreaseDispersionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusDispersion  = 25
+        ),
+
+        // BonusWeaponPrecisionArret
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Multiplicatif
+            BonusWeaponPrecisionArret = 0.75
+        ),
+
+        // BonusWeaponPrecisionMouvement
+        TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Multiplicatif
+            BonusWeaponPrecisionMouvement = 0.75
+        ),
+        // BonusVitesseRotationChassis
+        TUnitEffectIncreaseChassisRotationSpeedDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusChassisRotationSpeed  = -25
+        ),
+
+        // BonusVitesse
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 0.5
         ),
 
     ]
@@ -1349,6 +1960,20 @@ export UnitEffect_Dispersion_Bombes_plus50 is TEffectsPackDescriptor
         (
             ModifierType       = ~/ModifierType_Pourcentage
             BonusDispersion  = 50
+        ),
+
+    ]
+)
+export UnitEffect_Dispersion_Bombes_plus75 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{ed125750-6b7e-4c3e-9c71-c0877afd2beb}
+    NameForDebug       = 'Dispersion_Bombes_plus50'
+    EffectsDescriptors = [
+        // BonusDispersion
+        TUnitEffectIncreaseDispersionDescriptor
+        (
+            ModifierType       = ~/ModifierType_Pourcentage
+            BonusDispersion  = 75
         ),
 
     ]
@@ -1622,6 +2247,21 @@ export UnitEffect_GroundUnit_Cowering is TEffectsPackDescriptor
 
     ]
 )
+export UnitEffect_GroundUnit_Agitated is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{f856e2a1-3799-4ac4-94f9-b25332d3f593}
+    NameForDebug       = 'GroundUnit_Agitated'
+    EffectsDescriptors = [
+        // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "GroundUnit_Agitated",
+            ]
+        ),
+
+    ]
+)
 export UnitEffect_GroundUnit_Engaged is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{52e9f463-283c-4bf1-8cd3-497a3e29f68f}
@@ -1720,7 +2360,6 @@ export UnitEffect_Infanterie_Cowering is TEffectsPackDescriptor
             ModifierType       = ~/ModifierType_Multiplicatif
             Bonus              = 0.66
         ),
-
         // BonusWeaponMaxRangeSW
         TUnitEffectIncreaseWeaponMaxRangeSWDescriptor_ModernWarfare
         (
@@ -2052,6 +2691,58 @@ export UnitEffect_Infanterie_bonus_defense is TEffectsPackDescriptor
 
     ]
 )
+
+export UnitEffect_Infanterie_bonus_defense_Last_Stand is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{69030acc-4c61-4aec-bef3-8c558a01a94e}
+    NameForDebug       = 'Infanterie_bonus_defense_Last_Stand'
+    EffectsDescriptors = [
+	        // BonusInfluenceValue
+        TUnitEffectIncreaseInfluenceValueDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            Bonus              = 0.66
+        ),
+        TUnitEffectIncreaseInfluenceValueMinDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            Bonus              = 0.66
+        ),
+		// BonusVitesse
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 0
+        ),
+        // BonusExperienceLevel
+        TUnitEffectBonusExperienceLevelDescriptor
+        (
+            ModifierType            = ~/ModifierType_Additionnel
+            ExperienceLevelModifier = 1
+        ),
+        // BonusDamageTaken
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = 25
+            DamageType          = EDamageType/Physical
+        ),
+		TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = -50
+            DamageType          = EDamageType/Suppress
+        ),
+		       // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Last_Stand",
+				 "Bloque_MoveAndAttack",
+            ]
+        ),
+    ]
+)
 export UnitEffect_Infanterie_bonus_discretion is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{34b3821f-1d62-4b36-b9b8-53bbbf222cf1}
@@ -2277,6 +2968,61 @@ export UnitEffect_Precision_plus_33 is TEffectsPackDescriptor
 
     ]
 )
+export UnitEffect_Militia is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{66aeb034-23ed-4ac2-9fba-46b788650b90}
+    NameForDebug       = 'Militia'
+    EffectsDescriptors = [
+        // BonusWeaponPrecisionArret
+        TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Pourcentage
+            BonusWeaponPrecisionArret = 0.9
+        ),
+        // BonusWeaponPrecisionMouvement
+        TUnitEffectIncreaseWeaponPrecisionMouvementDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Pourcentage
+            BonusWeaponPrecisionMouvement = 0.9
+        ),
+        // BonusWeaponTempsEntreDeuxSalves
+        TUnitEffectAlterWeaponTempsEntreDeuxSalvesDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Multiplicatif
+            ModificationTempsEntreDeuxSalves = 1.15
+        ),
+
+        // BonusWeaponTempsEntreDeuxTirs
+        TUnitEffectAlterWeaponTempsEntreDeuxTirsDescriptor
+        (
+            ModifierType                     = ~/ModifierType_Multiplicatif
+            ModificationTempsEntreDeuxTirs   = 1.15
+        ),
+    ]
+)   
+export UnitEffect_CQC_Specialist is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{335d0a40-be1d-4e40-882d-11311ee9e788}
+    NameForDebug       = 'CQC_Specialist'
+    EffectsDescriptors = [
+		TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.85
+        ),
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = -10
+            DamageType          = EDamageType/Physical
+        ),
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = -10
+            DamageType          = EDamageType/Suppress
+        ),
+    ]
+)
 export UnitEffect_Reddition_Effet is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{05b76f60-7871-4754-8346-18942613220f}
@@ -2318,6 +3064,32 @@ export UnitEffect_Reddition_Effet is TEffectsPackDescriptor
             EffectOnTransportSlotNumber  = 0
         ),
 
+    ]
+)
+export UnitEffect_Bailed_Out is TEffectsPackDescriptor
+(
+         DescriptorId       = GUID:{23cee9bc-c4c8-4f35-a857-5dfb42d12053}
+    NameForDebug       = 'Reddition_Effet_kill'
+    EffectsDescriptors = [// ChangeTeam
+        TUnitEffectChangeTeamDescriptor
+        (
+            FutureTeam = TTeamIdentifierForUnitEffect(
+                TeamType = ~/ETeamTypeForUnitEffect/Neutral
+            )
+        ),
+                // BonusInfluenceValue
+        TUnitEffectIncreaseInfluenceValueDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            Bonus              = 0
+        ),
+
+        // BonusInfluenceValueMin
+        TUnitEffectIncreaseInfluenceValueMinDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            Bonus              = 0
+        ),
     ]
 )
 export UnitEffect_Reddition_Effet_kill is TEffectsPackDescriptor
@@ -2370,6 +3142,51 @@ export UnitEffect_Resistance_plus_33pourcent is TEffectsPackDescriptor
         (
             ModifierType        = ~/ModifierType_Pourcentage
             BonusDamage         = -33
+            DamageType          = EDamageType/Physical
+        ),
+
+    ]
+)
+export UnitEffect_DamageTaken_Plus_5pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{0356e77e-09c8-4fa6-9897-b8015f999477}
+    NameForDebug       = 'Resistance_plus_15pourcent'
+    EffectsDescriptors = [
+        // BonusDamageTaken
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = 5
+            DamageType          = EDamageType/Physical
+        ),
+
+    ]
+)
+export UnitEffect_DamageTaken_Plus_10pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{906f536d-f792-4087-a72e-572726bc03c5}
+    NameForDebug       = 'Resistance_plus_25pourcent'
+    EffectsDescriptors = [
+        // BonusDamageTaken
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = 10
+            DamageType          = EDamageType/Physical
+        ),
+
+    ]
+)
+export UnitEffect_DamageTaken_Plus_15pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{f258f049-feaa-4937-b1e0-3e32ebdf3322}
+    NameForDebug       = 'Resistance_plus_33pourcent'
+    EffectsDescriptors = [
+        // BonusDamageTaken
+        TUnitEffectIncreaseDamageTakenDescriptor
+        (
+            ModifierType        = ~/ModifierType_Pourcentage
+            BonusDamage         = 15
             DamageType          = EDamageType/Physical
         ),
 
@@ -2434,6 +3251,45 @@ export UnitEffect_RoF_plus_33pourcent is TEffectsPackDescriptor
         (
             ModifierType                     = ~/ModifierType_Multiplicatif
             ModificationTempsEntreDeuxTirs   = 0.67
+        ),
+
+    ]
+)
+export UnitEffect_AIMTIME_moins_15pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{e63732dc-8208-4622-81fb-622b6eb4e941}
+    NameForDebug       = 'RoF_plus_15pourcent'
+    EffectsDescriptors = [
+        // BonusWeaponAimtime
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.85
+        ),
+
+    ]
+)
+export UnitEffect_AIMTIME_moins_25pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{efb132f9-fd17-4fc9-b867-3550b5b3ee32}
+    NameForDebug       = 'RoF_plus_25pourcent'
+    EffectsDescriptors = [
+        // BonusWeaponAimtime
+		TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.75
+        ),
+
+    ]
+)
+export UnitEffect_AIMTIME_moins_33pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{0c5e76f9-3f46-4192-9d9a-58cac479bc32}
+    NameForDebug       = 'RoF_plus_33pourcent'
+    EffectsDescriptors = [
+        // BonusWeaponAimtime
+        TBonusWeaponAimtimeEffectDescriptor
+        (
+            BonusAimtime = 0.66
         ),
 
     ]
@@ -2514,6 +3370,17 @@ export UnitEffect_Supprime_Zone_Dinfluence is TEffectsPackDescriptor
             ModifierType       = ~/ModifierType_Multiplicatif
             Bonus              = 0
         ),
+		        // BonusVitesse
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 0.6
+        ),
+		        TUnitEffectIncreaseStealthBonusDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusStealthBonus  = 1.5
+        ),
 
     ]
 )
@@ -2522,11 +3389,23 @@ export UnitEffect_Tank_bonus_discretion is TEffectsPackDescriptor
     DescriptorId       = GUID:{1b83828d-2cf7-4a4c-b27f-847bb473b6da}
     NameForDebug       = 'Tank_bonus_discretion'
     EffectsDescriptors = [
-        // BonusStealthBonus
-        TUnitEffectIncreaseStealthBonusDescriptor
+		        // BonusVitesse
+		 TUnitEffectIncreaseWeaponPrecisionArretDescriptor
+        (
+            ModifierType                  = ~/ModifierType_Pourcentage
+            BonusWeaponPrecisionArret = 5
+        ),
+        TUnitEffectIncreaseInfluenceValueDescriptor
         (
             ModifierType       = ~/ModifierType_Multiplicatif
-            BonusStealthBonus  = 2
+            Bonus              = 0.25
+        ),
+                // RaiseTag
+        TUnitEffectRaiseTagDescriptor
+        (
+            TagListToRaise = [
+                 "Bloque_MoveAndAttack",
+            ]
         ),
 
     ]
@@ -2587,6 +3466,88 @@ export UnitEffect_Tutorial_MG42_RangeModification is TEffectsPackDescriptor
 
     ]
 )
+export UnitEffect_Range_plus_15pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{57445aac-5728-47e7-8864-035ab3304583}
+    NameForDebug       = 'UnitEffect_Range_plus15pourcent'
+    EffectsDescriptors = [
+        // BonusWeaponPorteeMax
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType         = ~/ModifierType_Pourcentage
+            BonusWeaponPorteeMax = 15
+        ),
+
+    ]
+)
+export UnitEffect_Range_plus_25pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{2675a541-e831-44ea-bf9f-41ba22366577}
+    NameForDebug       = 'UnitEffect_Range_plus25pourcent'
+    EffectsDescriptors = [
+        // BonusWeaponPorteeMax
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType         = ~/ModifierType_Pourcentage
+            BonusWeaponPorteeMax = 25
+        ),
+
+    ]
+)
+export UnitEffect_Stealth_plus_15pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{af2f2d49-8dc9-4905-9110-e4fe19834984}
+    NameForDebug       = 'UnitEffect_Stealth_plus15pourcent'
+    EffectsDescriptors = [
+        // BonusStealthBonus
+        TUnitEffectIncreaseStealthBonusDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusStealthBonus  = 1.15
+        ),
+    ]
+)
+export UnitEffect_Stealth_plus_25pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{1c7be75a-1c2f-4b4b-86a4-1aa6d9fd97ad}
+    NameForDebug       = 'UnitEffect_Stealth_plus25pourcent'
+    EffectsDescriptors = [
+        // BonusStealthBonus
+        TUnitEffectIncreaseStealthBonusDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusStealthBonus  = 1.25
+        ),
+    ]
+)
+export UnitEffect_Stealth_plus_33pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{00512e1c-fb6f-4faa-8a47-bf1315b86bf2}
+    NameForDebug       = 'UnitEffect_Stealth_plus33pourcent'
+    EffectsDescriptors = [
+        // BonusStealthBonus
+        TUnitEffectIncreaseStealthBonusDescriptor
+        (
+            ModifierType       = ~/ModifierType_Multiplicatif
+            BonusStealthBonus  = 1.33
+        ),
+    ]
+)
+export UnitEffect_Range_plus_33pourcent is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{21227337-0197-4b9c-a58b-cc56c626ce26}
+    NameForDebug       = 'UnitEffect_Range_plus33pourcent'
+    EffectsDescriptors = [
+        // BonusWeaponPorteeMax
+        TUnitEffectIncreaseWeaponPorteeMaxDescriptor
+        (
+            ModifierType         = ~/ModifierType_Pourcentage
+            BonusWeaponPorteeMax = 33
+        ),
+
+    ]
+)
+
 export UnitEffect_Vehicule_Cowering is TEffectsPackDescriptor
 (
     DescriptorId       = GUID:{1aa77087-8478-43bf-b31b-62990b7bf3f6}
@@ -2638,8 +3599,38 @@ export UnitEffect_capture_allie_solo is TEffectsPackDescriptor
         TUnitEffectChangeTeamDescriptor
         (
             FutureTeam = TTeamIdentifierForUnitEffect(
-                TeamType = ~/ETeamTypeForUnitEffect/Number
-                TeamNumber = 0
+                TeamType = ~/ETeamTypeForUnitEffect/Neutral
+               
+            )
+        ),
+
+    ]
+)
+export UnitEffect_capture_neutral is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{c0dbdd1d-7993-418c-af1a-4d54aecf91b6}
+    NameForDebug       = 'capture_neutral'
+    EffectsDescriptors = [
+        // ChangeTeam
+        TUnitEffectChangeTeamDescriptor
+        (
+            FutureTeam = TTeamIdentifierForUnitEffect(
+                TeamType = ~/ETeamTypeForUnitEffect/Caster
+            )
+        ),
+    ]
+)
+export UnitEffect_capture_ennemi is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{22115889-0d1c-4a07-8be1-5e7f57bf6393}
+    NameForDebug       = 'capture_ennemi'
+    EffectsDescriptors = [
+        // ChangeTeam
+        TUnitEffectChangeTeamDescriptor
+        (
+            FutureTeam = TTeamIdentifierForUnitEffect(
+                TeamType = ~/ETeamTypeForUnitEffect/Caster
+                TeamNumber = 1
             )
         ),
 
@@ -2694,6 +3685,73 @@ export UnitEffect_donne_capacite_capture_allie_solo is TEffectsPackDescriptor
         (
             CapacityToAdd = [ ~/Capacite_Aura_capture_allie_solo ]
         ),
+    ]
+)
+export UnitEffect_donne_capacite_capture_neutral_1 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{6fe255e8-214e-4ef7-8d6e-e7b4da4af373}
+    NameForDebug       = 'donne_capacite_capture_neutral_1'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_capture_neutral_1 ]
+        ),
+                // BonusVitesse
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 1.15
+        ),
+    ]
+)
+export UnitEffect_donne_capacite_capture_neutral_2 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{3f536fb9-b526-40c1-b76d-c1ace2b13a74}
+    NameForDebug       = 'donne_capacite_capture_neutral_2'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_capture_neutral_2 ]
+        ),
+                // BonusVitesse
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 1.25
+        ),
+    ]
+)
+export UnitEffect_donne_capacite_capture_neutral_3 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{77bba3c8-1227-4046-99f0-02e1030329a8}
+    NameForDebug       = 'donne_capacite_capture_neutral_3'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_capture_neutral_3 ]
+        ),
+        // BonusVitesse
+        TUnitEffectIncreaseSpeedDescriptor
+        (
+            ModifierType             = ~/ModifierType_Multiplicatif
+            BonusSpeedBaseInPercent  = 1.33
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_capture_ennemi is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{eed1fa29-3dbc-4f48-b9b1-2ace7cbd9615}
+    NameForDebug       = 'donne_capacite_capture_ennemi'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_capture_ennemi ]
+        ),
 
     ]
 )
@@ -2732,6 +3790,175 @@ export UnitEffect_donne_capacite_commandement_3 is TEffectsPackDescriptor
         TUnitEffectAddCapacityDescriptor
         (
             CapacityToAdd = [ ~/Capacite_Aura_Commandement_3 ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_awareness_vehicle_1 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{f7cf6bfa-0dae-49c2-a820-e86bbfc3f355}
+    NameForDebug       = 'donne_capacite_commandement_1'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Awareness_Vehicle_1  ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_awareness_vehicle_2  is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{f0fe3bdb-e93e-4f90-b0eb-97b239c039d3}
+    NameForDebug       = 'donne_capacite_commandement_2'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Awareness_Vehicle_2  ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_awareness_vehicle_3  is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{73220966-c167-471d-9f3c-9edc02850ef2}
+    NameForDebug       = 'donne_capacite_commandement_3'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Awareness_Vehicle_3  ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_awareness_vehicle_infanterie_1 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{92ef34d7-7a51-4243-9282-5a61faa3e2f4}
+    NameForDebug       = 'donne_capacite_commandement_1'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Awareness_Vehicle_infanterie_1  ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_awareness_vehicle_infanterie_2  is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{dd5cad3e-91ae-42c3-813a-5b12191a603a}
+    NameForDebug       = 'donne_capacite_commandement_2'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Awareness_Vehicle_infanterie_2  ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_awareness_vehicle_infanterie_3  is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{6f8f7121-0a5e-4092-9c01-d2eac9294b21}
+    NameForDebug       = 'donne_capacite_commandement_3'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Awareness_Vehicle_infanterie_3  ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_awareness_infanterie_1 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{524dfbef-1267-4642-a7cd-f230ed4836f5}
+    NameForDebug       = 'donne_capacite_commandement_1'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Awareness_Infanterie_1  ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_awareness_infanterie_2  is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{87d9e5ef-3646-499e-aa1f-b4ed3d8a449a}
+    NameForDebug       = 'donne_capacite_commandement_2'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Awareness_Infanterie_2  ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_awareness_infanterie_3  is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{cd6a6a9f-b794-4a74-b267-56e922667571}
+    NameForDebug       = 'donne_capacite_commandement_3'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Awareness_Infanterie_3  ]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_artillery_dispersion_decreased_1 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{4f223a28-3784-4ef1-9d54-dcf1cba655b0}
+    NameForDebug       = 'donne_capacite_Radio'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Artillery_Decreased_1]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_artillery_dispersion_decreased_2 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{0ec6109d-0963-46fd-8e2e-35110b109c30}
+    NameForDebug       = 'donne_capacite_Radio'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Artillery_Decreased_2]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_artillery_dispersion_decreased_3 is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{b5b341de-9aed-430b-80c6-9520653ff9a8}
+    NameForDebug       = 'donne_capacite_Radio'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Artillery_Decreased_3]
+        ),
+
+    ]
+)
+export UnitEffect_donne_capacite_Radio is TEffectsPackDescriptor
+(
+    DescriptorId       = GUID:{0bd77ff1-755d-4f7c-9826-3744c664e11d}
+    NameForDebug       = 'donne_capacite_Radio'
+    EffectsDescriptors = [
+        // AddCapacityUnit
+        TUnitEffectAddCapacityDescriptor
+        (
+            CapacityToAdd = [ ~/Capacite_Aura_Radio ]
         ),
 
     ]

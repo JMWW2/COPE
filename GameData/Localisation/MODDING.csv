@@ -1,1 +1,370 @@
-"TOKEN";"COMMENT";"DO NOT TRANSLATE";CONSTRAINT;"REFTEXT";"CLASSEMENT";"ExisteDansSlayer"
+TOKEN;COMMENT;DO NOT TRANSLATE;CONSTRAINT;REFTEXT;CLASSEMENT;ExisteDansSlayer;<p>
+RQUATRE;;;;4 HP;;;<p>
+RCINQ;;;;5 HP;;;<p>
+RSIX;;;;6 HP;;;<p>
+RSEPT;;;;7 HP;;;<p>
+RHUIT;;;;8 HP;;;<p>
+RNEUF;;;;9 HP;;;<p>
+RDIX;;;;10 HP;;;<p>
+RONZE;;;;11 HP;;;<p>
+RDOUZE;;;;12 HP;;;<p>
+RTREIZE;;;;13 HP;;;<p>
+RQTORZE;;;;14 HP;;;<p>
+RQUINZE;;;;15 HP;;;<p>
+VQUATRE;;;;4 HP;;;<p>
+VCINQ;;;;5 HP;;;<p>
+VSIX;;;;6 HP;;;<p>
+VSEPT;;;;7 HP;;;<p>
+VHUIT;;;;8 HP;;;<p>
+VNEUF;;;;9 HP;;;<p>
+VDIX;;;;10 HP;;;<p>
+VONZE;;;;11 HP;;;<p>
+VDOUZE;;;;12 HP;;;<p>
+VTREIZE;;;;13 HP;;;<p>
+VQTORZE;;;;14 HP;;;<p>
+VQUINZE;;;;15 HP;;;<p>
+CTSBAS;;;;less than 1;;;<p>
+CBAS;;;;1,1-2;;;<p>
+CMED;;;;2,1-3;;;<p>
+CHAUT;;;;3,1-4;;;<p>
+CTSHT;;;;4,1-6;;;<p>
+CEXCEP;;;;6,1-8;;;<p>
+ONIV1;;;;60;;;<p>
+ONIV2;;;;75;;;<p>
+ONIV3;;;;100;;;<p>
+ONIV4;;;;160;;;<p>
+ONIV5;;;;230;;;<p>
+ONIV6;;;;340;;;<p>
+ONIV7;;;;475;;;<p>
+ONIV8;;;;525;;;<p>
+ONIV9;;;;550;;;<p>
+SPE_DISCB;;;;This is a military/political police detachment, ensuring every soldier is doing his duty it also boost the presence of unsteady units on the battlefield in term of influence.";;<p>
+SPE_DISCE;;;;Friendly units within range of this squad won't surrender and will get their influence set at maximuum unless this squad is panique (moreover, all penalties in the case of Disheartened troops are removed).;;<p>
+SPE_DISCT;;;;DISCIPLINE;;<p>
+SPE_DISHB;;;;This unit is made up either of raw conscripts, war-weary or unwilling soldiers.They will fight as any other, but will take +25% suppression damage in their territory and at most 75% as regular troops.";;<p>
+SPE_DISHE;;;;Disheartened units have a 25% suppression bonus in their territory but have 1/6 less maximum suppression than regular infantry units, morever they have half the influence compared to other infantry units. Thus military police or leader are required to make the most of these poorly motivated squads;;<p>
+SPE_DISHT;;;;DISHEARTENED;;<p>   
+SPE_PARAT;;;;AIRBORNE TRAINING;;<p>
+SPE_PARAB;;;;Airborne training is particulary harsh and demanding, it prepares them for the airborne operations in which they will get airdrop in hostile territory, the men part of these squads have greater tolerance towards ennemy fire as a result.;;<p>
+SPE_PARAE;;;;Airbornes units get a greater maximum threshold for suppression compared to other infantry units 1/6, as well as a better suppression regen ratio.;;<p>
+SPE_RRMHTT;;;;RANGE BONUS I;;<p>
+SPE_RRMHB;;;;Trained (1 star) recon units with awareness trait can grant this unit a moderate increase in range;;<p>
+SPE_RRMHE;;;;The unit has the lv1 bonus increases range of all weapons of the unit by up to 125m if the unit is within the recon units peremiter;;<p>
+SPE_RRDHTT;;;;RANGE BONUS I & II;;<p>
+SPE_RRDHB;;;;Trained (1 star), Veteran(2 stars) recon units with awareness trait can grant this unit decent increased range;;<p>
+SPE_RRDHE;;;;The unit has Lv1 and lv2 bonus which increases range of all weapons of the unit by up to 250m if the unit is within the recon units effect peremiter;;<p>
+SPE_RRCHTT;;;;RANGE BONUS I & II & III;;<p>
+SPE_RRCHB;;;;Trained (1 star), Veteran(2 stars), Elite (3 stars) recon units with awareness trait can grant this unit a considerable increase in range;;<p>
+SPE_RRCHE;;;;The unit has lv1, lv2 and the lv3 bonus which increase range of all weapons of the unit by up to 375m if the unit is within the recon units peremiter;;<p>
+SPE_LOGTC;;;;RECOVERY VEHICLE;;<p>
+SPE_LOGBC;;;;The second cope battles are harsh in term of vehicle casuality, recovery vehicle allow to capture unmanned vehicle and bunkers on the battlefield when they have a set level of  veterancy. Their efficiency at recovering vehicle scales with veterancy;;<p> 
+SPE_LOGEC;;;;The ability radius is at vet 1 150m, vet 2 200m, vet 3 250m, the time to capture is 40 seconds for vet 1, 25 seconds for vet 2, and 10 seconds for vet 3. Speed is also increased by veterancy;;<p>
+SPE_AVHTT;;;;VEHICLE RANGE AWARENESS;;<p>
+SPE_AVHB;;;;Recon vehicle can coordinates with nearby AT or Support vehicle to reach their optimum range efficiency on the battlefield. They give an extra range depending on the recon unit veterancy;;<p>
+SPE_AVHE;;;;The range bonus is of 125m for each veterancy rank up to vet 3. {Vet 1 has effect on [All tanks, All tank destroyers, All assault guns]} {Vet2 has effect on [Heavy tank destroyers, Medium and Heavy Assault guns, Long Range tanks] {Vet 3 has effect on [Heavy Assault guns]}, accuracy is compensated, radius also scales with veterancy like for leaders;;<p>
+SPE_AIHTT;;;;GUN RANGE AWARENESS;;<p>
+SPE_AIHB;;;;Recon infantry can coordinates with nearby  AT or Support guns to reach their optimum range efficiency on the battlefield. they give them an extra range depending on the recon unit veterancy;;<p>
+SPE_AIHE;;;;The range bonus is of 125m for each veterancy rank up to vet 3. {Vet 1 has effect on [All AT guns, All supports guns]}, {Vet2 has effect on Heavy/long range AT guns, All support guns] {Vet 3 has effect on [All support guns]}.  Accuracy is compensated, radius also scales with veterancy like for leaders;;<p>
+FallscR;;;;FS-JAGER SCHUTZEN;dac95483-3856-4663-8e8f-684b28e77c4b;;<p>
+FallscF;;;;FS-JAGER SCHARFSCHUTZEN;b225e85b-5904-4798-8bf9-880843dcac8f;;<p>
+Ram2L;;;;RAM II Cmd {10};f211bc77-a3e1-446a-970a-3f9aa840fa94;;<p>
+Fallsch;;;;FS-JAGER(faust);;;<p>
+PenalMG;;;;DENUTI (ZB-30);fab781f5-8a73-4dce-8c75-7f716787db79;;<p>
+ht_scuttle;;;;SCUTLE;9525e8e0-7cfe-44a0-8bd8-4d35f9097162;;<p>
+hd_scuttle;;;;SCUTLE order;a5f6d31c-0fef-45a5-b078-9d770e875767;;<p>
+ht_bailedO;;;;ABBANDON VEHICLE;08cf1d8c-c89a-4ef9-a155-52f49d7fe8ab;;<p>
+hd_BailedO;;;;ABBANDON VEHICLE order;7a7561fa-079a-4302-ab97-02482ba1e78d;;<p>
+ht_sneak;;;;INFILTRATE;237a4a71-d4e4-4325-a2fe-63ae8ea97d31;;<p>
+hd_sneak;;;;INFILTRATE order;c8e4b8c0-2552-4e0b-85fd-c777dcbd35fd;;<p>
+ht_hide;;;;AMBUSH;65e1fd8a-971a-4fb7-aab2-ecc53b468aef;;<p>
+hd_hide;;;;AMBUSH order;8aab1d05-e7a9-4679-8cd3-4b6ae4a66c4b;;<p>
+SPE_TDTT;;;;TD AMBUSH TACTIC;aff745c4-502a-4eeb-9669-82948c4be1a8;;<p>
+SPE_TDHB;;;;Motorized open top anti tank units  are generally not as armored and sturdy as the tanks they hunt themsleves even if they have generaly good mobility, to couterbalance this they have to rely on their optics and ambush capacity to get the killing shot.;31618efb-7f37-4037-83af-5418a50b65d2;;<p>
+SPE_TDHE;;;;After 40 seconds at the same spot they get a passive ambush capacity that last for 120s giving them 5% more accuracy, there is a couldown of 30s, independantly of this capacity their stealth scales with veterancy.  TD units can't activate this capacity while engaged or when ennemy units are bellow 750m while they are ambush they can't use the "attack move" orders either;070d3a22-878c-4af5-b1af-4e7791a50b42;;<p>
+ht_stand;;;;LAST_STAND;76fea219-2bcc-433c-956f-47eb5afdb14c;;<p>
+hd_stand;;;;LAST_STAND order;3e953bb9-d6e6-469f-96fa-c8239c0edf29;;<p>
+MHKKDVVYLC;;;;Bunker leader {20};;;<p>
+Bunk_Tito;;;;tîto DVAR HQ {30};6e4e12b4-3430-4d93-a4c2-01d900692cf1;;<p>
+hd_hide;;;;AMBUSH order;8aab1d05-e7a9-4679-8cd3-4b6ae4a66c4b;;<p>
+ht_stand;;;;LAST_STAND;76fea219-2bcc-433c-956f-47eb5afdb14c;;<p>
+hd_stand;;;;LAST_STAND order;3e953bb9-d6e6-469f-96fa-c8239c0edf29;;<p>
+SPE_CRHTT;;;;ELITE COMBAT RECON;483793a5-6be5-4fba-bac4-16035acca9de;;<p>
+SPE_CRHB;;;;The men parts of these recons units have aquired the capacity to use their weapon to their outmost potential through their harsh spec ops training or battle exeperience, the more experience they have the more deadly they get at range. Their recons training makes them harder to dislodge from the battlefield.;18cd773a-09dc-4acb-9bb0-4d95eae48261;;<p>
+SPE_CRHE;;;;Elite Combat Recon weapon range scales with veterancy 15% at vet 1 25% at vet 2 33% at vet 3, the unit also has a 25% damage resistance;5390047a-6cf3-46a9-95d3-ce09d47bf4d4;;<p>
+SUPTROPHY;;;;PODRSKA SARAC;6b9a8fed-a5a2-48a2-840c-339197a2e577;;<p>
+CAVTROPHY;;;;KONJICKI IZVIDACI SARAC ;24079791-419b-4c84-aefa-3b482bb53f3f;;<p>
+ZYLQUGSZHY;;;;This unit will never surrender. Fanatical units can also be ordered to stand fast for a last stand, they will fight to their last breath trading 25% damage resistance for 50% of suppression resistance, it gains a additional veterancy level but won't move nor retreat;;;<p>
+SPE_CMDOE;;;;This unit doesn't suffer suppression malus when behind ennemy lines. ALL raider unit have 50% Stealth bonus. Commando units can also be ordered to infitrate enemy line slowing down by one third but suppressing totaly their influence for 300 seconds;;;<p>
+SPE_MLHTT;;;;MILITIA;a6e619d4-3c9d-46c0-a069-a4471a761ca3;;<p>
+SPE_MLHB;;;;These units are armed civilians, mot only less effective at range. Contrary to ordinary troop they do not profit from greater mobility through experience, to remove the combat penalty they have to be close to a leader or other infantry. They take additional damage from ennemy fire the more stressed they are.;5ae1b1c1-dfc6-4bc0-8648-44d9710be120;;<p>
+SPE_MLHE;;;;This unit suffers 10% accuracy and 15% fire rate penalty, their speed do not scale with veterancy, this last effect can not be removed through allied (120m) or leader influence. When stressed from 0.65 suppression onward they take 5%  more damage,  10% from 0.8 and so they have only 15% damage resistance while pinned down contrary to 25% for other infantry units. The resistance and speed penalty can't be removed.;54432609-7503-4e23-9c49-d55d2c6b9b72;;<p>
+SPE_CQCHTT;;;;CQC SPECIALIST;3e329aa9-2c9a-4f98-8a2d-c42ce5493b22;;<p>  
+SPE_CQCHB;;;;These units excel in cqc combat situations, once in range they quicly gain the advantage over their ennemy through their tactics and training makes with short range submachine guns and grenades and makes them harder to pin and target.;1bf77ce0-d831-472e-9eb4-b23b250aafc3;;<p>
+SPE_CQCHE;;;;Units with this trait will gain a 10% suppression resilience 10% damage resistance and a 15% aim time bonus once it's near ennnemy units(120m), their stealth is affected by veterancy.;75a02020-3ebb-4892-909d-27a005546e8d;;<p>
+SPE_ALTT;;;;ARTILLERY LEADER;75a21cc7-a754-42c0-a409-e21fbd8f8900;;<p>
+SPE_ALHB;;;;Artillery Leader are not primerly made for frontline duty they allow you to reduce the min and max dispersion of your artillery guns and their aim time. They still give an advantageous rate of fire bonus to all ground units but no longuer influence their accuracy.;;<p>
+SPE_ALHE;;;;Artillery leaders reduces artillery dispersion and aim time which both scales with veterancy 15% for vet 1, 25% for vet 2, and 33% for vet 3.;;<p>
+7TPGER;;;;Panzer 7TP(p) {7};;;<p>
+WYHYPVJKSC;;;;Aufk.-Panzer 38(t) {7};;;<p>
+RQZKPGQSLT;;;;Aufk.-Panzer 38(t) {7};;;<p>
+B2Flam;;;;Flammpz. B2(f) {10};;;<p>
+B2;;;;Panzer B2(f) {10};;;<p>
+DSKBBEUYND;;;;BT 42 {7};;;<p>
+BT7GER;;;;Aufk.Panzer 742(r) {7};;;<p>
+AWOHNTQGAY;;;;BT 7 {7};;;<p>
+BeoPanzerI;;;;Befehl BeoPanzer II C {7};;;<p>
+WWGZNOGNKX;;;;CV33 mod 34 {6};;;<p>
+BYVRKKOQEZ;;;;CV33 mod 34 {6};;;<p>
+BYVRKKOQEZ;;;;CV33 mod 34 {6};;;<p>
+BYVRKKOQEZ;;;;CV33 mod 34 {6};;;<p>
+Centaur4;;;;Centaur IV {10};;;<p>
+Challenger;;;;Challenger {10};;;<p>
+Chur4;;;;Churchill IV {12};;;<p>
+Chur4OP;;;;Chuchill IV OP {12};;;<p>
+Chur4AVRE;;;;Churchill Avre {15};;;<p>
+Chur4Croc;;;;Churchill Crocodile {15};;;<p>
+ChurchillI;;;;Churchill IV {12};;;<p>
+Chur5;;;;Churchill V {12};;;<p>
+Chur6;;;;Churchill VI {12};;;<p>
+Chur7Cmd;;;; Churchill VII {15};;;<p>
+FWJWURIGIM;;;;Churchill VII {15};;;<p>
+Crom7POL;;;;Cromwell VII {11};;;<p>
+Crom6POL;;;;Cromwell VI {9};;;<p>
+Crom5POL;;;;Cromwell V {9};;;<p>
+Crom5UK;;;;Cromwell V {9};;;<p>
+H38Beo;;;;Pz. 38H(f) (173mm) {7};;;<p>
+H39;;;;Panzer 39H(f) {8};;;<p>
+H39HON;;;;H39 {8};;;<p>
+IS2obr43GR;;;;Beute Stalin {14};;;<p>
+IS2obr43SO;;;;IS-2 obr. 1943 {14};;;<p>
+IS2obr44SO;;;;IS-2 obr. 1944  {15};;;<p>
+KV1AGER;;;;Beute KV 1 A(r) {11};;;<p>
+KVFAO152SO;;;;KV FAO 152mm {12};;;<p>
+KV1ESOV;;;;KV-1E  {12};;;<p>  
+RUUIWTNALW;;;;Klimi {12};;;<p>
+KV1SSOV;;;;KV-1S {12};;;<p>
+KV1AWP;;;;KV-1S {12};;;<p>
+KV2GER;;;;Sturmpanzer KV-2(r) {13};;;<p>
+KV85AWP;;;;KV-85 {13};;;<p>
+KV85SOV;;;;KV-85 {13};;;<p>
+KV8AWP;;;;KV-8S {11};;;<p>
+KV8SOV;;;;KV-8S {11};;;<p>
+TSKISTQPWS;;;;KhT 130 {6};;;<p>
+KonigHen;;;;Königstiger (H) {15};;;<p>
+KonigPor;;;;Königstiger (P) {15};;;<p>
+BUXDRVCLSP;;;;L6/40 {7};;;<p>
+ONUCPPINEY;;;;Panzer L6(i) {7};;;<p>
+M14GR;;;;Panz. M14/41(i) {7};;;<p>
+M14POL;;;;M14/41 {7};;;<p>
+WHIXVRTDJE;;;;M14/41 {7};;;<p>
+WILEAWDAGG;;;;Pz. M15/42 738(i) {8};;;<p>
+FPYRCLIMTZ;;;;M15/42 {8};;;<p>
+YRYRFXKWWD;;;;M3S {9};;;<p>
+M4A1Rhino;;;;M4A1 Rhino {11};;;<p>
+M4105US;;;;M4A3 105 {10};;;<p>
+AM8RBGreyh;;;;M8 Greyhound RBFM {7};;;<p>
+M8GreyhSUP;;;;M8 Greyhound {7};;;<p>
+MatildaIIS;;;;Matilda II {10};;;<p>
+MatildaIVC;;;;Matilda IV CS {10};;;<p>
+OT34SOV;;;;OT 34 {10};;;<p>
+LPHKKYGOQV;;;;P26/40 {9};;;<p>
+PantherA;;;;Panther A {12};;;<p>
+DTCOYCQRAJ;;;;T-5 Pantera  {12};;;<p>
+PantherD;;;;Panther D {12};;;<p>
+PantherDAu;;;;Aufkl.Panther D {11};;;<p>
+PantherG;;;;Panther G {12};;;<p>
+CGDBEBVWPZ;;;;Panthera G {12};;;<p>
+PanzerIIIG;;;;Panzer III G {7};;;<p>
+Pz3H;;;;Panzer III H {8};;;<p>
+PanzerIIIJ;;;;Panzer III J {8};;;<p>
+Pz3L;;;;Panzer III L {9};;;<p>
+RLKIGRMOGN;;;;Flammpz III {9};;;<p>
+PanzerIIIN;;;;Panzer III N {9};;;<p>
+PanzerIICG;;;;Panzer II C {7};;;<p>
+UHBBQNLDGQ;;;;Aufkl.Panz. II F {7};;;<p>
+Pz2Luchs;;;;Panzer II Luchs {7};;;<p>
+PanzerIIVK;;;;Aufkl.Panz Vk 901 {7};;;<p>
+Pz4C;;;;Panzer IV C {8};;;<p>
+PanzerIVF1;;;;Panzer IV F1 {9};;;<p>
+T4SOV;;;;T.4 {9};;;<p>
+Pz4G;;;;Panzer IV G {9};;;<p>
+Pz4H;;;;Panzer IV H {9};;;<p>
+KYIWPWHSOU;;;;Panzer IV H {9};;;<p>
+PanzerIVHH;;;;Panzer IV {9};;;<p>
+Pz4Hsd2ACE;;;;Panzer IV H Harth {9};;;<p>
+ZHIVXHXQXI;;;;T.4 {9};;;<p>
+Pz4J;;;;Panzer IV J {9};;;<p>
+OCYSQDYRVT;;;;Nelonen {9};;;<p>
+PanzerIVJH;;;;Panzer IV J {9};;;<p>
+PanzerIVK1;;;;Panzer VK1801 {9};;;<p>
+R35;;;;Panzer 35R(f) {7};;;<p>
+XVLQYJNNBJ;;;;R-35 {7};;;<p>
+BLTLKGTCBO;;;;R-35 {7};;;<p>
+Ram2OP;;;;Ram II OP 140mm {10};;;<p>
+SU76IAWP;;;;SU-76I {8};;;<p>
+TYUQUWJPJG;;;;Su-76I {8};;;<p>
+LPOTMKNKDL;;;;StuG M42 75/34(i) {8};;;<p>
+SheFireCAN;;;;Firefly Vc {10};;;<p>
+FireflyGER;;;;Beute Firefly {10};;;<p>
+SheFirePOL;;;;Firefly Vc {10};;;<p>
+SheICFire;;;;Firefly Ic {10};;;<p>
+HARJTLFJYF;;;;Firefly Ic {10};;;<p>
+SheJumbo;;;;M4A3E2 Jumbo {14};;;<p>
+SheM4A1OP;;;;Sherman M4A1 OP 155mm {10};;;<p>
+SheM4A1;;;;Sherman M4A1 {10};;;<p>
+SheM4A2OP;;;;Sherman M4A2 OP 155mm {10};;;<p>
+Sher3CAN;;;;Sherman III {10};;;<p>
+SheM4A2;;;;Char M4A2 {10};;;<p>
+Sher3GER;;;;Panzer M4-748(a) {10};;;<p>
+CROMHHMBYB;;;;Sherman V {10};;;<p>
+M4A2SOV;;;;Emcha {10};;;<p>
+M4A176US;;;;Sherman M4A1(76) {10};;;<p>
+She75WFR;;;;Char M4A3(75)W {10};;;<p>
+M4A375SpFR;;;;Char M4A3(75)W Spahis {10};;;<p>
+SheM4A375W;;;;Sherman M4A3(75)W {10};;;<p>
+She76WFR;;;;Char M4A3(76)W {10};;;<p>
+She5DDCAN;;;;Sherman V DD {10};;;<p>
+M4A4OPCAN;;;;Sherman V OP 140mm {10};;;<p>
+YSZZLJOEQE;;;;Sherman V OP 140mm {10};;;<p>
+SheM4A4OP;;;;Sherman V OP 140mm {10};;;<p>
+Sher5CAN;;;;Sherman V {10};;;<p>
+SGEBTZKRVX;;;;Char M4A4 {10};;;<p>
+Sher5POL;;;;Sherman V {10};;;<p>
+YWGXLXRBOO;;;;Sherman V {10};;;<p>
+S35;;;;Panzer 35S(f) {8};;;<p>
+UNCTGZTEII;;;;S-35 {8};;;<p>
+StuG40;;;;Stug III E {8};;;<p>
+ATXSGNALKC;;;;Sturmi {10};;;<p>
+StuG3G;;;;Stug III G {10};;;<p>
+StuGsd2ACE;;;;Stug III G Oberloskamp;;;<p>
+LBBNRMMFZG;;;;T.A {10};;;<p>
+StuM3A3CAN;;;;Stuat V {7};;;<p>
+Stuart5FR;;;;Char M5A1 {8};;;<p>
+StuartM5A1;;;; M5L {8};;;<p>
+StuM5A1;;;;M5A1 {8};;;<p>
+T26AGER;;;;Aufkl.Panz.t-26(r) {7};;;<p>
+WORNGPWUIL;;;;T-26E {7};;;<p>
+DOQZHPNSTP;;;;T-26A {7};;;<p>
+DETOKGPHFR;;;;T-28E {9};;;<p>
+JKYLIFITOK;;;;Sokta 76 {10};;;<p>
+T347641AWP;;;;T-34-41 {9};;;<p>
+T347641GER;;;;Panzer T-34-41(r) {9};;;<p>
+T3476RONA;;;;Panzer T-34-41(r) RONA {9};;;<p>
+T3476AWP;;;;T-34E {10};;;<p>
+T3476SOV;;;;T-34E {10};;;<p>
+T3476obr42;;;;T-34/76 obr. 1942 {10};;;<p>
+T347642GER;;;;Panzer T-34-42(r) {10};;;<p>
+QJYNERZRFG;;;;T-34-42 {10};;;<p>
+T347643AWP;;;;T-34/76 obr. 1943 {9};;;<p>
+T3476obr43;;;;T-34/76 obr. 1943 {9};;;<p>
+YIRURATUYA;;;;Sotka 85 {10};;;<p>
+T348543GER;;;;Panzer T-34/85(r) {20};;;<p>
+T348543AWP;;;;T-34/85 obr. 1943 {10};;;<p>
+AYUHGKEDQL;;;;T-34/85 obr. 1943 Oskin {10};;;<p>
+T3485obr43;;;;T-34/85 obr. 1943 {10};;;<p>
+T3485obr44;;;;T-34/85 obr. 1944 {10};;;<p>
+MJZOTLTIMR;;;;T-38 M2 {6};;;<p>
+XHBMTQQRBQ;;;;T-38 M2 {6};;;<p>
+T60GER;;;;Panzer T-60(r) {7};;;<p>
+T60SOV;;;;T-60 Razvedka {7};;;<p>
+OOZGRXRNVJ;;;;T-60 {7};;;<p>
+T70AWP;;;;T-70 {8};;;<p>
+T70FAO76SO;;;;T-70 FAO 76mmm {8};;;<p>
+T70GER;;;;Panzer T-70(r) {8};;;<p>
+Tetrarch;;;;Tetrarch {7};;;<p>
+TetrarchLJ;;;;Tetrarch Little John {7};;;<p>
+TigerE;;;;Tiger E {14};;;<p>
+EXZNXFDVUM;;;;Tygris {14};;;<p>
+TigerESOV;;;;T-6 {14};;;<p>
+ToldiIIAHO;;;;Toldi IIA {7};;;<p>
+ToldiIIHON;;;;Toldi II {7};;;<p>
+ToldiIHON;;;;Toldi I {7};;;<p>
+Turan1HON;;;;40M Turán I {8};;;<p>
+Turan2HON;;;;41M Turán II {8};;;<p>
+ValIIIGER;;;;Kampfpanzer III(e) {9};;;<p>
+ValIIISOV;;;;Vallentine III razvedka {9};;;<p> 
+ValentineI;;;;Valentine IX {9};;;<p> 
+INZGTJTWKC;;;;Bedfrod QL 6pdr {6};;;<p>
+OHBDBNHKPL;;;;Elefant {16};;;<p>
+HetzerAK;;;;Chwat {9};;;<p>
+HetzerGER;;;;Jagdpanzer 38(t) {9};;;<p>
+HetzerHON;;;;Jagdpanzer 38(t) {9};;;<p>
+SPOCEVZFGT;;;;ISU-122S {14};;;<p>
+ISU122AWP;;;;ISU-122 {14};;;<p>
+ISU122SOV;;;;ISU-122 {14};;;<p>
+SKTATODOBO;;;;ISU-152 {14};;;<p> 
+ISU152SOV;;;;ISU-152 {14};;;<p>
+Jagdpanthe;;;;Jagdpanther {12};;;<p>
+Jagdpanzer;;;;Jagdpanzer IV {10};;;<p>
+M10A1WoCAN;;;;Wolverine {9};;;<p>
+M10A1WoFR;;;;TD M10A1 {9};;;<p>
+M10A1WoPOL;;;;Wolverine {9};;;<p>
+LNPZSZLURW;;;;Char M10A1 RCA {9};;;<p>
+HCFTCBPIKL;;;;TD M10A1 {9};;;<p>
+XIKFXNDZCT;;;;M10 Grouse {9};;;<p> 
+M10A1Wolve;;;;M10 {9};;;<p>
+M10A1WoUS;;;;M10A1 Destroyer {9};;;<p>
+M10AchCAN;;;;Achilles IIc {9};;;<p>
+M10AchPOL;;;;Achilles IIc {9};;;<p>
+M10AchUK;;;;Achilles {9};;;<p>
+M18Hellcat;;;;M18 Hellcat {8};;;<p> 
+CWGIBVWNUZ;;;;T70 {8};;;<p> 
+Marder1;;;;Marder I {7};;;<p> 
+Marder2;;;;Marder II {8};;;<p> 
+MarderIII;;;;Marder III H {8};;;<p> 
+Marder3;;;;Marder III M {8};;;<p> 
+MarderIISO;;;;SU 75 {8};;;<p>  
+NashornGER;;;;Nashorn {8};;;<p>  
+NashornACE;;;;Nashorn Neigel {8};;;<p>  
+NashornSOV;;;;SU 88 {8};;;<p>  
+PZJager35;;;;Panzerjäger 35R {8};;;<p>
+PZJagerBre;;;;Panzerjäger Bren {6};;;<p>
+PzGazGER;;;;PanzerJäger Gazelle {6};;;<p>
+JPJYIJKQZQ;;;;Vanatorul De Care {8};;;<p>  
+RSOPak40GE;;;;Pak 40 RSO {6};;;<p>
+S307PaK;;;;S307(f) PaK {7};;;<p>
+SU57AWP;;;;Su 57 {6};;;<p>
+SU57SOV;;;;Su 57 {6};;;<p>
+SU76ACE;;;;SU-76M Averin {8};;;<p>  
+SU76MAWP;;;;SU-76M {8};;;<p> 
+SU76MGER;;;;SU-76M(r) {8};;;<p> 
+HQIZNNIXZC;;;;Jagdpanzer SU-76(r) {8};;;<p> 
+QLUYWBZAIK;;;;SU-76 TD {8};;;<p>
+SU85AWP;;;;SU-85 {9};;;<p>
+SU85SOV;;;;SU-85 {9};;;<p>
+SU85ACE;;;;SU-85  Krysov {9};;;<p>
+OIXYHDIWMO;;;;StuG L6 660(i) {7};;;<p>
+ADOCQBMXKS;;;;Semovente 47 32 {7};;;<p>
+XVRCSSRTIT;;;;StuG M41 90/53(i) {9};;;<p>
+ARLGFTQUGP;;;;Stug M42 75/18(i) {8};;;<p>
+OIVOJSWKPT;;;;Stug M43 105/25(i) {10};;;<p>
+StuG3F;;;;STUG III F {9};;;<p>
+URIVUYYIMR;;;;tacam R2 {8};;;<p>
+SFBYADAWSU;;;;tacam T-60 {8};;;<p
+U630Pak;;;;U630 pak {6};;;<p>
+SU152SOV;;;;SU 152 {10};;;<p>
+SU152AWP;;;;SU 152 {10};;;<p>
+Grille;;;;Grille {8};;;<p>
+PriestDD;;;;Priest DD {9};;;<p>
+Panzerhaub;;;;PzH. 39H(f) 105mm {8};;;<p>
+StuPz4Brum;;;;Sturmpanzer IV {12};;;<p>
+Sturmtiger;;;;Sturmtiger {15};;;<p>
+SU122AWP;;;;SU 122 {9};;;<p>
+SU122SOV;;;;SU 122 {9};;;<p>
+DFKKZLAHVE;;;;Sdkfz 251 9D {6};;;<p>
+StuH42;;;;Stuh 42 {10};;;<p>
+StuG4;;;;Stug IV {10};;;<p>
+IS1SOV;;;;IS-1 {14};;;<p>
+KNOMXFWIYE;;;;Panzer V/IV FUH {11};;;<p>
+HRYGGLIITC;;;;BEF. TIGER(P) {15};;;<p>
+PZB39JagGR;;;;GrB. 39;;;<p>
+DKISDLMTDU;;;;FS JAGER PIONIER(TNT);;;<p>
+ZrinyiIIHO;;;;Zriny II {10};;;<p>
+EDYFLNSRAX;;;;Zriny II {10};;;<p>
+ZQCANFFMDV;;;;Turan II {8};;;<p>
+AMKKBHJIUM;;;;PARDUC {12};;;<p>
+TigerEHON;;;;TYGRIS {14};;;<p>
+HPHDFZAOMT;;;;Cromwell VIII {11};;;<p>
+XLNYPQTFRY;;;;Cromwell VII {11};;;<p>
+HARJTLFJYF;;;;Firefly Ic {10};;;<p>
+

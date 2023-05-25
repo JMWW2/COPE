@@ -100,7 +100,7 @@ export MouseWidgetSelector_Attack is TUIMouseWidgetSelector_Attack
     LoSResource = TUITacticalShootingLoSResource
     (
         VisionLineBlockedColor = d3drgba[117, 255, 255, 32]
-        VisionLineInefficientColor = d3drgba[233, 93, 10, 8]
+        VisionLineInefficientColor = d3drgba[117, 255, 249, 8]
         VisionLineOutOfRangeColor = d3drgba[117, 255, 255, 32]
         VisionLineUnSeenColor = d3drgba[117, 255, 255, 32]
         VisionLineVisibleAndShootableColor = d3drgba[117, 255, 255, 128]

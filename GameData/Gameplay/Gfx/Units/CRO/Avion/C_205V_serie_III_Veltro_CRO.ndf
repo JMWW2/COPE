@@ -1,4 +1,6 @@
+
 export ModelFile_C_205V_serie_III_Veltro_CRO is 'GameData:Assets\3D\Units\CRO\Avion\C_205V_serie_III_Veltro_CRO\C_205V_serie_III_Veltro_CRO.Ase2NdfBin'
+
 
 Modele_C_205V_serie_III_Veltro_CRO is TResourceMultiMaterialMeshWithLod
 (
@@ -10,6 +12,7 @@ Modele_C_205V_serie_III_Veltro_CRO is TResourceMultiMaterialMeshWithLod
 Modele_C_205V_serie_III_Veltro_CRO_MID is TResourceMultiMaterialMeshWithLod
 (
     FileName = 'GameData:Assets\3D\Units\CRO\Avion\C_205V_serie_III_Veltro_CRO\C_205V_serie_III_Veltro_CRO.Ase2NdfBin'
+
     CivMask =  CivMask/Nationalite1
     TypeMask = TypeMask/Char
 )
@@ -17,6 +20,7 @@ Modele_C_205V_serie_III_Veltro_CRO_MID is TResourceMultiMaterialMeshWithLod
 Modele_C_205V_serie_III_Veltro_CRO_LOW is TResourceMultiMaterialMeshWithLod
 (
     FileName = 'GameData:Assets\3D\Units\CRO\Avion\C_205V_serie_III_Veltro_CRO\C_205V_serie_III_Veltro_CRO.Ase2NdfBin'
+
     CivMask =  CivMask/Nationalite1
     TypeMask = TypeMask/Char
 )
@@ -24,6 +28,7 @@ Modele_C_205V_serie_III_Veltro_CRO_LOW is TResourceMultiMaterialMeshWithLod
 Modele_C_205V_serie_III_Veltro_CRO_train is TResourceMultiMaterialMeshWithLod
 (
     FileName = 'GameData:Assets\3D\Units\CRO\Avion\C_205V_serie_III_Veltro_CRO\C_205V_serie_III_Veltro_CRO_train.Ase2NdfBin'
+
     CivMask =  CivMask/Nationalite1
     TypeMask = TypeMask/Char
 )

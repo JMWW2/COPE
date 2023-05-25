@@ -2385,6 +2385,7 @@ Weapons_Gornostrelki_Mort_82mm_SOV is MAP
 Weapons_Grille is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Grille_weapon1_slot1 ),
+	( [ 'weapon_effet_tag2', 'tir', '1' ], Weapon_Grille_weapon2_slot1 ),
 ]
 
 Weapons_H38_Beo_GER is MAP
@@ -3095,7 +3096,6 @@ Weapons_Howz_A19_122mm_GER is MAP
     ( [ 'weapon_effet_tag3', 'tir', '1' ], Weapon_Howz_A19_122mm_GER_weapon3_slot1 ),
     ( [ 'weapon_effet_tag4', 'tir', '1' ], Weapon_Howz_A19_122mm_GER_weapon4_slot1 ),
 ]
-
 Weapons_Howz_A19_122mm_SOV is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Howz_A19_122mm_SOV_weapon1_slot1 ),
@@ -5812,6 +5812,7 @@ Weapons_Nashorn_SOV is MAP
 Weapons_NbW_41_15cm is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_NbW_41_15cm_weapon1_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir', '1' ], Weapon_NbW_41_15cm_weapon2_slot1 ),
 ]
 
 Weapons_NbW_42_30cm is MAP
@@ -6223,7 +6224,9 @@ Weapons_Panzer_38t_GER is MAP
 Weapons_Panzer_38t_ROU is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Panzer_38t_ROU_weapon1_slot1 ),
+
     ( [ 'weapon_effet_tag2', 'tir', '1' ], Weapon_Panzer_38t_ROU_weapon2_slot1 ),
+	
     ( [ 'weapon_effet_tag3', 'tir_c', '1' ], Weapon_Panzer_38t_ROU_weapon3_slot1 ),
 ]
 
@@ -6815,6 +6818,11 @@ Weapons_Ram_II is MAP
     ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Ram_II_weapon1_slot1 ),
     ( [ 'weapon_effet_tag3', 'tir_c', '1' ], Weapon_Ram_II_weapon3_slot1 ),
 ]
+Weapons_Ram_II_Tank_Leader is MAP
+[
+    ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Ram_II_Tank_Leader_weapon1_slot1 ),
+    ( [ 'weapon_effet_tag3', 'tir_c', '1' ], Weapon_Ram_II_Tank_Leader_weapon3_slot1 ),
+]
 
 Weapons_Ram_II_OP is MAP
 [
@@ -7009,6 +7017,8 @@ Weapons_SU_76M_GER is MAP
 [
     ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_SU_76M_GER_weapon1_slot1 ),
     ( [ 'weapon_effet_tag2', 'tir', '1' ], Weapon_SU_76M_GER_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag3', 'tir', '1' ], Weapon_SU_76M_GER_weapon3_slot1 ),
+    ( [ 'weapon_effet_tag4', 'tir', '1' ], Weapon_SU_76M_GER_weapon4_slot1 ),
 ]
 
 Weapons_SU_76M_SOV is MAP
@@ -7452,6 +7462,16 @@ Weapons_SdKfz_4_1_Panzerwerfer is MAP
     ( [ 'weapon_effet_tag1', 'tir', '8' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon1_slot8 ),
     ( [ 'weapon_effet_tag1', 'tir', '9' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon1_slot9 ),
     ( [ 'weapon_effet_tag1', 'tir', '10' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon1_slot10 ),
+    ( [ 'weapon_effet_tag2', 'tir', '1' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir', '2' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot2 ),
+    ( [ 'weapon_effet_tag2', 'tir', '3' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot3 ),
+    ( [ 'weapon_effet_tag2', 'tir', '4' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot4 ),
+    ( [ 'weapon_effet_tag2', 'tir', '5' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot5 ),
+    ( [ 'weapon_effet_tag2', 'tir', '6' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot6 ),
+    ( [ 'weapon_effet_tag2', 'tir', '7' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot7 ),
+    ( [ 'weapon_effet_tag2', 'tir', '8' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot8 ),
+    ( [ 'weapon_effet_tag2', 'tir', '9' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot9 ),
+    ( [ 'weapon_effet_tag2', 'tir', '10' ], Weapon_SdKfz_4_1_Panzerwerfer_weapon2_slot10 ),
 ]
 
 Weapons_SdKfz_7 is MAP
@@ -9284,29 +9304,33 @@ Weapons_Toldi_IIA_HON is MAP
 
 Weapons_Toldi_II_CMD_HON is MAP
 [
-    ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Toldi_II_CMD_HON_weapon1_slot1 ),
-    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_CMD_HON_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag1', 'tir_c', '1' ], Weapon_Toldi_II_CMD_HON_weapon1_slot1 ),
+	( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_CMD_HON_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_CMD_HON_weapon3_slot1 ),
     ( [ 'weapon_effet_tag2', 'tir_c', '2' ], Weapon_Toldi_II_CMD_HON_weapon2_slot2 ),
 ]
 
 Weapons_Toldi_II_HON is MAP
 [
-    ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Toldi_II_HON_weapon1_slot1 ),
-    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_HON_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag1', 'tir_c', '1' ], Weapon_Toldi_II_HON_weapon1_slot1 ),
+	( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_HON_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_HON_weapon3_slot1 ),
     ( [ 'weapon_effet_tag2', 'tir_c', '2' ], Weapon_Toldi_II_HON_weapon2_slot2 ),
 ]
 
 Weapons_Toldi_II_ROU is MAP
 [
-    ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Toldi_II_ROU_weapon1_slot1 ),
-    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_ROU_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag1', 'tir_c', '1' ], Weapon_Toldi_II_ROU_weapon1_slot1 ),
+	( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_ROU_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_II_ROU_weapon3_slot1 ),
     ( [ 'weapon_effet_tag2', 'tir_c', '2' ], Weapon_Toldi_II_ROU_weapon2_slot2 ),
 ]
 
 Weapons_Toldi_I_HON is MAP
 [
-    ( [ 'weapon_effet_tag1', 'tir', '1' ], Weapon_Toldi_I_HON_weapon1_slot1 ),
-    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_I_HON_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag1', 'tir_c', '1' ], Weapon_Toldi_I_HON_weapon1_slot1 ),
+	( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_I_HON_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir_c', '1' ], Weapon_Toldi_I_HON_weapon3_slot1 ),
     ( [ 'weapon_effet_tag2', 'tir_c', '2' ], Weapon_Toldi_I_HON_weapon2_slot2 ),
 ]
 
@@ -9382,10 +9406,6 @@ Weapons_Truck_Bedford_Supply_CAN is MAP
 [
 ]
 
-Weapons_Truck_Bedford_Supply_CZ is MAP
-[
-]
-
 Weapons_Truck_Bedford_Supply_NZ is MAP
 [
 ]
@@ -9399,6 +9419,10 @@ Weapons_Truck_Bedford_Supply_SA is MAP
 ]
 
 Weapons_Truck_Bedford_Supply_UK is MAP
+[
+]
+
+Weapons_Truck_Bedford_Supply_CZ is MAP
 [
 ]
 
@@ -9687,6 +9711,14 @@ Weapons_Truck_Studebaker_BM13_AWP is MAP
     ( [ 'weapon_effet_tag1', 'tir', '6' ], Weapon_Truck_Studebaker_BM13_AWP_weapon1_slot6 ),
     ( [ 'weapon_effet_tag1', 'tir', '7' ], Weapon_Truck_Studebaker_BM13_AWP_weapon1_slot7 ),
     ( [ 'weapon_effet_tag1', 'tir', '8' ], Weapon_Truck_Studebaker_BM13_AWP_weapon1_slot8 ),
+    ( [ 'weapon_effet_tag2', 'tir', '1' ], Weapon_Truck_Studebaker_BM13_AWP_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir', '2' ], Weapon_Truck_Studebaker_BM13_AWP_weapon2_slot2 ),
+    ( [ 'weapon_effet_tag2', 'tir', '3' ], Weapon_Truck_Studebaker_BM13_AWP_weapon2_slot3 ),
+    ( [ 'weapon_effet_tag2', 'tir', '4' ], Weapon_Truck_Studebaker_BM13_AWP_weapon2_slot4 ),
+    ( [ 'weapon_effet_tag2', 'tir', '5' ], Weapon_Truck_Studebaker_BM13_AWP_weapon2_slot5 ),
+    ( [ 'weapon_effet_tag2', 'tir', '6' ], Weapon_Truck_Studebaker_BM13_AWP_weapon2_slot6 ),
+    ( [ 'weapon_effet_tag2', 'tir', '7' ], Weapon_Truck_Studebaker_BM13_AWP_weapon2_slot7 ),
+    ( [ 'weapon_effet_tag2', 'tir', '8' ], Weapon_Truck_Studebaker_BM13_AWP_weapon2_slot8 ),
 ]
 
 Weapons_Truck_Studebaker_BM13_SOV is MAP
@@ -9699,6 +9731,14 @@ Weapons_Truck_Studebaker_BM13_SOV is MAP
     ( [ 'weapon_effet_tag1', 'tir', '6' ], Weapon_Truck_Studebaker_BM13_SOV_weapon1_slot6 ),
     ( [ 'weapon_effet_tag1', 'tir', '7' ], Weapon_Truck_Studebaker_BM13_SOV_weapon1_slot7 ),
     ( [ 'weapon_effet_tag1', 'tir', '8' ], Weapon_Truck_Studebaker_BM13_SOV_weapon1_slot8 ),
+    ( [ 'weapon_effet_tag2', 'tir', '1' ], Weapon_Truck_Studebaker_BM13_SOV_weapon2_slot1 ),
+    ( [ 'weapon_effet_tag2', 'tir', '2' ], Weapon_Truck_Studebaker_BM13_SOV_weapon2_slot2 ),
+    ( [ 'weapon_effet_tag2', 'tir', '3' ], Weapon_Truck_Studebaker_BM13_SOV_weapon2_slot3 ),
+    ( [ 'weapon_effet_tag2', 'tir', '4' ], Weapon_Truck_Studebaker_BM13_SOV_weapon2_slot4 ),
+    ( [ 'weapon_effet_tag2', 'tir', '5' ], Weapon_Truck_Studebaker_BM13_SOV_weapon2_slot5 ),
+    ( [ 'weapon_effet_tag2', 'tir', '6' ], Weapon_Truck_Studebaker_BM13_SOV_weapon2_slot6 ),
+    ( [ 'weapon_effet_tag2', 'tir', '7' ], Weapon_Truck_Studebaker_BM13_SOV_weapon2_slot7 ),
+    ( [ 'weapon_effet_tag2', 'tir', '8' ], Weapon_Truck_Studebaker_BM13_SOV_weapon2_slot8 ),
 ]
 
 Weapons_Truck_Studebaker_BM31_AWP is MAP
@@ -10856,6 +10896,7 @@ Weapons_B_26G_25_MA_Marauder_x2_907_US is MAP
     ( [ 'weapon_effet_tag7', 'tir_c', '1' ], Weapon_B_26G_25_MA_Marauder_x2_907_US_weapon7_slot1 ),
     ( [ 'weapon_effet_tag8', 'tir_c', '1' ], Weapon_B_26G_25_MA_Marauder_x2_907_US_weapon8_slot1 ),
     ( [ 'weapon_effet_tag9', 'tir', '1' ], Weapon_B_26G_25_MA_Marauder_x2_907_US_weapon9_slot1 ),
+	( [ 'weapon_effet_tag10', 'tir', '1' ], Weapon_B_26G_25_MA_Marauder_x2_907_US_weapon10_slot1 ),
 ]
 
 Weapons_B_26G_25_MA_Marauder_x4_454_FR is MAP

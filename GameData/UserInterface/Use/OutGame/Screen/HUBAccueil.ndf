@@ -221,47 +221,5 @@ UISpecificOutGameWelcomeViewDescriptor is TUISpecificOutGameWelcomeViewDescripto
 
     TutoVideoDescriptors =
     [
-        UISpecificUrlButtonViewDescriptor
-        (
-            BackgroundTextureToken = "OutgameTexture_outgame_sd2_Tuto_Vulcan1"
-            Url = "https://www.youtube.com/watch?v=4UfGOw8wx60"
-            HintTitleToken = "TU_VULC"
-            HintExtendedToken = "TU_VULC1"
-        ),
-        UISpecificUrlButtonViewDescriptor
-        (
-            BackgroundTextureToken = "OutgameTexture_outgame_sd2_Tuto_Vulcan2"
-            Url = "https://www.youtube.com/watch?v=SpVnfx_KJQM"
-            HintTitleToken = "TU_VULC"
-            HintExtendedToken = "TU_VULC2"
-        ),
-        UISpecificUrlButtonViewDescriptor
-        (
-            BackgroundTextureToken = "OutgameTexture_outgame_sd2_Tuto_Saucy1"
-            Url = "https://www.youtube.com/watch?v=YjL2QJHfd_c"
-            HintTitleToken = "TU_SAUC"
-            HintExtendedToken = "TU_SAUC1"
-        ),
-        UISpecificUrlButtonViewDescriptor
-        (
-            BackgroundTextureToken = "OutgameTexture_outgame_sd2_Tuto_Saucy2"
-            Url = "https://www.youtube.com/watch?v=GhtupDb-dvw"
-            HintTitleToken = "TU_SAUC"
-            HintExtendedToken = "TU_SAUC2"
-        ),
-        UISpecificUrlButtonViewDescriptor
-        (
-            BackgroundTextureToken = "OutgameTexture_outgame_sd2_Tuto_Saucy3"
-            Url = "https://www.youtube.com/watch?v=ASeEjSTnOOs"
-            HintTitleToken = "TU_SAUC"
-            HintExtendedToken = "TU_SAUC3"
-        ),
-        UISpecificUrlButtonViewDescriptor
-        (
-            BackgroundTextureToken = "OutgameTexture_outgame_sd2_Tuto_Saucy4"
-            Url = "https://www.youtube.com/watch?v=qV7scP8ZSRk"
-            HintTitleToken = "TU_SAUC"
-            HintExtendedToken = "TU_SAUC4"
-        ),
     ]
 )

@@ -387,7 +387,6 @@ private AllianceScoreLine is BUCKButtonDescriptor
                                             )
                                         )
                                     ),
-
                                     BUCKListElementDescriptor
                                     (
                                         ComponentDescriptor = BUCKTextDescriptor

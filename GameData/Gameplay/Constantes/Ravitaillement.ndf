@@ -24,12 +24,14 @@ export StandardSupply is TSupplyDescriptor
 
     // Types de mouvement dont la vie est suppliable. Liste des valeurs dans UnitMovingType.ndf
     HealthSuppliableMovingTypes = [
+	EUnitMovingType/Infantry,
+	EUnitMovingType/InfantryAmphibious,
         //EUnitMovingType/Track
     ]
     // Point de vie ravitaillés par seconde
-    HealthSupplyBySecond = 0.3 //0.00001
+    HealthSupplyBySecond = 0.1 //0.00001
     // Cout du ravitaillement de point de vie par seconde
-    HealthSupplyCostBySecond = 0.3 // 0.00001
+    HealthSupplyCostBySecond = 0.2 // 0.00001
 
     // Point de ravitaillement ravitaillés par seconde
     SupplySupplyBySecond = 20 //30
@@ -37,18 +39,20 @@ export StandardSupply is TSupplyDescriptor
     SupplySupplyCostBySecond = 20 //30
 
     // Point de munition ravitaillés par seconde
-    AmmunitionSupplyBySecond = 30 //20
+    AmmunitionSupplyBySecond = 20 //20
     // Cout du ravitaillement de munition par seconde
-    AmmunitionSupplyCostBySecond = 30 //20
+    AmmunitionSupplyCostBySecond = 20 //20
 
     // Types de mouvement dont les critiques sont réparables. Liste des valeurs dans UnitMovingType.ndf
     CriticsSuppliableMovingTypes = [
-        EUnitMovingType/Track,
-        EUnitMovingType/TrackAmphibious,
-        EUnitMovingType/AllTerrainWheelAmphibious,
-        EUnitMovingType/HalfTrack,
-        EUnitMovingType/AllTerrainWheel,
-        EUnitMovingType/Wheel,
+	EUnitMovingType/Infantry,
+	EUnitMovingType/InfantryAmphibious,
+	EUnitMovingType/Track,
+	EUnitMovingType/TrackAmphibious,
+	EUnitMovingType/AllTerrainWheelAmphibious,
+	EUnitMovingType/HalfTrack,
+	EUnitMovingType/AllTerrainWheel,
+	EUnitMovingType/Wheel,
     ]
     // Points de "critique" réparés par seconde
     CriticsSupplyBySecond = 10
@@ -61,7 +65,7 @@ export StandardSupply is TSupplyDescriptor
 SupplyFeedbackDrawer is TSupplyFeedbackDrawerSimpleCercle
 (
     FillColor = D3DRGBA[0,0,0,0]
-    LineColor = D3DRGBA[130, 180, 0, 255]
+    LineColor = D3DRGBA[255, 232, 0, 255]
     ZOffset = 250.0
-    LineThickness = 400.0
+    LineThickness = 500.0
 )

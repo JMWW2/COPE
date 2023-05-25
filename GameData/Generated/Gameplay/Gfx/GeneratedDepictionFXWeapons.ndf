@@ -1681,6 +1681,66 @@ template FXWeapon_Arty_Off_Map_100mm_Efficacite_GER
     TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
     FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
 )
+// Weapon 'Arty Off Map 100mm Alerte GER' (type Artillerie_gros)
+template FXWeapon_Arty_Off_Map_100mm_Alerte_YUG
+[
+    Anchor,
+    TurretIndexAsString,
+] is templateFXWeapon_InstantFX
+(
+    Anchor                 = <Anchor>
+    FX                     = FX_Full_Artillerie_gros
+    WithoutPhysics         = False
+    InitialSpeed           = 0.0
+    FluidFriction          = 0.0
+    DirectFire             = False
+    Power                  = EFXPower/Moyen
+    ImpactPower            = 1.0
+    WaitBetweenShot        = 10.0
+    TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
+    FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
+)
+
+// Weapon 'Arty Off Map 100mm Barrage GER' (type Artillerie_gros)
+template FXWeapon_Arty_Off_Map_100mm_Barrage_YUG
+[
+    Anchor,
+    TurretIndexAsString,
+] is templateFXWeapon_InstantFX
+(
+    Anchor                 = <Anchor>
+    FX                     = FX_Full_Artillerie_gros
+    WithoutPhysics         = False
+    InitialSpeed           = 0.0
+    FluidFriction          = 0.0
+    DirectFire             = False
+    Power                  = EFXPower/Moyen
+    ImpactPower            = 1.0
+    WaitBetweenShot        = 10.0
+    TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
+    FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
+)
+
+// Weapon 'Arty Off Map 100mm Efficacite GER' (type Artillerie_gros)
+template FXWeapon_Arty_Off_Map_100mm_Efficacite_YUG
+[
+    Anchor,
+    TurretIndexAsString,
+] is templateFXWeapon_InstantFX
+(
+    Anchor                 = <Anchor>
+    FX                     = FX_Full_Artillerie_gros
+    WithoutPhysics         = False
+    InitialSpeed           = 0.0
+    FluidFriction          = 0.0
+    DirectFire             = False
+    Power                  = EFXPower/Moyen
+    ImpactPower            = 1.0
+    WaitBetweenShot        = 10.0
+    TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
+    FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
+)
+
 
 // Weapon 'Arty Off Map 105mm Alerte GER' (type Artillerie_gros)
 template FXWeapon_Arty_Off_Map_105mm_Alerte_GER
@@ -1741,7 +1801,6 @@ template FXWeapon_Arty_Off_Map_105mm_Barrage_GER
     TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
     FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
 )
-
 // Weapon 'Arty Off Map 105mm Barrage US' (type Artillerie_gros)
 template FXWeapon_Arty_Off_Map_105mm_Barrage_US
 [
@@ -8790,7 +8849,7 @@ template FXWeapon_Canon_3inch_Mk1_direct
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -9310,7 +9369,7 @@ template FXWeapon_Canon_M1897A4_75mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE_douille
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -9330,7 +9389,7 @@ template FXWeapon_Canon_M1A1_75mmC_HE_Scott
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE_douille
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -9570,7 +9629,7 @@ template FXWeapon_Canon_M4_105mmC_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_gros_HE
+    FX                     = FX_Full_Artillerie_gros
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -11190,7 +11249,7 @@ template FXWeapon_Canon_M10T_152mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_gros_HE
+    FX                     = FX_Full_Artillerie_marine
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -11310,7 +11369,7 @@ template FXWeapon_Canon_ML20s_152mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_tres_gros_HE
+    FX                     = FX_Full_Artillerie_marine
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -17704,7 +17763,7 @@ template FXWeapon_Howz_M2_105mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_gros_HE_douille
+    FX                     = FX_Full_Artillerie_gros
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -19204,7 +19263,7 @@ template FXWeapon_Howz_sIG_18_75mmC_Direct
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE_douille
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -19264,7 +19323,7 @@ template FXWeapon_Howz_sIG_33L11_150mmC_Direct
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_tres_gros_HE
+    FX                     = FX_Full_Artillerie_marine
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -20444,7 +20503,7 @@ template FXWeapon_KwK_37L24_75mm_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -20995,7 +21054,6 @@ template FXWeapon_Kwk38t_37mm_HE
     TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
     FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
 )
-
 // Weapon 'Kwk_37t_37mm_AP' (type Canon_petit_AP)
 template FXWeapon_Kwk_37t_37mm_AP
 [
@@ -28524,6 +28582,26 @@ template FXWeapon_Nebelwerfer_41_150mm
     FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
 )
 
+// Weapon 'Nebelwerfer 41 150mm' (type Roquette_Roc_110mm)
+template FXWeapon_Nebelwerfer_41_150mmSmoke
+[
+    Anchor,
+    TurretIndexAsString,
+] is templateFXWeapon_InstantFX
+(
+    Anchor                 = <Anchor>
+    FX                     = FX_Full_Roquette_Roc_110mm
+    WithoutPhysics         = False
+    InitialSpeed           = 0.0
+    FluidFriction          = 0.0
+    DirectFire             = False
+    Power                  = EFXPower/Moyen
+    ImpactPower            = 1.0
+    WaitBetweenShot        = 1.0
+    TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
+    FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
+)
+
 // Weapon 'Nebelwerfer_42_300mm' (type Roquette_Roc_210mm)
 template FXWeapon_Nebelwerfer_42_300mm
 [
@@ -28712,7 +28790,7 @@ template FXWeapon_Obice_75_27_mod_11_AP
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_AP_douille
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -28872,7 +28950,7 @@ template FXWeapon_Obice_78_34_mod_37_SMV_HE
 ] is templateFXWeapon_InstantFX
 (
     Anchor                 = <Anchor>
-    FX                     = FX_Full_Canon_moyen_HE
+    FX                     = FX_Full_Artillerie_moyen
     WithoutPhysics         = False
     InitialSpeed           = 0.0
     FluidFriction          = 0.0
@@ -30484,6 +30562,26 @@ template FXWeapon_Panzerwerfer_150mm_x10
     FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
 )
 
+// Weapon 'Panzerwerfer 150mm x10' (type Roquette_Roc_110mm)
+template FXWeapon_Panzerwerfer_150mmSmoke_x10
+[
+    Anchor,
+    TurretIndexAsString,
+] is templateFXWeapon_InstantFX
+(
+    Anchor                 = <Anchor>
+    FX                     = FX_Full_Roquette_Roc_110mm
+    WithoutPhysics         = False
+    InitialSpeed           = 0.0
+    FluidFriction          = 0.0
+    DirectFire             = False
+    Power                  = EFXPower/Moyen
+    ImpactPower            = 1.0
+    WaitBetweenShot        = 1.0
+    TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
+    FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
+)
+
 // Weapon 'Partop N808 explosive' (type Artillerie_petit)
 template FXWeapon_Partop_N808_explosive
 [
@@ -31043,7 +31141,25 @@ template FXWeapon_Roquettes_M13_132mm_x16
     TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
     FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
 )
-
+// Weapon 'Roquettes M13 132mm x16' (type Roquette_Roc_110mm)
+template FXWeapon_Roquettes_M13_132mmSmoke_x16
+[
+    Anchor,
+    TurretIndexAsString,
+] is templateFXWeapon_InstantFX
+(
+    Anchor                 = <Anchor>
+    FX                     = FX_Full_Roquette_Roc_110mm
+    WithoutPhysics         = False
+    InitialSpeed           = 0.0
+    FluidFriction          = 0.0
+    DirectFire             = False
+    Power                  = EFXPower/Moyen
+    ImpactPower            = 1.0
+    WaitBetweenShot        = 0.6
+    TargetPositionPhysicalPropertyName   = 'TargetPositionTurret' + <TurretIndexAsString>
+    FlyingTimeAndHitPhysicalPropertyName = 'FlyingTimeAndHit' + <TurretIndexAsString>
+)
 // Weapon 'Roquettes M8 82mm x24' (type Roquette_Roc_110mm)
 template FXWeapon_Roquettes_M8_82mm_x24
 [

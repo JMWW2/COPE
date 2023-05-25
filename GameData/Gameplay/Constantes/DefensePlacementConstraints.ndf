@@ -3,7 +3,7 @@ export AllowedTerrainsTypeForDefense is ETerrainType/Default
     | ETerrainType/BocageLeger
     | ETerrainType/ChampCereales
     | ETerrainType/ForetLegere
-
+	
 // Les TDefensePlacementConstraintDescriptor réutilisables
 export DefensePlacementConstraint_IsInPlayableZone is TDefensePlacementConstraint_IsInPlayableZone(ErrorMsg = "DEFPC_PLZO")
 export DefensePlacementConstraint_IsInDeploymentZone is TDefensePlacementConstraint_IsInDeploymentZone(ErrorMsg = "DEFPC_DPZO")

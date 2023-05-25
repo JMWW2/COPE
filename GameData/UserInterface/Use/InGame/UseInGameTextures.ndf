@@ -128,6 +128,7 @@ UseInGame_AdditionalTextureBank is TBUCKToolAdditionalTextureBank
                             //(~/ComponentState/Highlighted, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/Orders/orders.png' )),
                             //(~/ComponentState/Toggled, TUIResourceTexture_InGame( FileName='GameData:/Assets/2D/Interface/UseInGame/Orders/orderst.png' )),
                             ] ),
+        ("icone_awareness",      MAP [ (~/ComponentState/Normal, TUIResourceTexture_InGame( FileName='Awareness_EYE.png' )), ] ),
 
 //-------------------------------------------------------------------------------------// offmap
         ("textureArtilleriePrecision", MAP [
@@ -724,11 +725,11 @@ UseInGame_Barre_Moral     is TUIResourceTexture_InGame(FileName = "GameData:/Ass
 
 UseInGame_Empty_Supply    is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/empty.png")
 
-UseInGame_Bleed1      is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/Score/Bleed1.png")
-UseInGame_Bleed2      is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/Score/Bleed2.png")
-UseInGame_Bleed3      is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/Score/Bleed3.png")
-UseInGame_Bleed4      is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/Score/Bleed4.png")
-UseInGame_Bleed5      is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/Score/Bleed5.png")
+UseInGame_Bleed1      is TUIResourceTexture_InGameModded(FileName = "Bleed1.png")
+UseInGame_Bleed2      is TUIResourceTexture_InGameModded(FileName = "Bleed2.png")
+UseInGame_Bleed3      is TUIResourceTexture_InGameModded(FileName = "Bleed3.png")
+UseInGame_Bleed4      is TUIResourceTexture_InGameModded(FileName = "Bleed4.png")
+UseInGame_Bleed5      is TUIResourceTexture_InGameModded(FileName = "Bleed5.png")
 
 UseInGame_Feedback_Bullets                is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_bullets_feedback.png")
 UseInGame_Feedback_Bullets_Refill         is TUIResourceTexture_InGame(FileName = "GameData:/Assets/2D/Interface/UseInGame/LabelIcons/ammo_bullets_feedback_refill.png")

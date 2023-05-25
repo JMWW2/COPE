@@ -17470,7 +17470,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_POL_ArmiaKrajowa_multi_Commandos_SMG_AK, 33105),
         (Descriptor_Deck_Pack_DeckDefense_HON, 33111),
         (Descriptor_Deck_Pack_DeckDefense_ROU2, 33112),
-        (Descriptor_Deck_Pack_TOE_GR_Panzerdivision_Tatra_multi_Aufk_Small_GR, 33113),
+		(Descriptor_Deck_Pack_TOE_GR_Panzerdivision_Tatra_multi_Aufk_Small_GR, 33113),
         (Descriptor_Deck_Pack_TOE_GR_Panzerdivision_Tatra_multi_Aufklarer_GR, 33114),
         (Descriptor_Deck_Pack_TOE_GR_Panzerdivision_Tatra_multi_BMW_R75, 33115),
         (Descriptor_Deck_Pack_TOE_GR_Panzerdivision_Tatra_multi_Barbed_Wire, 33116),
@@ -17633,7 +17633,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_GR_4_Fallschirmjager_multi_FJ_Pionier_GR, 33333),
         (Descriptor_Deck_Pack_TOE_GR_4_Fallschirmjager_multi_FJ_Scharfschutze, 33334),
         (Descriptor_Deck_Pack_TOE_GR_4_Fallschirmjager_multi_FJ_SturmPio_GR, 33335),
-        (Descriptor_Deck_Pack_TOE_GR_4_Fallschirmjager_multi_Fallschirm_GR, 33336),
+        (Descriptor_Deck_Pack_TOE_GR_4_Fallschirmjager_multi_FJ_Rifles_GR, 33336),
         (Descriptor_Deck_Pack_TOE_GR_4_Fallschirmjager_multi_Flak_36_88mm, 33337),
         (Descriptor_Deck_Pack_TOE_GR_4_Fallschirmjager_multi_Flak_38_20mm_FJ, 33338),
         (Descriptor_Deck_Pack_TOE_GR_4_Fallschirmjager_multi_Fw_190_G3R5_GER, 33339),
@@ -18062,7 +18062,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Spitfire_Mk_Vb_CZ, 349067),
         (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Stuart_M5A1_50_CZ, 349068),
         (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Trench, 349069),
-        (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Truck_Bedford_Supply_CZ, 349070),
+        (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Truck_Bedford_Supply_UK, 349070),
         (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Typhoon_230_UK, 349071),
         (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Typhoon_Rocket_Heavy_UK, 349072),
         (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Typhoon_Rocket_UK, 349073),
@@ -18717,7 +18717,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_SOV_10CCharGd_multi_ATR_PTRS_41_SOV, 350046),
         (Descriptor_Deck_Pack_TOE_SOV_10CCharGd_multi_Artilleur_SOV, 350047),
         (Descriptor_Deck_Pack_TOE_SOV_10CCharGd_multi_Avtomatchiki_CMD_SOV, 350048),
-        (Descriptor_Deck_Pack_TOE_SOV_10CCharGd_multi_Avtomatchiki_SOV, 350049),
+        (Descriptor_Deck_Pack_TOE_SOV_10CCharGd_multi_MotAvtomatchiki_SOV, 350049),
         (Descriptor_Deck_Pack_TOE_SOV_10CCharGd_multi_BA_10M_SOV, 350050),
         (Descriptor_Deck_Pack_TOE_SOV_10CCharGd_multi_Barbed_Wire, 350051),
         (Descriptor_Deck_Pack_TOE_SOV_10CCharGd_multi_Bunker_Maxim_SOV, 350052),
@@ -19049,7 +19049,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_ATR_PTRS_41_SOV, 350378),
         (Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_Artilleur_SOV, 350379),
         (Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_Avtomatchiki_CMD_SOV, 350380),
-        (Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_Avtomatchiki_SOV, 350381),
+        (Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_MotAvtomatchiki_SOV, 350381),
         (Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_BASh_64_CMD_SOV, 350382),
         (Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_B_25J_30_x3_500_Mitchell_SOV, 350383),
         (Descriptor_Deck_Pack_TOE_SOV_19CChar_multi_B_25J_30_x8_100_Mitchell_SOV, 350384),
@@ -19235,7 +19235,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_SOV_29CChar_multi_A20_G_Havoc_SOV, 350564),
         (Descriptor_Deck_Pack_TOE_SOV_29CChar_multi_ATR_PTRS_41_SOV, 350565),
         (Descriptor_Deck_Pack_TOE_SOV_29CChar_multi_Avtomatchiki_CMD_SOV, 350566),
-        (Descriptor_Deck_Pack_TOE_SOV_29CChar_multi_Avtomatchiki_SOV, 350567),
+        (Descriptor_Deck_Pack_TOE_SOV_29CChar_multi_MotAvtomatchiki_SOV, 350567),
         (Descriptor_Deck_Pack_TOE_SOV_29CChar_multi_BA_20V_SOV, 350568),
         (Descriptor_Deck_Pack_TOE_SOV_29CChar_multi_Barbed_Wire, 350569),
         (Descriptor_Deck_Pack_TOE_SOV_29CChar_multi_Bunker_Maxim_SOV, 350570),
@@ -19294,7 +19294,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_SOV_2CCharGd_multi_ATR_PTRS_41_SOV, 350623),
         (Descriptor_Deck_Pack_TOE_SOV_2CCharGd_multi_Artilleur_SOV, 350624),
         (Descriptor_Deck_Pack_TOE_SOV_2CCharGd_multi_Avtomatchiki_CMD_SOV, 350625),
-        (Descriptor_Deck_Pack_TOE_SOV_2CCharGd_multi_Avtomatchiki_SOV, 350626),
+        (Descriptor_Deck_Pack_TOE_SOV_2CCharGd_multi_MotAvtomatchiki_SOV, 350626),
         (Descriptor_Deck_Pack_TOE_SOV_2CCharGd_multi_BA_10M_SOV, 350627),
         (Descriptor_Deck_Pack_TOE_SOV_2CCharGd_multi_Barbed_Wire, 350628),
         (Descriptor_Deck_Pack_TOE_SOV_2CCharGd_multi_Bunker_Maxim_SOV, 350629),
@@ -19568,7 +19568,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_ATR_PTRS_41_SOV, 350897),
         (Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Artilleur_SOV, 350898),
         (Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Avtomatchiki_CMD_SOV, 350899),
-        (Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Avtomatchiki_SOV, 350900),
+        (Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_MotAvtomatchiki_SOV, 350900),
         (Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_BA_10M_SOV, 350901),
         (Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Barbed_Wire, 350902),
         (Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Bunker_Maxim_SOV, 350903),
@@ -20605,7 +20605,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_ATR_PTRS_41_SOV, 351934),
         (Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Artilleur_SOV, 351935),
         (Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Avtomatchiki_CMD_SOV, 351936),
-        (Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Avtomatchiki_SOV, 351937),
+        (Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_MotAvtomatchiki_SOV, 351937),
         (Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_BA_10M_SOV, 351938),
         (Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_BA_20V_SOV, 351939),
         (Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_Barbed_Wire, 351940),
@@ -20782,7 +20782,7 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_ATR_PTRS_41_SOV, 352111),
         (Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_Artilleur_SOV, 352112),
         (Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_Avtomatchiki_CMD_SOV, 352113),
-        (Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_Avtomatchiki_SOV, 352114),
+        (Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_MotAvtomatchiki_SOV, 352114),
         (Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_BA_10M_SOV, 352115),
         (Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_Barbed_Wire, 352116),
         (Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_Bunker_Maxim_SOV, 352117),
@@ -22565,6 +22565,1470 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Deck_Pack_TOE_GR_Festung_Dunkirk_multi_Trench, 354009),
         (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Churchill_IV_CMD_UK, 354118),
         (Descriptor_Deck_Pack_TOE_CSSR_1_CIABG_multi_Churchill_VI_CMD_UK, 354119),
+
+
+        
+    
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		(Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Stormtroopers_HON, 40000),
+        (Descriptor_Deck_Pack_TOE_SOV_26DFusGd_multi_Yak_9B_x2_100_SOV, 40001),
+        (Descriptor_Deck_Pack_TOE_UK_6_Airborne_multi_Howz_M1_75mm_AB_UK, 40002),
+		(Descriptor_Deck_Pack_TOE_GR_116_Panzer_multi_SdKfz_251_18_Beo_105mm_GER, 40003),
+		(Descriptor_Deck_Pack_TOE_GR_116_Panzer_multi_Panzer_III_M, 40004),
+		(Descriptor_Deck_Pack_TOE_GR_116_Panzer_multi_SdKfz_251_18_Beo_150mm_GER, 40005),
+        (Descriptor_Deck_Pack_TOE_NZ_2nd_NZ_multi_Beaufighter_Mk_X_x8_150mm_HE_UK, 40006),
+		(Descriptor_Deck_Pack_TOE_SOV_NavalGroup_Bakthin_Matilda_IV_CS_SOV, 40007),
+		(Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_Toldi_II_HON, 40008),
+		(Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_T70_FAO_76_SOV, 40009),
+		(Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Ersatz_Pionier_GER, 40010),
+		(Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Flak_43_37mm, 40011),
+		(Descriptor_Deck_Pack_TOE_HO_5_Reserve_multi_PaK_43_88mm, 40012),
+        (Descriptor_Deck_Pack_TOE_YUG_NOV_multi_Partisans_Cav_Trophy_YUG, 40013),
+		(Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_DCA_85mm, 40014),
+		(Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_OT_34_SOV, 40015),
+		(Descriptor_Deck_Pack_TOE_GR_Gr_Harteneck_multi_Flak_36_37mm, 40016),
+		(Descriptor_Deck_Pack_TOE_GR_Panzer_Lehr_multi_Jagdpanther, 40017),
+		(Descriptor_Deck_Pack_TOE_SOV_358DFusGd_multi_DCA_37mm, 40018),
+        (Descriptor_Deck_Pack_TOE_US_TF_Butler_multi_FFI_Traction_FAO, 40019),
+		(Descriptor_Deck_Pack_TOE_FIN_Gr_Raappana_multi_Rifle_SW, 40020),
+		(Descriptor_Deck_Pack_TOE_GR_Pzverbande_Strachwitz_multi_SturmPio_SVT_GER, 40021),
+    	(Descriptor_Deck_Pack_TOE_CAN_3CID_Dv2_Ram_II_Tank_Leader, 40022),
+		(Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_T34_85_obr_43_CMD_SOV, 40023),
+		(Descriptor_Deck_Pack_TOE_GR_352_Infanterie_multi_Stabswache_GER, 40024),
+		(Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_SU_122_SOV, 40025),
+		(Descriptor_Deck_Pack_TOE_GR_Panzer_HG_multi_Kdr_Walkure_GR, 40026),
+		(Descriptor_Deck_Pack_TOE_SOV_VyborgReserve_multi_T60_SOV, 40027),
+		(Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Kubelwagen_Beo_150, 40028),
+		(Descriptor_Deck_Pack_TOE_GR_122_Infanterie_multi_Kubelwagen_Beo_105, 40030),
+		(Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Schwimmwagen_Beo_100, 40030),
+		(Descriptor_Deck_Pack_TOE_SOV_184DFusGd_multi_GPA_FAO_122_SOV, 40031),
+		(Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_Kubelwagen_Beo_76, 40032),
+		(Descriptor_Deck_Pack_TOE_GR_352_Infanterie_multi_U630_Wurfrahmen, 40033),
+		(Descriptor_Deck_Pack_TOE_GR_20_PzGren_multi_SdKfz_251_9, 40034),
+		(Descriptor_Deck_Pack_TOE_SOV_NavalGroup_Bakthin_Marder_II_SOV, 40035),
+		(Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_KV_1A_GER, 40036),
+		(Descriptor_Deck_Pack_TOE_GR_Koruck_559_multi_Fi_156_Storch_Obs210mm, 40037),
+		(Descriptor_Deck_Pack_TOE_SOV_GM_39A_multi_Panzer_III_J_SOV, 40038),
+		(Descriptor_Deck_Pack_TOE_POL_1_Pancera_multi_Staghound_POL, 40039),
+		(Descriptor_Deck_Pack_TOE_SOV_7DFus_Esto_multi_T34_76_obr_42_EstSOV, 40040),
+		(Descriptor_Deck_Pack_TOE_SOV_GM_Tyurin_multi_BM_8_24_SOV, 40041),
+		(Descriptor_Deck_Pack_TOE_SOV_97DFusGd_multi_Howz_M10_152mm_SOV, 40042),
+		(Descriptor_Deck_Pack_TOE_GR_14_Inf_multi_Me_109_G6_R4_GER, 40043),
+		(Descriptor_Deck_Pack_TOE_GR_Rosselsprung_multi_BeoPanzer_II_C_GER, 40044),
+		(Descriptor_Deck_Pack_TOE_HO_1_Hussard_multi_PaK_97_38_75mm_HON, 40045),
+        (Descriptor_Deck_Pack_TOE_YUG_NOV_multi_Partisans_CloseSupport_Trophy_YUG, 40047),
+		(Descriptor_Deck_Pack_TOE_US_TF_Butler_multi_Rifle_Airbone_US, 40048),
+		(Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Valentine_VII_SOV, 40049),
+		(Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_Valentine_IX_SOV, 40050),
+		(Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_T34_85_obr_43_SOV, 40051),
+		(Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_T34_85_obr_43_SOV, 40052),
+        (Descriptor_Deck_Pack_TOE_SOV_3CCharGd_multi_T34_85_obr_44_SOV, 40053),
+		(Descriptor_Deck_Pack_TOE_YUG_NOV_multi_Bunker_Tito_YUG, 40054),
+        (Descriptor_Deck_Pack_TOE_GR_3_Fallschirmjager_multi_FJ_Rifles_2_GR, 40055),
+        (Descriptor_Deck_Pack_TOE_GR_4_Fallschirmjager_multi_FJ_Rifles_2_GR, 40056),
+        (Descriptor_Deck_Pack_TOE_GR_1_Fallschirmjager_multi_FJ_Rifles_2_GR, 40057),
+        (Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_FJ_Rifles_2_GR, 40058),
+        (Descriptor_Deck_Pack_TOE_ROU_5_CavMot_multi_Panzer_38t_ROU, 40059),
+        (Descriptor_Deck_Pack_TOE_GR_21_Panzer_multi_Konigstiger_Porsche_ACE, 40060),
+        (Descriptor_Deck_Pack_TOE_YUG_NOV_multi_F6C_Mustang_US, 40061),
+        (Descriptor_Deck_Pack_TOE_GR_1_Fallschirmjager_multi_Panther_A, 40062),
+        (Descriptor_Deck_Pack_TOE_GR_25_PzGren_multi_Sturmgrenadier_GER, 40063),
+        (Descriptor_Deck_Pack_TOE_ROU2_9_Infanterie_multi_Pionieri_Aslt_ROU, 40064),
+        (Descriptor_Deck_Pack_TOE_ROU_4_Munte_multi_Penal_MG_ROU, 40065),
+        (Descriptor_Deck_Pack_TOE_ROU2_8_CavMot_multi_Toldi_II_ROU, 40066),
+        (Descriptor_Deck_Pack_TOE_HO_25_Infanterie_multi_Stormtroopers_Fanatical_HON, 40067),
+        (Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_B1_bis_Flamm_GER, 40068),
+        (Descriptor_Deck_Pack_TOE_GR_52_Sicherungs_multi_BM_8_24_GER, 40069),
     ]
     UnitIds = MAP
     [
@@ -25625,7 +27089,6 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Unit_Cromwell_VI_CZ, 3799),
         (Descriptor_Unit_Cromwell_V_CZ, 3800),
         (Descriptor_Unit_HMG_MG42_FFI_FR, 3801),
-        (Descriptor_Unit_Truck_Bedford_Supply_CZ, 3802),
         (Descriptor_Unit_Truck_Morris_Bofors_UK, 3808),
         (Descriptor_Unit_Canon_47mm_Breda_XMAS_RSI, 3809),
         (Descriptor_Unit_DMA_Supply_GER, 3810),
@@ -25731,5 +27194,17 @@ DeckSerializer is TDeckSerializer
         (Descriptor_Production_Bunker_PaK_50mm_ROU, 3807),
         (Descriptor_Production_Bunker_AT_6pdr_CZ, 3843),
         (Descriptor_Production_Bunker_MG_CZ, 3844),
+
+	(Descriptor_Unit_Ram_II_Tank_Leader, 5001),
+	(Descriptor_Production_Bunker_Tito_YUG, 5002),
+        (Descriptor_Unit_Partisans_Cav_Trophy_YUG, 5003),
+        (Descriptor_Unit_Partisans_CloseSupport_Trophy_YUG, 5004),
+        (Descriptor_Unit_FJ_Rifles_2_GR, 5005),
+        (Descriptor_Unit_FJ_Rifles_GR, 5006),
+        (Descriptor_Unit_Penal_MG_ROU, 5007),
+
+
+
+
     ]
 )

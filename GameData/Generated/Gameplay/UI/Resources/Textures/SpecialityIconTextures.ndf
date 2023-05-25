@@ -124,7 +124,54 @@ export Texture_Speciality_Icon_Spec_roquettes_1 is TUIResourceTexture_Common
 (
     FileName = "Assets/2D/Interface/Common/UnitsIcons/Specialties/Spec_roquettes_1.png"
 )
-
+export Texture_Speciality_Icon_spec_paratrooper is TUIResourceTexture_CommonModded
+(
+    FileName = "paratroopers.png"
+)
+export Texture_Speciality_Icon_spec_combat_recon is TUIResourceTexture_CommonModded
+(
+    FileName = "combat_recon.png"
+)
+export Texture_Speciality_Icon_spec_awareness_vehicle is TUIResourceTexture_CommonModded
+(
+    FileName = "Awareness_Eye_Red.png"
+)
+export Texture_Speciality_Icon_spec_awareness_infanterie is TUIResourceTexture_CommonModded
+(
+    FileName = "Awareness_Eye_Green.png"
+)
+export Texture_Speciality_Icon_spec_militia is TUIResourceTexture_CommonModded
+(
+    FileName = "militia.png"
+)
+export Texture_Speciality_Icon_spec_cqc_specialist is TUIResourceTexture_CommonModded
+(
+    FileName = "cqc_specialist.png"
+)
+export Texture_Speciality_Icon_spec_tank_destroyer is TUIResourceTexture_CommonModded
+(
+    FileName = "tank_destroyer.png"
+)
+export Texture_Speciality_Icon_spec_Artillery_Leader is TUIResourceTexture_CommonModded
+(
+    FileName = "Artillery_Leader.png"
+)
+export Texture_Speciality_Icon_spec_Capture_Unit is TUIResourceTexture_CommonModded
+(
+    FileName = "Capture_Unit.png"
+)
+export Texture_Speciality_Icon_spec_range_bonus_1 is TUIResourceTexture_CommonModded
+(
+    FileName = "Awareness_EYE_1stars.png"
+)
+export Texture_Speciality_Icon_spec_range_bonus_2 is TUIResourceTexture_CommonModded
+(
+    FileName = "Awareness_EYE_2stars.png"
+)
+export Texture_Speciality_Icon_spec_range_bonus_3  is TUIResourceTexture_CommonModded
+(
+    FileName = "Awareness_EYE_3stars.png"
+)
 UnitSpecialityAdditionalTextureBank is TBUCKToolAdditionalTextureBank
 (
     Textures = MAP
@@ -140,6 +187,18 @@ UnitSpecialityAdditionalTextureBank is TBUCKToolAdditionalTextureBank
         ("Texture_Speciality_Icon_Spec_cmdt_radio", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_Spec_cmdt_radio)]),
         ("Texture_Speciality_Icon_spec_decourage", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_decourage)]),
         ("Texture_Speciality_Icon_Spec_fanatic", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_Spec_fanatic)]),
+		("Texture_Speciality_Icon_spec_awareness_vehicle", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_awareness_vehicle)]),
+        ("Texture_Speciality_Icon_spec_awareness_infanterie", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_awareness_infanterie)]),
+        ("Texture_Speciality_Icon_spec_paratrooper", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_paratrooper)]),
+        ("Texture_Speciality_Icon_spec_combat_recon", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_combat_recon)]),
+        ("Texture_Speciality_Icon_spec_militia", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_militia)]),
+        ("Texture_Speciality_Icon_spec_cqc_specialist", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_cqc_specialist)]),	
+        ("Texture_Speciality_Icon_spec_tank_destroyer", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_tank_destroyer)]),		
+        ("Texture_Speciality_Icon_spec_Artillery_Leader", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_Artillery_Leader)]),
+        ("Texture_Speciality_Icon_spec_Capture_Unit", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_Capture_Unit)]),
+        ("Texture_Speciality_Icon_spec_range_bonus_1", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_range_bonus_1)]),
+        ("Texture_Speciality_Icon_spec_range_bonus_2", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_range_bonus_2)]),
+        ("Texture_Speciality_Icon_spec_range_bonus_3", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_spec_range_bonus_3)]),	
         ("Texture_Speciality_Icon_Spec_commandement", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_Spec_commandement)]),
         ("Texture_Speciality_Icon_Spec_flamme", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_Spec_flamme)]),
         ("Texture_Speciality_Icon_Spec_fumigene", MAP [(~/ComponentState/Normal, ~/Texture_Speciality_Icon_Spec_fumigene)]),

@@ -10,6 +10,11 @@ TagWrapper_AllUnits is TTagWrapper
     DescriptorId = GUID:{4606646a-8b46-4b3e-8d7c-99f1cbaf9f83}
     Tag = "AllUnits"
 )
+TagWrapper_Long_range_tank is TTagWrapper
+(
+    DescriptorId = GUID:{bdd83857-86f9-4627-b20d-e68b19c2ba08}
+    Tag = "Long_range_tank"
+)
 TagWrapper_AllProjectiles is TTagWrapper
 (
     DescriptorId = GUID:{c1ff70d1-933f-4014-ad7e-6ec807dab58e}
@@ -104,6 +109,31 @@ TagWrapper_Armes_tractees is TTagWrapper
 (
     DescriptorId = GUID:{37fc1617-df9c-40ba-83ca-f524083f8b22}
     Tag = "Armes_tractees"
+)
+TagWrapper_Support_gun is TTagWrapper
+(
+    DescriptorId = GUID:{4232b8b4-cc44-4c65-a2c8-19be30588d83}
+    Tag = "Support_gun"
+)
+TagWrapper_Support_gun_light is TTagWrapper
+(
+    DescriptorId = GUID:{5dc59106-0c66-4320-aef5-e7b764b21d3c}
+    Tag = "Support_gun_light"
+)
+TagWrapper_Vehicule_Appui_Lourd is TTagWrapper
+(
+    DescriptorId = GUID:{3b2c7338-795b-44b1-9691-35cd8b3b8da6}
+    Tag = "Vehicule_Appui_Lourd"
+)
+TagWrapper_Vehicule_Appui_Moyen is TTagWrapper
+(
+    DescriptorId = GUID:{1f329bbd-c2d7-4cf9-961b-42cfff30660d}
+    Tag = "Vehicule_Appui_Moyen"
+)
+TagWrapper_Not_reco is TTagWrapper
+(
+    DescriptorId = GUID:{989aa379-d415-4eb2-af39-517bde607d74}
+    Tag = "Not_reco"
 )
 TagWrapper_OnProduction_Armes_tractees is TTagWrapper
 (
@@ -465,6 +495,11 @@ TagWrapper_Commandant is TTagWrapper
     DescriptorId = GUID:{0eb785d6-861f-4eba-b5b4-e68eafc00755}
     Tag = "Commandant"
 )
+TagWrapper_Raider is TTagWrapper
+(
+    DescriptorId = GUID:{f145f0a7-4ff9-4af9-b781-e37b4cf175f5}
+    Tag = "Raider_Trait"
+)
 TagWrapper_OnProduction_Commandant is TTagWrapper
 (
     DescriptorId = GUID:{4fa536cb-85c9-45a8-aa5a-9b3ade0477f3}
@@ -540,10 +575,56 @@ TagWrapper_OnProduction_Discipline is TTagWrapper
     DescriptorId = GUID:{e276085a-418f-4393-afb4-37b4ec1aee3c}
     Tag = "OnProduction_Discipline"
 )
+TagWrapper_Capacite_CQC_Specialist_Effect is TTagWrapper
+(
+    DescriptorId = GUID:{325f4ec7-a770-42ac-b98e-24cead8a9fc0}
+    Tag = "Capacite_CQC_Specialist_Effect"
+)
+TagWrapper_Capacite_Militia_Effect is TTagWrapper
+(
+    DescriptorId = GUID:{e59a8580-4617-447b-8336-244962cdfd2b}
+    Tag = "Capacite_Militia_Effect"
+)
+Capacite_OffMap_Warning is TTagWrapper
+(
+    DescriptorId = GUID:{e96e41cd-6ce0-4c82-8232-f54787e7069e}
+    Tag = "Capacite_OffMap_Warning"
+)
+Capacite_OffMap_Warning_Follow_Up is TTagWrapper
+(
+    DescriptorId = GUID:{26c502c9-8e32-4b0d-a0eb-3ae55b274ce3}
+    Tag = "Capacite_OffMap_Warning_Follow_Up"
+)
+TagWrapper_Capacite_Menace_Ennemi_750 is TTagWrapper
+(
+    DescriptorId = GUID:{742836ed-cef1-4f6b-a9ba-8dcd9f91b807}
+    Tag = "Capacite_Menace_Ennemi_750"
+)
+
 TagWrapper_Ennemi_Proche is TTagWrapper
 (
-    DescriptorId = GUID:{a1d60b54-97f1-43da-a81d-ecd1faa32e39}
+    DescriptorId = GUID:{a215348a-280f-4d37-9ee4-1422457a8057}
     Tag = "Ennemi_Proche"
+)
+TagWrapper_Neutre_Proche_1 is TTagWrapper
+(
+    DescriptorId = GUID:{992805ae-bcef-4045-8c7f-40aa3df48aa9}
+    Tag = "Neutre_Proche_1"
+)
+TagWrapper_Neutre_Proche_2 is TTagWrapper
+(
+    DescriptorId = GUID:{1659fc3f-1ba2-44bc-b118-73764ea5b854}
+    Tag = "Neutre_Proche_2"
+)
+TagWrapper_Neutre_Proche_3 is TTagWrapper
+(
+    DescriptorId = GUID:{3c7bfade-8e05-4ea8-8812-65c610fc87fb}
+    Tag = "Neutre_Proche_3"
+)
+TagWrapper_Ennemi_Proche_750 is TTagWrapper
+(
+    DescriptorId = GUID:{03896774-09e2-4430-aedc-79a7ab25a6b3}
+    Tag = "Ennemi_Proche_750"
 )
 TagWrapper_OnProduction_Ennemi_Proche is TTagWrapper
 (
@@ -570,9 +651,19 @@ TagWrapper_OnProduction_GroundUnit_Cowering is TTagWrapper
     DescriptorId = GUID:{c483c40f-2a1f-4473-95c3-56681aa487fd}
     Tag = "OnProduction_GroundUnit_Cowering"
 )
+TagWrapper_GroundUnit_Agitated is TTagWrapper
+(
+    DescriptorId = GUID:{15bd96a7-0217-4506-ae9c-391354336aeb}
+    Tag = "GroundUnit_Agitated"
+)
+TagWrapper_OnProduction_GroundUnit_Agitated is TTagWrapper
+(
+    DescriptorId = GUID:{cc31584a-ce1d-4a33-b256-852595412068}
+    Tag = "OnProduction_GroundUnit_Agitated"
+)
 TagWrapper_GroundUnit_Engaged is TTagWrapper
 (
-    DescriptorId = GUID:{451f78cb-a1c9-409d-a1af-fc10a463f0af}
+    DescriptorId = GUID:{0c290157-4956-4bbf-b8ce-8c0225e40189}
     Tag = "GroundUnit_Engaged"
 )
 TagWrapper_OnProduction_GroundUnit_Engaged is TTagWrapper
@@ -3444,6 +3535,16 @@ TagWrapper_UNITE_Fallschirm_GR is TTagWrapper
 (
     DescriptorId = GUID:{b2918ed0-ae9c-4b14-b82e-273ddc174f29}
     Tag = "UNITE_Fallschirm_GR"
+)
+TagWrapper_UNITE_FJ_Rifles_GR is TTagWrapper
+(
+    DescriptorId = GUID:{7f598aee-8d90-4f6d-b645-a5c64ca43114}
+    Tag = "UNITE_FJ_Rifles_GR"
+)
+TagWrapper_UNITE_FJ_Rifles_2_GR is TTagWrapper
+(
+    DescriptorId = GUID:{7f2c273a-e9ff-44a8-9668-c9a8a72d365c}
+    Tag = "UNITE_FJ_Rifles_2_GR"
 )
 TagWrapper_UNITE_Feldgendarmerie_GER is TTagWrapper
 (
@@ -8989,6 +9090,31 @@ TagWrapper_UNITE_Ram_II is TTagWrapper
 (
     DescriptorId = GUID:{3d4ddef1-7437-4282-8aca-543f919df576}
     Tag = "UNITE_Ram_II"
+)
+TagWrapper_UNITE_Ram_II_Tank_leader is TTagWrapper
+(
+    DescriptorId = GUID:{1f821ffd-1acf-4393-acb3-861410194cd7}
+    Tag = "UNITE_Ram_II_Tank_Leader"
+)
+TagWrapper_UNITE_Partisans_CloseSupport_Trophy_YUG is TTagWrapper
+(
+    DescriptorId = GUID:{7ae8b68c-da04-4372-927e-522d039fba50}
+    Tag = "UNITE_Partisans_CloseSupport_Trophy_YUG"
+)
+TagWrapper_UNITE_Partisans_Cav_Trophy_YUG is TTagWrapper
+(
+    DescriptorId = GUID:{f1ed634d-b651-41a1-af49-1000dcea6a6d}
+    Tag = "UNITE_Partisans_Cav_Trophy_YUG"
+)
+TagWrapper_UNITE_Huszarok_MG42_HON is TTagWrapper
+(
+    DescriptorId = GUID:{226b97dd-22fc-4729-a648-41ca35c79829}
+    Tag = "UNITE_Huszarok_MG42_HON"
+)
+TagWrapper_UNITE_Ersatz_HON is TTagWrapper
+(
+    DescriptorId = GUID:{f509428b-9464-4f15-8e4d-eb8899ddac63}
+    Tag = "UNITE_Ersatz_HON"
 )
 TagWrapper_UNITE_Ram_II_OP is TTagWrapper
 (
@@ -16454,6 +16580,11 @@ TagWrapper_UNITE_100mm_HUN is TTagWrapper
 (
     DescriptorId = GUID:{0dd00421-9756-4c04-8311-0532c5134f8d}
     Tag = "UNITE_100mm_HUN"
+)
+TagWrapper_UNITE_100mm_YUG is TTagWrapper
+(
+    DescriptorId = GUID:{4696f67e-0258-41eb-8fc9-89b631fda131}
+    Tag = "UNITE_100mm_YUG"
 )
 TagWrapper_UNITE_105mm_CAN is TTagWrapper
 (
@@ -46054,6 +46185,11 @@ TagWrapper_OnProduction_Penal_ROU is TTagWrapper
 (
     DescriptorId = GUID:{01d889b9-c638-4da1-86e0-278349f42420}
     Tag = "OnProduction_Penal_ROU"
+)
+TagWrapper_OnProduction_Penal_MG_ROU is TTagWrapper
+(
+    DescriptorId = GUID:{fe484d0d-0214-4449-a478-dfbfb5b14217}
+    Tag = "OnProduction_Penal_MG_ROU"
 )
 TagWrapper_OnProduction_Peugeot_DMA is TTagWrapper
 (
@@ -76004,4 +76140,14 @@ TagWrapper_Capacite_Tank_Dissimule is TTagWrapper
 (
     DescriptorId = GUID:{78157c7b-ef77-4739-9d8e-5e1bdd201f02}
     Tag = "Capacite_Tank_Dissimule"
+)
+TagWrapper_Capacite_Infiltrate is TTagWrapper
+(
+    DescriptorId = GUID:{ecda0d02-4706-4648-8536-34e203ad34cd}
+    Tag = "Capacite_Infiltrate"
+)
+TagWrapper_Capacite_donne_Radio_Aura is TTagWrapper
+(
+    DescriptorId = GUID:{41d2d10e-9cdf-4e06-8144-ee4e7dc28fc1}
+    Tag = "Capacite_donne_Radio_Aura"
 )

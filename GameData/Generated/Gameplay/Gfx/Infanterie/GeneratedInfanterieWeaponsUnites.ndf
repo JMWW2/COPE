@@ -546,12 +546,12 @@ Weapon_Alpini_ITA_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Lee_Enfield_x6
+        FXInfantryWeapon_Lee_Enfield_x8
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Lee_Enfield_x6
+        SFXWeapon_Lee_Enfield_x8
     ]
 )
 
@@ -700,12 +700,12 @@ Weapon_Alpini_RSI_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Kar98_x6
+        FXInfantryWeapon_CarcanoM91_carx8
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Kar98_x6
+        SFXWeapon_CarcanoM91_carx8
     ]
 )
 
@@ -3215,6 +3215,12 @@ Weapon_Bersaglieri_RSI_5 is FXInfantryWeapon_Stielhandgranate_24
     ShotCountInitialValue = 1
 )
 
+
+Weapon_Bicycle_Rifles_HON_5 is FXInfantryWeapon_Stielhandgranate_24
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
 Weapon_Bicycle_Rifles_HON_1 is TCompositeHappening
 (
     SubHappenings =
@@ -3254,7 +3260,51 @@ Weapon_Bicycle_Rifles_HON_3 is TCompositeHappening
     ]
 )
 
-Weapon_Bicycle_Rifles_HON_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Huszarok_MG42_HON_5 is FXInfantryWeapon_Stielhandgranate_24
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
+Weapon_Huszarok_MG42_HON_1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_39M_Danuvia_x2
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 5
+        ),
+        SFXWeapon_39M_Danuvia_x2
+    ]
+)
+
+Weapon_Huszarok_MG42_HON_2 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_G43_x10
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_G43_x10
+    ]
+)
+
+Weapon_Huszarok_MG42_HON_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_lMG42
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_lMG42
+    ]
+)
+
+Weapon_Huszarok_MG42_HON_4 is FXInfantryWeapon_Panzerknacker
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -3445,10 +3495,10 @@ Weapon_BorderJaeger_FIN_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_BorderJaeger_FIN_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_BorderJaeger_FIN_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_Border_Guard_CMD_HON_1 is TCompositeHappening
@@ -3528,10 +3578,10 @@ Weapon_Border_Guard_HON_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Border_Guard_HON_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Border_Guard_HON_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_Border_Police_HON_1 is TCompositeHappening
@@ -3725,6 +3775,7 @@ Weapon_Brandenburger_GER_3 is TCompositeHappening
         SFXWeapon_lMG42x2
     ]
 )
+
 
 Weapon_Brandenburger_GER_4 is FXInfantryWeapon_Explosif_GER
 (
@@ -4568,10 +4619,10 @@ Weapon_Combat_Patrol_CZ_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Combat_Patrol_CZ_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Combat_Patrol_CZ_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_Commander_CAN_1 is TCompositeHappening
@@ -5830,10 +5881,10 @@ Weapon_Ersatz_FIN_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Ersatz_FIN_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Ersatz_FIN_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_Ersatz_Pionier_GER_1 is TCompositeHappening
@@ -6188,10 +6239,10 @@ Weapon_FFI_Maquisards_FR_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_FFI_Maquisards_FR_5 is FXInfantryWeapon_Grenade_US_mk2
+Weapon_FFI_Maquisards_FR_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_FFI_PzFaust_1 is TCompositeHappening
@@ -6543,12 +6594,12 @@ Weapon_FJ_Pionier_GR_1 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_FG42_x2
+        FXInfantryWeapon_MP40_x2
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 3
         ),
-        SFXWeapon_FG42_x2
+        SFXWeapon_MP40_x2
     ]
 )
 
@@ -6556,16 +6607,29 @@ Weapon_FJ_Pionier_GR_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Kar98_x9
+        FXInfantryWeapon_Kar98_x5
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Kar98_x9
+        SFXWeapon_Kar98_x5
     ]
 )
 
 Weapon_FJ_Pionier_GR_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_G43_x4
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_G43_x4
+    ]
+)
+
+Weapon_FJ_Pionier_GR_4 is TCompositeHappening
 (
     SubHappenings =
     [
@@ -6578,13 +6642,13 @@ Weapon_FJ_Pionier_GR_3 is TCompositeHappening
     ]
 )
 
-Weapon_FJ_Pionier_GR_4 is FXInfantryWeapon_Explosif_GER
+Weapon_FJ_Pionier_GR_5 is FXInfantryWeapon_Explosif_GER
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 5
 )
 
-Weapon_FJ_Pionier_GR_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_FJ_Pionier_GR_6 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -6677,12 +6741,12 @@ Weapon_FJ_SturmPio_GR_1 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_MP40_x2
+        FXInfantryWeapon_MP40_x3
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 5
         ),
-        SFXWeapon_MP40_x2
+        SFXWeapon_MP40_x3
     ]
 )
 
@@ -6690,12 +6754,12 @@ Weapon_FJ_SturmPio_GR_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_G43_x3
+        FXInfantryWeapon_G43_x4
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_G43_x3
+        SFXWeapon_G43_x4
     ]
 )
 
@@ -6703,22 +6767,37 @@ Weapon_FJ_SturmPio_GR_3 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Flammenwerfer_41
+        FXInfantryWeapon_FG42_x2
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
+        ),
+        SFXWeapon_FG42_x2
+    ]
+)
+
+Weapon_FJ_SturmPio_GR_4 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_Flammenwerfer_41
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
         ),
         SFXWeapon_Flammenwerfer_41
     ]
 )
 
-Weapon_FJ_SturmPio_GR_4 is FXInfantryWeapon_Nebelhandgranate_42
+
+
+Weapon_FJ_SturmPio_GR_5 is FXInfantryWeapon_Nebelhandgranate_42
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 5
 )
 
-Weapon_FJ_SturmPio_GR_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_FJ_SturmPio_GR_6 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -6728,12 +6807,12 @@ Weapon_Fallschirm_GR_1 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_FG42_x2
+        FXInfantryWeapon_FG42
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 3
         ),
-        SFXWeapon_FG42_x2
+        SFXWeapon_FG42
     ]
 )
 
@@ -6741,12 +6820,12 @@ Weapon_Fallschirm_GR_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_G43_x6
+        FXInfantryWeapon_Kar98_x6
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_G43_x6
+        SFXWeapon_Kar98_x6
     ]
 )
 
@@ -6767,6 +6846,18 @@ Weapon_Fallschirm_GR_4 is TCompositeHappening
 (
     SubHappenings =
     [
+        FXInfantryWeapon_MP40
+        (
+            Anchor                = 'Fx_Tir_02'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_MP40
+    ]
+)
+Weapon_Fallschirm_GR_5 is TCompositeHappening
+(
+    SubHappenings =
+    [
         FXInfantryWeapon_Panzerfaust_30
         (
             Anchor                = 'Fx_Tir_02'
@@ -6776,22 +6867,137 @@ Weapon_Fallschirm_GR_4 is TCompositeHappening
     ]
 )
 
-Weapon_Fallschirm_GR_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Fallschirm_GR_6 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
 )
 
-Weapon_Feldgendarmerie_GER_1 is TCompositeHappening
+Weapon_FJ_Rifles_GR_1 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_MP40_x4
+        FXInfantryWeapon_MP40_x2
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_MP40_x2
+    ]
+)
+
+Weapon_FJ_Rifles_GR_2 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_G43_x8
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_G43_x8
+    ]
+)
+
+Weapon_FJ_Rifles_GR_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_lMG34x2
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_lMG34x2
+    ]
+)
+
+Weapon_FJ_Rifles_GR_4 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_Panzerfaust_30
+        (
+            Anchor                = 'Fx_Tir_02'
+            ShotCountInitialValue = 5
+        ),
+        SFXWeapon_Panzerfaust_30
+    ]
+)
+
+Weapon_FJ_Rifles_GR_5 is FXInfantryWeapon_Stielhandgranate_24
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
+
+Weapon_FJ_Rifles_2_GR_1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_MP40_x3
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 5
         ),
-        SFXWeapon_MP40_x4
+        SFXWeapon_MP40_x3
+    ]
+)
+
+Weapon_FJ_Rifles_2_GR_2 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_G43_x5
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_G43_x5
+    ]
+)
+
+Weapon_FJ_Rifles_2_GR_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_G43_Scope
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_G43_Scope
+    ]
+)
+
+Weapon_FJ_Rifles_2_GR_4 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_lMG34
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_lMG34
+    ]
+)
+
+Weapon_FJ_Rifles_2_GR_5 is FXInfantryWeapon_Stielhandgranate_24
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
+Weapon_Feldgendarmerie_GER_1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_MP40_x6
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 5
+        ),
+        SFXWeapon_MP40_x6
     ]
 )
 
@@ -6933,12 +7139,12 @@ Weapon_Field_Engineers_CAN_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Lee_Enfield_x3
+        FXInfantryWeapon_Lee_Enfield_x5
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Lee_Enfield_x3
+        SFXWeapon_Lee_Enfield_x5
     ]
 )
 
@@ -7029,12 +7235,12 @@ Weapon_Field_Engineers_GRE_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Lee_Enfield_x3
+        FXInfantryWeapon_Lee_Enfield_x5
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Lee_Enfield_x3
+        SFXWeapon_Lee_Enfield_x5
     ]
 )
 
@@ -7105,12 +7311,12 @@ Weapon_Field_Engineers_NZ_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Lee_Enfield_x3
+        FXInfantryWeapon_Lee_Enfield_x5
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Lee_Enfield_x3
+        SFXWeapon_Lee_Enfield_x5
     ]
 )
 
@@ -7143,12 +7349,12 @@ Weapon_Field_Engineers_SA_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Lee_Enfield_x3
+        FXInfantryWeapon_Lee_Enfield_x5
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Lee_Enfield_x3
+        SFXWeapon_Lee_Enfield_x5
     ]
 )
 
@@ -7181,12 +7387,12 @@ Weapon_Field_Engineers_UK_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Lee_Enfield_x3
+        FXInfantryWeapon_Lee_Enfield_x5
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Lee_Enfield_x3
+        SFXWeapon_Lee_Enfield_x5
     ]
 )
 
@@ -9260,10 +9466,10 @@ Weapon_Gornostrelki_Razvedki_SOV_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Gornostrelki_Razvedki_SOV_5 is FXInfantryWeapon_RDG33
+Weapon_Gornostrelki_Razvedki_SOV_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_Gornostrelki_SMG_SOV_1 is TCompositeHappening
@@ -10632,7 +10838,6 @@ Weapon_Huszar_MG42_HON_5 is FXInfantryWeapon_Stielhandgranate_24
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
 )
-
 Weapon_Huszar_Pionier_HON_1 is TCompositeHappening
 (
     SubHappenings =
@@ -11100,7 +11305,7 @@ Weapon_Jaeger_FIN_4 is TCompositeHappening
     ]
 )
 
-Weapon_Jaeger_FIN_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Jaeger_FIN_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -11423,12 +11628,12 @@ Weapon_Jager_PzB_39_GER_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_PzB_39
+        FXInfantryWeapon_GrB_39
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_PzB_39
+        SFXWeapon_GrB_39
     ]
 )
 
@@ -12405,10 +12610,10 @@ Weapon_KavJager_Sturm_GER_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_KavJager_Sturm_GER_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_KavJager_Sturm_GER_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_Kazaki_CMD_SOV_1 is TCompositeHappening
@@ -15423,10 +15628,10 @@ Weapon_Militia_AK_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Militia_AK_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Militia_AK_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_MotAvtomatchiki_SOV_1 is TCompositeHappening
@@ -15446,12 +15651,12 @@ Weapon_MotAvtomatchiki_SOV_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_DP_28
+        FXInfantryWeapon_AVT40
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 3
         ),
-        SFXWeapon_DP_28
+        SFXWeapon_AVT40
     ]
 )
 
@@ -15829,6 +16034,19 @@ Weapon_Motor_Rifle_Leader_BEL_3 is TCompositeHappening
 (
     SubHappenings =
     [
+        FXInfantryWeapon_Lee_Enfield_Scope
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_Lee_Enfield_Scope
+    ]
+)
+
+Weapon_Motor_Rifle_Leader_BEL_4 is TCompositeHappening
+(
+    SubHappenings =
+    [
         FXInfantryWeapon_Grenade_SMOKE
         (
             Anchor                = 'Fx_Tir_01'
@@ -16195,12 +16413,12 @@ Weapon_NKVD_SOV_1 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_PPsh41_x4
+        FXInfantryWeapon_PPsh41_x6
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 5
         ),
-        SFXWeapon_PPsh41_x4
+        SFXWeapon_PPsh41_x6
     ]
 )
 
@@ -18249,6 +18467,12 @@ Weapon_Partisans_Assault_YUG_3 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 1
 )
 
+Weapon_Partisans_Assault_YUG_4 is FXInfantryWeapon_CocktailMolotov_AT
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
+
 Weapon_Partisans_Assault_YUG_5 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
@@ -18395,7 +18619,72 @@ Weapon_Partisans_Cav_YUG_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Partisans_Cav_YUG_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Partisans_Cav_YUG_5 is FXInfantryWeapon_CocktailMolotov_AT
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 5
+)
+
+Weapon_Partisans_Cav_YUG_6 is FXInfantryWeapon_Stielhandgranate_24
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
+
+Weapon_Partisans_Cav_Trophy_YUG_1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_Beretta_M38_x4
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 5
+        ),
+        SFXWeapon_Beretta_M38_x4
+    ]
+)
+
+Weapon_Partisans_Cav_Trophy_YUG_2 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_M24_x6
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_M24_x6
+    ]
+)
+
+Weapon_Partisans_Cav_Trophy_YUG_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_lMG42
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_lMG42
+    ]
+)
+
+Weapon_Partisans_Cav_Trophy_YUG_4 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_lMG34
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_lMG34
+    ]
+)
+
+
+Weapon_Partisans_Cav_Trophy_YUG_5 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -18428,6 +18717,51 @@ Weapon_Partisans_CloseSupport_YUG_2 is TCompositeHappening
 )
 
 Weapon_Partisans_CloseSupport_YUG_5 is FXInfantryWeapon_Grenade_US_mk2
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
+
+Weapon_Partisans_CloseSupport_Trophy_YUG_1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_M24x5
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_M24x5
+    ]
+)
+
+Weapon_Partisans_CloseSupport_Trophy_YUG_2 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_lMG34
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_lMG34
+    ]
+)
+
+Weapon_Partisans_CloseSupport_Trophy_YUG_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_lMG42
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_lMG42
+    ]
+)
+
+Weapon_Partisans_CloseSupport_Trophy_YUG_5 is FXInfantryWeapon_Grenade_US_mk2
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -18715,10 +19049,10 @@ Weapon_Partisans_SOV_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Partisans_SOV_5 is FXInfantryWeapon_RDG33
+Weapon_Partisans_SOV_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_Partisans_Sniper_SOV_1 is TCompositeHappening
@@ -18880,7 +19214,54 @@ Weapon_Penal_ROU_2 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 1
 )
 
-Weapon_Penal_ROU_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Penal_ROU_3 is FXInfantryWeapon_CocktailMolotov_AT
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 1
+)
+
+
+Weapon_Penal_MG_ROU_1 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_Mannlicher_95_x14
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_Mannlicher_95_x14
+    ]
+)
+
+Weapon_Penal_MG_ROU_2 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_ZB_30_LMG_x3
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_ZB_30_LMG_x3
+    ]
+)
+
+
+Weapon_Penal_MG_ROU_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_ATR_PTRD_41_14_5mm_AP
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_ATR_PTRD_41_14_5mm_AP
+    ]
+)
+
+Weapon_Penal_MG_ROU_5 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -22475,10 +22856,10 @@ Weapon_Rifle_EST_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Rifle_EST_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Rifle_EST_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_Rifle_Early_US_1 is TCompositeHappening
@@ -22825,6 +23206,19 @@ Weapon_Rifle_Leader_CAN_3 is TCompositeHappening
 (
     SubHappenings =
     [
+        FXInfantryWeapon_Lee_Enfield_Scope
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_Lee_Enfield_Scope
+    ]
+)
+
+Weapon_Rifle_Leader_CAN_4 is TCompositeHappening
+(
+    SubHappenings =
+    [
         FXInfantryWeapon_PIAT
         (
             Anchor                = 'Fx_Tir_02'
@@ -22889,16 +23283,30 @@ Weapon_Rifle_Leader_POL_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Lee_Enfield_x2
+        FXInfantryWeapon_Lee_Enfield
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Lee_Enfield_x2
+        SFXWeapon_Lee_Enfield
     ]
 )
 
 Weapon_Rifle_Leader_POL_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_Lee_Enfield_Scope
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_Lee_Enfield_Scope
+    ]
+)
+
+
+Weapon_Rifle_Leader_POL_4 is TCompositeHappening
 (
     SubHappenings =
     [
@@ -22934,16 +23342,29 @@ Weapon_Rifle_Leader_UK_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Lee_Enfield_x2
+        FXInfantryWeapon_Lee_Enfield
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Lee_Enfield_x2
-    ]
+        SFXWeapon_Lee_Enfield
+	]
 )
 
 Weapon_Rifle_Leader_UK_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_Lee_Enfield_Scope
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_Lee_Enfield_Scope
+	]
+)
+
+Weapon_Rifle_Leader_UK_4 is TCompositeHappening
 (
     SubHappenings =
     [
@@ -23667,16 +24088,28 @@ Weapon_Rifle_Paratrooper_UK_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Lee_Enfield_x5
+        FXInfantryWeapon_Lee_Enfield_x4
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_Lee_Enfield_x5
+        SFXWeapon_Lee_Enfield_x4
     ]
 )
 
 Weapon_Rifle_Paratrooper_UK_3 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_Lee_Enfield_Scope
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 1
+        ),
+        SFXWeapon_Lee_Enfield_Scope
+    ]
+)
+Weapon_Rifle_Paratrooper_UK_4 is TCompositeHappening
 (
     SubHappenings =
     [
@@ -23689,13 +24122,14 @@ Weapon_Rifle_Paratrooper_UK_3 is TCompositeHappening
     ]
 )
 
-Weapon_Rifle_Paratrooper_UK_4 is FXInfantryWeapon_Gammon_Bombs
+
+Weapon_Rifle_Paratrooper_UK_5 is FXInfantryWeapon_Gammon_Bombs
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 5
 )
 
-Weapon_Rifle_Paratrooper_UK_5 is FXInfantryWeapon_Grenade_UK_M36
+Weapon_Rifle_Paratrooper_UK_6 is FXInfantryWeapon_Grenade_UK_M36
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -23752,7 +24186,6 @@ Weapon_Rifle_SW_4 is TCompositeHappening
         SFXWeapon_Panzerfaust_30
     ]
 )
-
 Weapon_Rifle_SW_5 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
@@ -24271,7 +24704,7 @@ Weapon_Rifles_India_UK_3 is TCompositeHappening
         ),
         SFXWeapon_Bren_LMG
     ]
-)
+)   
 
 Weapon_Rifles_India_UK_5 is FXInfantryWeapon_Grenade_UK_M36
 (
@@ -24336,7 +24769,6 @@ Weapon_Rifles_Ldr_BRZ_5 is FXInfantryWeapon_Grenade_UK_M36
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
 )
-
 Weapon_Rifles_Ldr_NZ_1 is TCompositeHappening
 (
     SubHappenings =
@@ -24871,7 +25303,7 @@ Weapon_Rosorio_Assault_ROU_3 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 1
 )
 
-Weapon_Rosorio_Assault_ROU_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Rosorio_Assault_ROU_4 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -28584,12 +29016,12 @@ Weapon_SkiJager_GER_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_Kar98_x7
+        FXInfantryWeapon_MP44_x7
         (
             Anchor                = 'Fx_Tir_01'
-            ShotCountInitialValue = 1
+            ShotCountInitialValue = 3
         ),
-        SFXWeapon_Kar98_x7
+        SFXWeapon_MP44_x7
     ]
 )
 
@@ -28776,14 +29208,28 @@ Weapon_SkiJager_SturmFusilier_1 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_MP44_x10
+        FXInfantryWeapon_MP44_x9
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 3
         ),
-        SFXWeapon_MP44_x10
+        SFXWeapon_MP44_x9
     ]
 )
+
+Weapon_SkiJager_SturmFusilier_2 is TCompositeHappening
+(
+    SubHappenings =
+    [
+        FXInfantryWeapon_Kar98_Scope
+        (
+            Anchor                = 'Fx_Tir_01'
+            ShotCountInitialValue = 3
+        ),
+        SFXWeapon_Kar98_Scope
+    ]
+)
+
 
 Weapon_SkiJager_SturmFusilier_4 is FXInfantryWeapon_Panzerknacker
 (
@@ -28801,14 +29247,15 @@ Weapon_SkiJager_Sturm_GER_1 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_MP44_x9
+        FXInfantryWeapon_MP44_x10
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 3
         ),
-        SFXWeapon_MP44_x9
+        SFXWeapon_MP44_x10
     ]
 )
+
 
 Weapon_SkiJager_Sturm_GER_4 is FXInfantryWeapon_Panzerknacker
 (
@@ -29582,6 +30029,12 @@ Weapon_Stosstruppen_MP44_GER_2 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 1
 )
 
+Weapon_Stosstruppen_MP44_GER_3 is FXInfantryWeapon_CocktailMolotov_AT
+(
+    Anchor                = 'Fx_Tir_01'
+    ShotCountInitialValue = 5
+)
+
 Weapon_Stosstruppen_MP44_GER_5 is FXInfantryWeapon_Stielhandgranate_24
 (
     Anchor                = 'Fx_Tir_01'
@@ -29811,10 +30264,10 @@ Weapon_Strelki_DT_SOV_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Strelki_DT_SOV_5 is FXInfantryWeapon_RDG33
+Weapon_Strelki_DT_SOV_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_Strelki_EstSOV_1 is TCompositeHappening
@@ -30799,10 +31252,10 @@ Weapon_Szekely_HON_4 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 5
 )
 
-Weapon_Szekely_HON_5 is FXInfantryWeapon_Stielhandgranate_24
+Weapon_Szekely_HON_5 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
-    ShotCountInitialValue = 1
+    ShotCountInitialValue = 5
 )
 
 Weapon_TAR_CMD_LIT_1 is TCompositeHappening
@@ -31321,7 +31774,7 @@ Weapon_Tankodesantniki_EstSOV_2 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 1
 )
 
-Weapon_Tankodesantniki_EstSOV_5 is FXInfantryWeapon_RDG33
+Weapon_Tankodesantniki_EstSOV_3 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -31346,7 +31799,7 @@ Weapon_Tankodesantniki_POL_2 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 1
 )
 
-Weapon_Tankodesantniki_POL_5 is FXInfantryWeapon_RDG33
+Weapon_Tankodesantniki_POL_3 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
@@ -31371,11 +31824,12 @@ Weapon_Tankodesantniki_SOV_2 is FXInfantryWeapon_CocktailMolotov
     ShotCountInitialValue = 1
 )
 
-Weapon_Tankodesantniki_SOV_5 is FXInfantryWeapon_RDG33
+Weapon_Tankodesantniki_SOV_3 is FXInfantryWeapon_CocktailMolotov_AT
 (
     Anchor                = 'Fx_Tir_01'
     ShotCountInitialValue = 1
 )
+
 
 Weapon_Tirailleurs_AEF_FR_1 is TCompositeHappening
 (
@@ -32317,12 +32771,12 @@ Weapon_Voltigeurs_FR_2 is TCompositeHappening
 (
     SubHappenings =
     [
-        FXInfantryWeapon_M1_Carabine
+        FXInfantryWeapon_M1_Carabine_x3
         (
             Anchor                = 'Fx_Tir_01'
             ShotCountInitialValue = 1
         ),
-        SFXWeapon_M1_Carabine
+        SFXWeapon_M1_Carabine_x3
     ]
 )
 

@@ -1,5 +1,5 @@
 // Ne pas éditer, ce fichier est auto-généré !
-
+//debug1
 
 DepictionOperatorNode_Reset_Generic is TCosmeticSetToPoseOperatorDesc()
 
@@ -35135,11 +35135,6 @@ Operators_Truck_Bedford_Supply_CAN is [
     DepictionOperatorNode_MotorSound_Gfx_VehiculeRoueMoyen_Moteur,
     DepictionOperatorNode_CropFlattening( Radius = 15 * Metre ),
 ]
-Operators_Truck_Bedford_Supply_CZ is [
-    DepictionOperatorNode_Reset_Generic,
-    DepictionOperatorNode_MotorSound_Gfx_VehiculeRoueMoyen_Moteur,
-    DepictionOperatorNode_CropFlattening( Radius = 15 * Metre ),
-]
 Operators_Truck_Bedford_Supply_NZ is [
     DepictionOperatorNode_Reset_Generic,
     DepictionOperatorNode_MotorSound_Gfx_VehiculeRoueMoyen_Moteur,
@@ -35156,6 +35151,11 @@ Operators_Truck_Bedford_Supply_SA is [
     DepictionOperatorNode_CropFlattening( Radius = 15 * Metre ),
 ]
 Operators_Truck_Bedford_Supply_UK is [
+    DepictionOperatorNode_Reset_Generic,
+    DepictionOperatorNode_MotorSound_Gfx_VehiculeRoueMoyen_Moteur,
+    DepictionOperatorNode_CropFlattening( Radius = 15 * Metre ),
+]
+Operators_Truck_Bedford_Supply_CZ is [
     DepictionOperatorNode_Reset_Generic,
     DepictionOperatorNode_MotorSound_Gfx_VehiculeRoueMoyen_Moteur,
     DepictionOperatorNode_CropFlattening( Radius = 15 * Metre ),

@@ -236,6 +236,16 @@ UnitSpecialties is TUnitSpecialtiesContainer
             )
         ),
         (
+            "Spec_capture_Unite",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_Capture_Unit"
+                SpecialtyHintTitleToken    = "SPE_LOGTC"
+                SpecialtyHintBodyToken     = "SPE_LOGBC"
+                SpecialtyHintExtendedToken = "SPE_LOGEC"
+            )
+        ),
+        (
             "Spec_reco_radio_Unite",
             TUnitSpecialtyDescriptor
             (
@@ -333,6 +343,116 @@ UnitSpecialties is TUnitSpecialtiesContainer
                 SpecialtyHintTitleToken    = "SPE_DISHT"
                 SpecialtyHintBodyToken     = "SPE_DISHB"
                 SpecialtyHintExtendedToken = "SPE_DISHE"
+            )
+        ),
+		(
+            "Spec_awareness_vehicle_Unite",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_awareness_vehicle"
+                SpecialtyHintTitleToken    = "SPE_AVHTT"
+                SpecialtyHintBodyToken     = "SPE_AVHB"
+                SpecialtyHintExtendedToken = "SPE_AVHE"
+            )
+        ),
+        (
+            "Spec_awareness_infanterie_Unite",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_awareness_infanterie"
+                SpecialtyHintTitleToken    = "SPE_AIHTT"
+                SpecialtyHintBodyToken     = "SPE_AIHB"
+                SpecialtyHintExtendedToken = "SPE_AIHE"
+            )
+        ),
+        		(
+            "Spec_combat_recon_Unite",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_combat_recon"
+                SpecialtyHintTitleToken    = "SPE_CRHTT"
+                SpecialtyHintBodyToken     = "SPE_CRHB"
+                SpecialtyHintExtendedToken = "SPE_CRHE"
+            )
+        ),
+        (
+            "Spec_paratrooper_Unite",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_paratrooper"
+                SpecialtyHintTitleToken    = "SPE_PARAT"
+                SpecialtyHintBodyToken     = "SPE_PARAB"
+                SpecialtyHintExtendedToken = "SPE_PARAE"
+            )
+        ),
+		(           
+             "Spec_militia_Unite",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_militia"
+                SpecialtyHintTitleToken    = "SPE_MLHTT"
+                SpecialtyHintBodyToken     = "SPE_MLHB"
+                SpecialtyHintExtendedToken = "SPE_MLHE"
+            )
+        ),
+        (           
+             "Spec_CQC_specialist_Unite",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_cqc_specialist"
+                SpecialtyHintTitleToken    = "SPE_CQCHTT"
+                SpecialtyHintBodyToken     = "SPE_CQCHB"
+                SpecialtyHintExtendedToken = "SPE_CQCHE"
+            )
+        ),
+        (           
+            "Spec_tank_destroyer_Unite",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_tank_destroyer"
+                SpecialtyHintTitleToken    = "SPE_TDTT"
+                SpecialtyHintBodyToken     = "SPE_TDHB"
+                SpecialtyHintExtendedToken = "SPE_TDHE"
+            )
+        ),
+        (           
+            "Spec_Artillery_Leader",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_Artillery_Leader"
+                SpecialtyHintTitleToken    = "SPE_ALTT"
+                SpecialtyHintBodyToken     = "SPE_ALHB"
+                SpecialtyHintExtendedToken = "SPE_ALHE"
+            )
+        ),
+        (           
+            "Spec_reco_bonus_range_1",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_range_bonus_1"
+                SpecialtyHintTitleToken    = "SPE_RRMHTT"
+                SpecialtyHintBodyToken     = "SPE_RRMHB"
+                SpecialtyHintExtendedToken = "SPE_RRMHE"
+            )
+        ),
+        (           
+            "Spec_reco_bonus_range_2",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_range_bonus_2"
+                SpecialtyHintTitleToken    = "SPE_RRDHTT"
+                SpecialtyHintBodyToken     = "SPE_RRDHB"
+                SpecialtyHintExtendedToken = "SPE_RRDHE"
+            )
+        ),
+        (           
+            "Spec_reco_bonus_range_3",
+            TUnitSpecialtyDescriptor
+            (
+                SpecialtyTextureName       = "Texture_Speciality_Icon_spec_range_bonus_3"
+                SpecialtyHintTitleToken    = "SPE_RRCHTT"
+                SpecialtyHintBodyToken     = "SPE_RRCHB"
+                SpecialtyHintExtendedToken = "SPE_RRCHE"
             )
         ),
     ]

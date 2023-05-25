@@ -1,3 +1,4 @@
+//debug1
 export Gfx_Truck_Bedford_Supply_CZ is TTimelyReceiverFactoryCarrier
 (
     DepictionTemplate = TDepictionTemplate

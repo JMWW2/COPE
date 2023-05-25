@@ -516,10 +516,10 @@ CubeAction_Capacity_Tank_Dissimule is TCubeActionCapacityButtonInformationsDescr
     BackgroundTexture            = "Texture_Button_Capacity_Tank_Dissimule"
     HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
     ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
-    ButtonTextToken              = ""
+    ButtonTextToken              = "ht_hide"
     HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
-    HintTitleToken               = ""
-    HintBodyToken                = ""
+    HintTitleToken               = "ht_hide"
+    HintBodyToken                = "hd_hide"
     HintExtendedToken            = ""
     DependanciesToIgnore         =
     [
@@ -527,3 +527,108 @@ CubeAction_Capacity_Tank_Dissimule is TCubeActionCapacityButtonInformationsDescr
     Descriptor                   = ~/Capacite_Tank_Dissimule
 )
 
+CubeAction_Capacity_CQC_Specialist_Effect is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_CQC_Specialist_Effect"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_CQC_Specialist_Effect"
+    HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
+    ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
+    ButtonTextToken              = "ht_hide"
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = "ht_hide"
+    HintBodyToken                = "hd_hide"
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Capacite_CQC_Specialist_Effect
+)
+
+CubeAction_Capacity_Militia_Effect is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_Militia_Effect"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_Militia_Effect"
+    HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
+    ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
+    ButtonTextToken              = "ht_hide"
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = "ht_hide"
+    HintBodyToken                = "hd_hide"
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Capacite_Militia_Effect
+)
+
+CubeAction_Capacity_Infiltrate is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_Inflitrate"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_Infiltrate"
+    HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
+    ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
+    ButtonTextToken              = "ht_sneak"
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = "ht_sneak"
+    HintBodyToken                = "hd_sneak"
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Capacite_Infiltrate
+)
+CubeAction_Capacity_Infanterie_Last_Stand is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_Infanterie_Last_Stand"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_Last_Stand"
+    HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
+    ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
+    ButtonTextToken              = "ht_stand"
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = "ht_stand"
+    HintBodyToken                = "hd_stand"
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Capacite_Infanterie_Last_Stand
+)
+CubeAction_Capacity_Suicide_IciEtMaintenant_Allie_Proche is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_Suicide_IciEtMaintenant_Allie_Proche"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_Suicide_IciEtMaintenant_Allie_Proche"
+    HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
+    ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
+    ButtonTextToken              = "ht_scuttle"
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = "ht_scuttle"
+    HintBodyToken                = "hd_scuttle"
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Capacite_Suicide_IciEtMaintenant_Allie_Proche
+    Mapping                      = $/KeyboardOption/Mapping_Suicide
+)
+CubeAction_Capacity_Unit_Bailed_Out is TCubeActionCapacityButtonInformationsDescriptor
+(
+    CubeActionName               = "CubeAction_Capacity_Suicide_Unit_Bailed_Out"
+    CubeActionFunctionType       = ~/TacticCubeActionFunctionType/Orders
+    BackgroundTexture            = "Texture_Button_Capacity_Suicide_Unit_Bailed_Out"
+    HoverSound                   = CubeActionButtonHasHoverSound ? CubeActionButtonHoverSound : nil
+    ClickSound                   = CubeActionButtonHasClickSound ? CubeActionButtonClickSound : nil
+    ButtonTextToken              = "ht_BailedO"
+    HintDico                     = ~/LocalisationConstantes/dico_interface_ingame
+    HintTitleToken               = "ht_BailedO"
+    HintBodyToken                = "hd_BailedO"
+    HintExtendedToken            = ""
+    DependanciesToIgnore         =
+    [
+    ]
+    Descriptor                   = ~/Capacite_Unit_Bailed_Out
+)

@@ -325,11 +325,11 @@ CommonTexture_grade1 is TUIResourceTexture_Common(FileName = "GameData:/Assets/2
 Texture_Speciality_Icon_Spec_commandement_active is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/Spec_commandement_active.png")
 Texture_Speciality_Icon_Spec_super_commandement_active is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Specialties/Spec_super_commandement_active.png")
 
-CommonTexture_Etiquette_Background     is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/etiquette_grise.png")
-CommonTexture_Etiquette_Background_Ace is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/etiquette_gold.png")
+CommonTexture_Etiquette_Background     is TUIResourceTexture_CommonModded(FileName = "etiquette_tribute44.png")
+CommonTexture_Etiquette_Background_Ace is TUIResourceTexture_CommonModded(FileName = "etiquette_tribute44aces.png")
 
-CommonTexture_Fond_Blindage   is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/blindage.png")
-CommonTexture_Fond_AP         is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/cercle_AP.png")
+CommonTexture_Fond_Blindage   is TUIResourceTexture_CommonModded(FileName = "blindage.png")
+CommonTexture_Fond_AP         is TUIResourceTexture_CommonModded(FileName = "cercle_AP.png")
 CommonTexture_Fond_AP_Bazooka is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/icone_fantassin.png")
 
 CommonTexture_Etoile                is TUIResourceTexture_Common(FileName = "GameData:/Assets/2D/Interface/Common/UnitsIcons/Experience/etoile.png")

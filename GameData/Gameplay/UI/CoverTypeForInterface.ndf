@@ -39,7 +39,7 @@ public coverTypeForInterface is TCoverTypeForInterface(
         (ETerrainType/Littoral               , ECoverTypeForInterface/None),
         (ETerrainType/Barbeles               , ECoverTypeForInterface/BarbedWire),
         (ETerrainType/Urbain                 , ECoverTypeForInterface/Light),
-        (ETerrainType/Batiment2              , ECoverTypeForInterface/None),
+        (ETerrainType/Batiment2              , ECoverTypeForInterface/Heavy),
         (ETerrainType/MaraisMine             , ECoverTypeForInterface/None),
         (ETerrainType/FosseAntichar          , ECoverTypeForInterface/Heavy),
         (ETerrainType/Tranchee               , ECoverTypeForInterface/Heavy),

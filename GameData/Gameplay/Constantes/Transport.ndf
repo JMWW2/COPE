@@ -1,8 +1,8 @@
 DefaultTransportLoadRadius                       is 221 * Metre // Metre
 DefaultBoatTransportLoadRadius                   is 442 * Metre // Metre
 
-WreckUnloadDamageBonus_Default_Physical          is 4
-WreckUnloadDamageBonus_Default_Suppress          is 700
+WreckUnloadDamageBonus_Default_Physical          is 3
+WreckUnloadDamageBonus_Default_Suppress          is 1100
 WreckUnloadDamageBonus_Default_Stun              is 0
 
 WreckUnloadDamageBonus_Chopper_Physical          is 5 //12

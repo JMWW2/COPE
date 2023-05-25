@@ -1,4 +1,6 @@
+
 export ModelFile_C_202_serie_XII_Folgore_CRO is 'GameData:Assets\3D\Units\CRO\Avion\C_202_serie_XII_Folgore_CRO\C_202_serie_XII_Folgore_CRO.Ase2NdfBin'
+
 
 Modele_C_202_serie_XII_Folgore_CRO is TResourceMultiMaterialMeshWithLod
 (
@@ -9,14 +11,18 @@ Modele_C_202_serie_XII_Folgore_CRO is TResourceMultiMaterialMeshWithLod
 
 Modele_C_202_serie_XII_Folgore_CRO_MID is TResourceMultiMaterialMeshWithLod
 (
+
     FileName = 'GameData:Assets\3D\Units\CRO\Avion\C_202_serie_XII_Folgore_CRO\C_202_serie_XII_Folgore_CRO.Ase2NdfBin'
+
     CivMask =  CivMask/Nationalite1
     TypeMask = TypeMask/Char
 )
 
 Modele_C_202_serie_XII_Folgore_CRO_LOW is TResourceMultiMaterialMeshWithLod
 (
+
     FileName = 'GameData:Assets\3D\Units\CRO\Avion\C_202_serie_XII_Folgore_CRO\C_202_serie_XII_Folgore_CRO.Ase2NdfBin'
+
     CivMask =  CivMask/Nationalite1
     TypeMask = TypeMask/Char
 )
@@ -24,6 +30,7 @@ Modele_C_202_serie_XII_Folgore_CRO_LOW is TResourceMultiMaterialMeshWithLod
 Modele_C_202_serie_XII_Folgore_CRO_train is TResourceMultiMaterialMeshWithLod
 (
     FileName = 'GameData:Assets\3D\Units\CRO\Avion\C_202_serie_XII_Folgore_CRO\C_202_serie_XII_Folgore_CRO_train.Ase2NdfBin'
+
     CivMask =  CivMask/Nationalite1
     TypeMask = TypeMask/Char
 )

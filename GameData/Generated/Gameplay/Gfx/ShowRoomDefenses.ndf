@@ -3311,6 +3311,85 @@ export Descriptor_ShowRoomUnit_Bunker_HMG42_YUG is TEntityDescriptor
 
     ]
 )
+export Descriptor_ShowRoomUnit_Bunker_Tito_YUG is TEntityDescriptor
+(
+    DescriptorId       = GUID:{8540597c-9dca-4857-8f42-0d6fa04ffb0c}
+    ClassNameForDebug  = "ShowRoomUnit_Bunker_Tito_YUG"
+    Modules            = [
+        // Position
+            TPositionModuleDescriptor
+            (
+                StickToGround              = True
+                InGeoDb                    = True
+                PorteurMustBeVisible       = True
+                MustUpdateZoneIndice       = False
+                ClampInWorld               = True
+                ClampOutMap                = False
+                HasNearlyNullBBox          = False
+                GfxDescriptorPorteur       = ~/GfxPorteurBatiment
+                Radius                     = ((100) * Metre)
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                CameraFollower             = nil
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+
+        // ApparenceModelModule
+        ApparenceModel is TModuleSelector
+        (
+            Default        = TApparenceModelModuleDescriptor
+            (
+                PickableObject                        = True
+                HideInNoFow                           = False
+                CreateTimelyChannelOnlyOnFirstSight   = False
+                Depiction = TTimelyReceiverFactoryCarrier
+                (
+                    DepictionTemplate = nil
+                    ModifyLB                         = TemplateTimelyDescriptorBatimentWithLevelDesignPattern_OnlyLevelBuild
+                    (
+                        SceneryDescriptorName      = 'Defense_Bunker_MG'
+                        LevelBuildDescriptor       = ~/DefenseUnitLevelBuildViewDescriptor
+                        RenderStyleProviderDescriptor = ~/DefaultRenderStyleProvider
+                    )
+                )
+            )
+            Selection      =
+            [
+                TModuleSelectorFilter
+                (
+                    Condition  = TModuleSelectorCondition_ParamEquals_Integer(ParamId=~/Parameter_ModuleCreationSelectionFilter  ParamValue=~/ModuleCreationFilter_Ghost)
+                    Descriptor = TApparenceModelModuleDescriptor
+                    (
+                        PickableObject = True
+                        Depiction = TTimelyReceiverFactoryCarrier
+                        (
+                            DepictionTemplate = nil
+                            ModifyLB  = TemplateTimelyDescriptorBatimentWithLevelDesignPattern_OnlyLevelBuild
+                            (
+                                SceneryDescriptorName = 'Defense_Bunker_MG'
+                                LevelBuildDescriptor  = ~/DefenseUnitLevelBuildViewDescriptor
+                                RenderStyleProviderDescriptor = ~/DefaultRenderStyleProvider
+                            )
+                        )
+                    )
+                ),
+                ~/NilDescriptorIfCadavre
+            ]
+        ),
+
+        // WeaponManager
+        WeaponManager is
+            TModuleSelector
+            (
+                Default        = $/GFX/Everything/WeaponDescriptor_Bunker_HMG42_YUG
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // LinkTeam
+            ~/LinkTeamModuleDescriptor,
+
+    ]
+)
 export Descriptor_ShowRoomUnit_Bunker_HMG_Breda_ITA is TEntityDescriptor
 (
     DescriptorId       = GUID:{f5024e16-3069-423d-8789-0e53d50885f5}

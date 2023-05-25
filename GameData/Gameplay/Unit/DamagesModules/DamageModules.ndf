@@ -52,10 +52,11 @@ Missile_MaxSuppressionDamages is 0
 // Possibilité d'enlever/rajouter des lignes dans le tableau
 Infanterie_SuppressDamagesRegenRatioList is
 [
-    [30, 2],    // 10s => regen x1
-    [35, 4],
-    [40, 8],
+    [40, 2],    // 10s => regen x1
+    [45, 4],
+    [50, 8],
 ]
+
 
 // si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
 Infanterie_SuppressDamagesRegenRatioOutOfRange is 20
@@ -66,9 +67,25 @@ Infanterie_StunDamagesRegen is 9999
 // Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
 Infanterie_StunDamagesToGetStunned is 9999
 
-Infanterie_MaxSuppressionDamages is 1250
+Infanterie_MaxSuppressionDamages is 1500
 
+InfanterieAirborne_SuppressDamagesRegenRatioList is
+[
+    [30, 2],    // 10s => regen x1
+    [35, 4],
+    [40, 8],
+]
 
+// si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
+InfanterieAirborne_SuppressDamagesRegenRatioOutOfRange is 20
+
+// Points de "stun" récupérés par seconde
+InfanterieAirborne_StunDamagesRegen is 9999
+
+// Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
+InfanterieAirborne_StunDamagesToGetStunned is 9999
+
+InfanterieAirborne_MaxSuppressionDamages is 1750
 // -------------------------------------------------------------------------------------------------
 // GroundUnit
 // -------------------------------------------------------------------------------------------------
@@ -77,9 +94,9 @@ Infanterie_MaxSuppressionDamages is 1250
 // Possibilité d'enlever/rajouter des lignes dans le tableau
 GroundUnit_SuppressDamagesRegenRatioList is
 [
-    [30, 2],    // 10s => regen x1
-    [35, 4],
-    [40, 8],
+    [35, 2],    // 10s => regen x1
+    [40, 4],
+    [45, 8],
 ]
 
 // si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
@@ -117,7 +134,7 @@ Airplane_StunDamagesRegen is 9999
 // Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
 Airplane_StunDamagesToGetStunned is 9999
 
-Airplane_MaxSuppressionDamages is 1150
+Airplane_MaxSuppressionDamages is 1100
 
 
 
@@ -207,23 +224,22 @@ BoatSmall_MaxSuppressionDamages is 1000
 // Possibilité d'enlever/rajouter des lignes dans le tableau
 BoatMedium_SuppressDamagesRegenRatioList is
 [
-    [1, 4],       // 10s => regen x4 //x2
-    [10, 8],      // 20s => regen x8//x4
-    [30, 12],     // 30s => regen x12//x8
-    [40, 18],     // 40s => regen x18/x16
-    [50, 28],     // 50s => regen x28//x32
-]
+    [40, 2],    // 10s => regen x1
+    [45, 4],
+    [50, 8],
+]     // 50s => regen x28//x32
+
 
 // si hors de portés de tir direct d'un ennemi (tir partant comme reçu)
 BoatMedium_SuppressDamagesRegenRatioOutOfRange is 20
 
 // Points de "stun" récupérés par seconde
-BoatMedium_StunDamagesRegen is 20
+BoatMedium_StunDamagesRegen is 9999
 
 // Dégâts de "stun" que l'unité doit atteindre pour être stunned (dégâts augmentant avec les dégâts de suppressions et regénérés avec StunDamagesRegen)
-BoatMedium_StunDamagesToGetStunned is 1200
+BoatMedium_StunDamagesToGetStunned is 9999
 
-BoatMedium_MaxSuppressionDamages is 2000
+BoatMedium_MaxSuppressionDamages is 1250
 
 
 // -------------------------------------------------------------------------------------------------

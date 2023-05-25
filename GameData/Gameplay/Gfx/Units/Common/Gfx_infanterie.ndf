@@ -10606,7 +10606,6 @@ CIABG_Mot is 'GameData:Assets\3D\Units\CZ\Infanterie\CIABG\CIABG_Mot.Ase2NdfBin'
 CIABG_NCO is 'GameData:Assets\3D\Units\CZ\Infanterie\CIABG\CIABG_NCO.Ase2NdfBin'
 CIABG_Officer is 'GameData:Assets\3D\Units\CZ\Infanterie\CIABG\CIABG_Officer.Ase2NdfBin'
 CIABG_spe is 'GameData:Assets\3D\Units\CZ\Infanterie\CIABG\CIABG_spe.Ase2NdfBin'
-
 //Commander_CZ
 export ModelFile_Commander_CZ is 'GameData:Assets\3D\Units\CZ\Infanterie\CIABG\CIABG_Officer.Ase2NdfBin'
 export ModelFile_Commander_CZ_LOW is 'GameData:Assets\3D\Units\CZ\Infanterie\CIABG\CIABG_Officer.Ase2NdfBin'

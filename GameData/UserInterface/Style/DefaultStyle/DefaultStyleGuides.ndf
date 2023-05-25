@@ -1708,7 +1708,7 @@ DefaultStyleGuide is TUISpecificDefaultStyleGuide
 
         ("PanelScore/AllianceScore/Background",                         MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Black80 ) ), ]),
         ("PanelScore/PlayerScore/Background",                           MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Gray80 ) ), ]),
-        ("PanelScore/Bleed",                                            MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = DarkGray ) ), ]),
+        ("PanelScore/Bleed",                                            MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Orange3 ) ), ]),
         ("PanelScore/BleedValue",                                       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = DarkGray ) ), ]),
         ("PanelScore/ObjectiveFlag",                                    MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Glacier ) ), ]),
         ("PingDisplay/GoodBar",                                         MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Vert3 ) ), ]),
@@ -1719,9 +1719,9 @@ DefaultStyleGuide is TUISpecificDefaultStyleGuide
         ("CurrentlyPlayingTeamPanel/Positive",                          MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Vert ) ), ]),
         ("CurrentlyPlayingTeamPanel/Negative",                          MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Vert ) ), ]),
         ("UnitLabel/GaugeBackground",                                   MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Noir ) ), ]),
-        ("UnitLabel/Gauge",                                             MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougeMoyen ) ), ]),
+        ("UnitLabel/Gauge",                                             MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = RougeSovietique ) ), ]),
         ("UnitLabel/SupplyGauge",                                       MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = JauneVert_sombre ) ), ]),
-        ("UnitLabel/UnitCount",                                         MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = VertSombre ) ), ]),
+        ("UnitLabel/UnitCount",                                         MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = SeaBlue ) ), ]),
         ("UnitLabel/ReloadChronoColor0",                                MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = Transparent ) ), ]),
         ("UnitLabel/ReloadChronoColor1",                                MAP [ ( ~/ComponentState/Normal, TColorRTTI( Color = BlancPur ) ), ]),
         ("UnitLabel/BackgroundColor",                                   MAP [

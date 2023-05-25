@@ -47,7 +47,7 @@ UnitLabelUnitPlayerNameBUCKComponent is BUCKTextDescriptor
 (
     ElementName = 'PlayerName'
     ComponentFrame = TUIFramePropertyRTTI
-    (
+    (										
         MagnifiableOffset = [0.0, 0.0]
         AlignementToFather = [0.5, 0.0]
         AlignementToAnchor = [0.5, 0.0]
@@ -83,7 +83,7 @@ UnitLabelUnitNameBUCKComponent is BUCKTextDescriptor
 (
     ElementName = 'UnitName'
     ComponentFrame = TUIFramePropertyRTTI
-    (
+    (									
         MagnifiableOffset = [0.0, 0.0]
         AlignementToFather = [0.5, 0.0]
         AlignementToAnchor = [0.5, 0.0]
@@ -140,7 +140,7 @@ is BUCKContainerDescriptor
             ElementName = 'ParachutistIconL'
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [45, 27]
+                MagnifiableWidthHeight = [34, 16]
                 AlignementToFather = [0, 0.5]
                 AlignementToAnchor = [0, 0.5]
             )
@@ -157,7 +157,7 @@ is BUCKContainerDescriptor
             ElementName = 'ParachutistIconR'
             ComponentFrame = TUIFramePropertyRTTI
             (
-                MagnifiableWidthHeight = [45, 27]
+                MagnifiableWidthHeight = [34, 16]
                 AlignementToFather = [1, 0.5]
                 AlignementToAnchor = [1, 0.5]
             )
@@ -239,7 +239,7 @@ is BUCKTextDescriptor
 
     UniformDrawer = $/UserInterface/UIUniformDrawer
 
-    TextColor = "SD2_BlancPur"
+    TextColor = "VertSombre"
     TextSize = "22"
 
 )
@@ -284,7 +284,7 @@ is BUCKContainerDescriptor
     ElementName = 'APIcon'
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [22.0, 16.0]
+        MagnifiableWidthHeight = [25.0, 16.0]
     )
 
     Components =
@@ -447,7 +447,7 @@ is BUCKTextureDescriptor
     ElementName = 'CoverIcon'
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [20.0, 20.0]
+        MagnifiableWidthHeight = [25.0, 25.0]
         MagnifiableOffset = <MagnifiableOffset>
         AlignementToFather = [0.0, 0.5]
         AlignementToAnchor = [0.0, 0.0]
@@ -470,7 +470,7 @@ is BUCKContainerDescriptor
     ElementName = 'PlatingIcon'
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [22.0, 16.0]
+        MagnifiableWidthHeight = [25.0, 16.0]
     )
 
     Components =
@@ -533,7 +533,7 @@ UnitLabelUnitReloadIconBUCKComponent is BUCKChronoAnimatedTextureDescriptor
     ElementName = 'ReloadIcon'
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [20.0, 20.0]
+        MagnifiableWidthHeight = [21.0, 21.0]
         AlignementToFather = [0.5, 0.0]
         AlignementToAnchor = [0.5, 0.0]
     )
@@ -543,8 +543,9 @@ UnitLabelUnitReloadIconBUCKComponent is BUCKChronoAnimatedTextureDescriptor
     ChronoTexture = "UseInGame_Chrono_Full"
     TextureToken = "UseInGame_Chrono_Fond"
 
-    ChronoTextureColor0 = "UnitLabel/ReloadChronoColor0"
-    ChronoTextureColor1 = "UnitLabel/ReloadChronoColor1"
+    ChronoTextureColor0 = "Transparent"
+    // A configurer via AimingDefaultColor
+    ChronoTextureColor1 = "Cyan"
 
     TextureFrame = TUIFramePropertyRTTI
     (
@@ -608,7 +609,7 @@ UnitLabelUnitMoraleGaugeBUCKComponent is TBUCKSpecificLabelGaugeDescriptor
     ElementName = 'MoraleGauge'
     ComponentFrame = TUIFramePropertyRTTI
     (
-        MagnifiableWidthHeight = [51.0, 6.0]
+        MagnifiableWidthHeight = [51.0, 7.0]
         MagnifiableOffset = [0.0, 0.0]
         AlignementToFather = [0.5, 0.0]
         AlignementToAnchor = [0.5, 0.0]
@@ -666,7 +667,7 @@ is BUCKTextDescriptor
     BackgroundBlockColorToken = "SD2_Gris80"
 
     TextColor = "SD2_Blanc184"
-    TextSize = "12"
+    TextSize = "14"
 )
 
 //----------------------------------------------------------------------
@@ -981,7 +982,8 @@ UnitLabelUnitCriticalDescriptionBUCKComponent is BUCKContainerDescriptor
     Components =
     [
         BUCKTextDescriptor
-        (
+		(
+ 
             ElementName = 'CriticDescriptionText'
             ComponentFrame = TUIFramePropertyRTTI
             (
@@ -1010,7 +1012,7 @@ UnitLabelUnitCriticalDescriptionBUCKComponent is BUCKContainerDescriptor
             TextDico = ~/LocalisationConstantes/dico_interface_ingame
 
             TextColor = "UnitLabel/CriticDescription"
-            TextSize = "11"
+            TextSize = "12"
         )
     ]
 )
@@ -1476,7 +1478,7 @@ is TUISpecificInGameUnitLabelViewDescriptor
 (
     // Animation Stealthed
     // Temps de durée d'un blink
-    AnimStealthedBlinkDuration = 2.0
+    AnimStealthedBlinkDuration = 2.0 // 1.0
     // Animation Panicked
     // Temps de durée d'un blink
     AnimPanickedBlinkDuration = 1.5
@@ -1499,7 +1501,7 @@ is TUISpecificInGameUnitLabelViewDescriptor
 
     // Valeur de transparence de la version de l'étiquette pour les ghost
     GhostLabelVersionTransparency = 0.5
-    CriticalsMaxListSize = 1
+    CriticalsMaxListSize = 3
     // Taille relative de l'icône NATO
     UnitIconTextureNATOSize = 0.7
 
@@ -1514,6 +1516,7 @@ is TUISpecificInGameUnitLabelViewDescriptor
     CriticalDescriptionComponent    = ~/UnitLabelUnitCriticalDescriptionBUCKComponent
     AceBackgroundTexture            = "CommonTexture_Etiquette_Background_Ace"
     NormalBackgroundTexture         = "CommonTexture_Etiquette_Background"
+	
 
     // SmartHoldFireColorTokens
     SmartHoldFireIconColorToken =

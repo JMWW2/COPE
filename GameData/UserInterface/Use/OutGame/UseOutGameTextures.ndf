@@ -318,10 +318,10 @@ OutgameTexture_DivisionsMenuIcon_h is TUIResourceTexture_OutGame( FileName = "Ga
 
 OutgameTexture_Lobby_Filter_East is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/socialism_icon.png" )
 
-OutgameTexture_outgame_sd2 is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/HUB/HUB_Dezoom.png" )
+OutgameTexture_outgame_sd2 is TUIResourceTexture_OutGameModded( FileName = "COPE1920x1080.png" )
 OutgameTexture_outgame_sd2_desk is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/HUB/HUB_Profile.png" )
 OutgameTexture_outgame_sd2_Battlegroups is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/HUB/HUB_Battlegroups.png" )
-OutgameTexture_outgame_sd2_Multi is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/HUB/HUB_Multi.png" )
+OutgameTexture_outgame_sd2_Multi is TUIResourceTexture_OutGameModded( FileName = "Fondmultiplayer.png" )
 OutgameTexture_outgame_sd2_Solo is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/HUB/HUB_Solo.png" )
 OutgameTexture_outgame_sd2_Tuto_Vulcan1 is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/HUB/Vulcan1.png" )
 OutgameTexture_outgame_sd2_Tuto_Vulcan2 is TUIResourceTexture_OutGame( FileName = "GameData:/Assets/2D/Interface/UseOutGame/HUB/Vulcan2.png" )

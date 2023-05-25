@@ -190,10 +190,3 @@ export GfxCercleDispersion is TGfxDescriptorPathZonePortee
     AlphaExpansionMax     = 128
     AlphaExpansionMin     = 32
 )
-
-//------------------------------------------------------------------------------
-//---- Feedbacks ---------------------------------------------------------------
-
-GfxFeedbackPrincipal_Batiment is TGfxDescriptor // Utilise par le porteur barycentre
-(
-)

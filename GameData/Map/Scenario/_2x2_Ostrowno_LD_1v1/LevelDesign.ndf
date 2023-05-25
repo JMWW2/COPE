@@ -1,0 +1,1847 @@
+gameDesignItemList is TGameDesignItemList
+(
+    GameDesignItemList =
+    [
+        TGameDesignItem
+        (
+            Position = float3[1070080,414720,2459.288]
+            Rotation = -0.01520608
+            AddOn = TGameDesignAddOn_AerialCorridor
+            (
+                Name = 'P0_AutoName_54'
+                Ranking = 'AerialCorridors'
+                GUID = GUID:{FF0F88EA-882F-B24B-B922-E7D7D35716FE}
+                NumAlliance = 1
+            )
+            Scale = float3[0.1746166,0.5003171,1]
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1070080,652800,963.0147]
+            Rotation = -0.01520608
+            AddOn = TGameDesignAddOn_AerialCorridor
+            (
+                Name = 'P0_AutoName_53'
+                Ranking = 'AerialCorridors'
+                GUID = GUID:{B3D7C3F9-667A-044E-9D33-A100F9BD8B96}
+                NumAlliance = 1
+            )
+            Scale = float3[0.1746166,0.5003171,1]
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1054720,652800,960.7647]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_70'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{07777A51-C9B5-8741-812D-BB088C0F53CD}
+                CommandsInfluenceZone = true
+                NumAlliance = 1
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1054690.8,414720,2459.288]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_61'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{9D5F321E-C2E4-0045-8274-297D3B93413F}
+                CommandsInfluenceZone = true
+                NumAlliance = 1
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1054698.6,174080,1050.307]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_69'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{B6AE9AC2-F2E7-344F-BB93-AFF469B72FCB}
+                CommandsInfluenceZone = true
+                NumAlliance = 1
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1223680,373760,2459.288]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_22'
+                Ranking = 'Objective'
+                GUID = GUID:{2635FE36-9D57-EF44-9A4C-630A3C2BB598}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1110950.4,696320,851.8179]
+            AddOn = TGameDesignAddOn_StartingPoint
+            (
+                Name = 'P0_AutoName_14'
+                Ranking = 'StartingPoints'
+                GUID = GUID:{53D4F2B2-E93E-C847-9F98-5DF194F3E806}
+                AllianceNum = 1
+                WarmupCamPath = 'Camp1'
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1070080,890880,2463.788]
+            Rotation = -0.01520608
+            AddOn = TGameDesignAddOn_AerialCorridor
+            (
+                Name = 'P0_AutoName_52'
+                Ranking = 'AerialCorridors'
+                GUID = GUID:{4DFCA448-A584-2147-9397-FD7B0994CEDB}
+                NumAlliance = 1
+            )
+            Scale = float3[0.1746166,0.5003171,1]
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1054715.9,890880,2459.288]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_71'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{4375CAC8-CBD7-7445-9245-4FDFEEA73D04}
+                CommandsInfluenceZone = true
+                NumAlliance = 1
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1377280,230400,8196.875]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_26'
+                Ranking = 'Objective'
+                GUID = GUID:{5DE6061A-CA5E-C64E-ACD6-08876906CFC5}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1725757.9,230400,2460.056]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_2'
+                Ranking = 'Objective'
+                GUID = GUID:{ACCBE2D6-2F97-9E4F-A319-1E15FE88364A}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1496658.6,230400.3,2455.978]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_15'
+                Ranking = 'Objective'
+                GUID = GUID:{A4CCC649-D29A-DE45-9166-E6374FE60EE1}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1516126.4,230400.7,2463.804]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_5'
+                Ranking = 'Objective'
+                GUID = GUID:{B75AF63D-7880-464D-8BEB-5D4189A7C07D}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1423360,230400,2463.788]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_30'
+                Ranking = 'Objective'
+                GUID = GUID:{81D3A207-8EA7-7446-8FF7-C4C82AF0A78A}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1699840,230400,2463.788]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_31'
+                Ranking = 'Objective'
+                GUID = GUID:{4EDD4B08-7F6E-D84B-AA5C-669BC4EDC81B}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1479680,230400,2466.038]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_24'
+                Ranking = 'Objective'
+                GUID = GUID:{5BE8D804-09B3-9A4A-8441-359010A3750D}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1854032.6,230400,2459.288]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_23'
+                Ranking = 'Objective'
+                GUID = GUID:{05B9A5BB-10F7-4D49-8D47-3399F1E297B7}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1632835.4,230400.3,2467.968]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_32'
+                Ranking = 'Objective'
+                GUID = GUID:{6D137D56-B31C-7049-9B1B-40CA16E1F1DE}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1832960,230400,2454.787]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_28'
+                Ranking = 'Objective'
+                GUID = GUID:{3AE43755-8C0C-1B41-9FFC-C2405F6EBE86}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1704960,230400,2459.288]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_33'
+                Ranking = 'Objective'
+                GUID = GUID:{AEEEAD50-F463-274D-AF34-32965268D007}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1676800,230400,2463.788]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_4'
+                Ranking = 'Objective'
+                GUID = GUID:{4ACFB2AD-775A-1F42-8CAF-581124F8F217}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1595371.4,230400.3,2459.288]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_1'
+                Ranking = 'Objective'
+                GUID = GUID:{CB856D22-73C1-E047-93AA-8D341C2A04B2}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1397760,230400,2463.788]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_17'
+                Ranking = 'Objective'
+                GUID = GUID:{47D84298-5EDF-BD40-9CB4-B4A59A123BF1}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1310720,230400,2459.288]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_8'
+                Ranking = 'Objective'
+                GUID = GUID:{DEB998A2-0D09-2349-BCF6-557A598A772D}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1820160,230400,2459.288]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_3'
+                Ranking = 'Objective'
+                GUID = GUID:{962EEE4F-8C46-5746-AB98-62DFB5530C27}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1812480,230400,2459.288]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_27'
+                Ranking = 'Objective'
+                GUID = GUID:{D207AF36-DC44-924B-AF2A-20B2C3768317}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1423360,230400,12483.19]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_19'
+                Ranking = 'Objective'
+                GUID = GUID:{B2C455D6-1878-9149-BA99-41D0FE143EDE}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1671680,230400,2475.038]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_18'
+                Ranking = 'Objective'
+                GUID = GUID:{98436F27-10D9-7A4D-8DB5-1DE78EA059FB}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1492480,230400,2454.787]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_25'
+                Ranking = 'Objective'
+                GUID = GUID:{B46AB0A0-9058-974E-A953-7FF91B90C887}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1085440,588800,2459.288]
+            AddOn = TGameDesignAddOn_ReinforcementLocation
+            (
+                Name = 'P0_AutoName_2'
+                Ranking = 'ReinforcementLocations'
+                GUID = GUID:{395BBB48-9310-7748-88AA-646C8ABCBEA0}
+                NumAlliance = 1
+                StartPosition = float3[1049600,588800,0]
+                EndPosition = float3[1121280,588800,0]
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1085440,359680,2499.788]
+            Rotation = 0.4958748
+            AddOn = TGameDesignAddOn_ReinforcementLocation
+            (
+                Name = 'P0_AutoName_15'
+                Ranking = 'ReinforcementLocations'
+                GUID = GUID:{19ECE935-72ED-A346-BEFE-63DFDF501E0E}
+                NumAlliance = 1
+                StartPosition = float3[1049600,340480,0]
+                EndPosition = float3[1121280,378880,0]
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1085440,961280,2454.787]
+            Rotation = -0.4958748
+            AddOn = TGameDesignAddOn_ReinforcementLocation
+            (
+                Name = 'P0_AutoName_10'
+                Ranking = 'ReinforcementLocations'
+                GUID = GUID:{59D7F3BE-E768-774D-8FA7-D7445D034FD8}
+                NumAlliance = 1
+                StartPosition = float3[1049600,980480,0]
+                EndPosition = float3[1121280,942080,0]
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1085440,773120,2452.537]
+            Rotation = -0.3448619
+            AddOn = TGameDesignAddOn_ReinforcementLocation
+            (
+                Name = 'P0_AutoName_9'
+                Ranking = 'ReinforcementLocations'
+                GUID = GUID:{676CBEDB-5938-C44B-8367-781F9E052563}
+                NumAlliance = 1
+                StartPosition = float3[1049600,785920,0]
+                EndPosition = float3[1121280,760320,0]
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1996800,414720,2461.538]
+            Rotation = 3.126387
+            AddOn = TGameDesignAddOn_AerialCorridor
+            (
+                Name = 'P0_AutoName_58'
+                Ranking = 'AerialCorridors'
+                GUID = GUID:{5D95DAE2-CB14-294E-B088-2C94565F824E}
+            )
+            Scale = float3[0.1746166,0.5003171,1]
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[2012160,174080,2468.288]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_84'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{A716E8D2-47B8-EB4C-A73B-9171BDF0CE78}
+                CommandsInfluenceZone = true
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[2012167.9,414720,2477.178]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_83'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{431FE1B2-7723-894D-AA19-D3C3E6C4EAF0}
+                CommandsInfluenceZone = true
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1983261.8,668160,8192.375]
+            Rotation = 3.141593
+            AddOn = TGameDesignAddOn_StartingPoint
+            (
+                Name = 'P0_AutoName_5'
+                Ranking = 'StartingPoints'
+                GUID = GUID:{31520B76-33C6-D042-84B6-FB3488D8A684}
+                WarmupCamPath = 'Camp0'
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1996800,655360,8192.375]
+            Rotation = 3.126387
+            AddOn = TGameDesignAddOn_AerialCorridor
+            (
+                Name = 'P0_AutoName_57'
+                Ranking = 'AerialCorridors'
+                GUID = GUID:{03BC6671-6B1C-C14D-A09D-0A608048D09C}
+            )
+            Scale = float3[0.1746166,0.5003171,1]
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1996800,893440,2475.038]
+            Rotation = 3.126387
+            AddOn = TGameDesignAddOn_AerialCorridor
+            (
+                Name = 'P0_AutoName_56'
+                Ranking = 'AerialCorridors'
+                GUID = GUID:{13E8A612-2759-3F4C-8DAE-C8B9249D2B32}
+            )
+            Scale = float3[0.1746166,0.5003171,1]
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[2012160,655360,8172.125]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_68'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{A6CFFC56-FF0D-C047-B23D-2B44B2BC91D4}
+                CommandsInfluenceZone = true
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[2012189.3,893440,2483.113]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_82'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{42637EF4-34B1-7048-8C67-90CFD2BE1DB7}
+                CommandsInfluenceZone = true
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1981440,348160,2454.787]
+            Rotation = 2.393631
+            AddOn = TGameDesignAddOn_ReinforcementLocation
+            (
+                Name = 'P0_AutoName_29'
+                Ranking = 'ReinforcementLocations'
+                GUID = GUID:{01119B76-9B18-6749-96C6-0DC41F0C2D39}
+                StartPosition = float3[2017280,314880,0]
+                EndPosition = float3[1945600,381440,0]
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1981440,651520,8192.375]
+            Rotation = 3.034755
+            AddOn = TGameDesignAddOn_ReinforcementLocation
+            (
+                Name = 'P0_AutoName_25'
+                Ranking = 'ReinforcementLocations'
+                GUID = GUID:{C6E96C6A-165C-0744-BD0D-B97BAD65138E}
+                StartPosition = float3[2017280,647680,0]
+                EndPosition = float3[1945600,655360,0]
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1981440,526080,2454.787]
+            Rotation = 2.964603
+            AddOn = TGameDesignAddOn_ReinforcementLocation
+            (
+                Name = 'P0_AutoName_30'
+                Ranking = 'ReinforcementLocations'
+                GUID = GUID:{A9C89723-5C58-C549-86E6-8997ECFAFFC4}
+                StartPosition = float3[2017280,519680,0]
+                EndPosition = float3[1945600,532480,0]
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1981440,773120,2459.288]
+            Rotation = -2.36035
+            AddOn = TGameDesignAddOn_ReinforcementLocation
+            (
+                Name = 'P0_AutoName_31'
+                Ranking = 'ReinforcementLocations'
+                GUID = GUID:{A4A6D579-0758-C742-ADFE-80D0D913AEB8}
+                StartPosition = float3[2017280,808960,0]
+                EndPosition = float3[1945600,737280,0]
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1054720,1131520,2490.788]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_63'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{FAD018C7-746C-2847-87B8-0235FF02D937}
+                CommandsInfluenceZone = true
+                NumAlliance = 1
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1437815.1,1104616.4,2459.288]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_6'
+                Ranking = 'Objective'
+                GUID = GUID:{3EF02564-96C2-524B-A688-ED54F940928A}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1361920,993280,2459.288]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_21'
+                Ranking = 'Objective'
+                GUID = GUID:{D8CB89A0-4584-814C-8C14-15EF36F797E5}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1576960,1024000,2463.788]
+            Rotation = -1.566639
+            (
+                Name = 'Objective_29'
+                Ranking = 'Objective'
+                GUID = GUID:{696BFF0E-54CF-7F42-A387-67D59541E6D6}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[2012185.1,1131520,2886.882]
+            Rotation = -0.0005493451
+            AddOn = TGameDesignAddOn_InfluencePoint
+            (
+                Name = 'InfluencePoint_79'
+                Ranking = 'InfluencePoint'
+                GUID = GUID:{23D1F920-A3D5-0A43-9170-103BE6D780D2}
+                CommandsInfluenceZone = true
+                InfluenceValue = 0.3
+                LossPerSecondWhenIsolated = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1981440,979200,2459.288]
+            Rotation = 2.591281
+            AddOn = TGameDesignAddOn_ReinforcementLocation
+            (
+                Name = 'P0_AutoName_36'
+                Ranking = 'ReinforcementLocations'
+                GUID = GUID:{7981DBCC-F404-E445-9C8C-6D4C5AA7211A}
+                StartPosition = float3[2017280,957440,0]
+                EndPosition = float3[1945600,1000960,0]
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1290239.9,593920.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_184'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{FE01652C-153C-F84A-9B29-338E34EC35C4}
+                ZoneCorridor = 4
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1274879.9,471040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_172'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{9B9D4C9E-FE51-0B4E-977B-F23D827CBB54}
+                ZoneCorridor = 5
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1213439.9,471040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_171'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{3BB93141-23BC-8C41-8B61-B9FA7FDAD782}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1274879.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_160'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{FCD79F88-69D7-8544-BFD5-4029DB9384FD}
+                ZoneCorridor = 6
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1198080,225280.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_148'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{AC09CD4E-5907-FC42-B376-8295F2745CDF}
+                ZoneCorridor = 7
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1213439.9,578560.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_183'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{D57838D2-CD85-4F43-8BB3-69420F94B301}
+                ZoneCorridor = 4
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1121279.9,471040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_170'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{0C6A2C68-6216-4E4C-B804-0A9B0C9385AB}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1198079.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_159'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{773805BE-B950-D642-A084-8FAEEE9070AF}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1290240,225280.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_149'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{0A2A77CF-1D75-9546-BA9B-D1467603D38F}
+                ZoneCorridor = 7
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1121280,225280.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_147'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{ACCF7B5A-5BF7-9B45-936B-5EAE7B5ABF5A}
+                ZoneCorridor = 7
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1121280,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_158'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{6F255C89-60AA-EB42-8252-2129BDD99941}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1121279.9,593920.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_182'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{5378C355-55F5-6B45-94ED-53B3751AF6B0}
+                ZoneCorridor = 4
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1290239.9,855040.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_205'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{77D1C316-2923-6C4A-91DD-393B5951B396}
+                ZoneCorridor = 2
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1121280,732160.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_193'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{07D669DF-5D16-5448-91BB-622C0BD4AE59}
+                ZoneCorridor = 3
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1198079.9,839680.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_204'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{A8A0A9D6-10F1-AC4B-B0AD-AD91B5C47222}
+                ZoneCorridor = 2
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1213439.9,716800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_194'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{675E504C-79F7-C54D-A88D-C3856CD37042}
+                ZoneCorridor = 3
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1259520,962560.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_216'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{FEA7ADC9-8E13-7043-B59A-3C0C549EC98B}
+                ZoneCorridor = 1
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1305600,701440.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_195'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{A3FA213F-70BF-EA42-AA59-1D5118223271}
+                ZoneCorridor = 3
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1121279.9,855040.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_203'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{A23C683D-FA71-FE41-9A95-A566D027301A}
+                ZoneCorridor = 2
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1443839.9,225280.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_151'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{05DC5702-9C9E-0F4D-B292-D47AD25834C7}
+                ZoneCorridor = 7
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1351680,471040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_173'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{8B959914-8844-FB4D-9C97-F171BB65928B}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1535999.9,225280.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_152'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{E05FD0CC-7A76-1341-9BC9-A131E83D9A73}
+                ZoneCorridor = 7
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1950719.9,593920.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_192'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{DBF9EF78-B2F8-9C4C-8989-B5AE05961A18}
+                ZoneCorridor = 4
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1336319.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_161'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{F94A05DC-2A17-2646-B066-539ED380D23C}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1520640,593920.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_187'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{1A979EAE-BD6D-BA44-BD6B-E9ED5DDCCE06}
+                ZoneCorridor = 4
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1351680,209920.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_150'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{5FC45777-6788-E243-8977-EBC300EFA5CC}
+                ZoneCorridor = 7
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1443839.9,578560.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_186'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{C548D0C5-B8A4-754F-AA54-068BE27BF9F2}
+                ZoneCorridor = 4
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1428479.9,471040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_174'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{4D5F4A16-B07D-7D47-B2F5-BC1B6D437D61}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1628159.9,486400.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_177'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{44461BA3-4D01-5B43-80FB-7654A7F8CE04}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1689599.9,593920.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_189'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{2007C2A1-AD1C-D94B-9CF5-5FC6C20B887C}
+                ZoneCorridor = 4
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1597439.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_164'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{416C5444-F544-7440-B4DC-D8E7AA206FF1}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1628159.9,593920.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_188'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{C0A2D202-84C0-4C42-97E3-83F2E02A3C4B}
+                ZoneCorridor = 4
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1689599.9,471040.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_178'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{4950DDC5-6D41-FB4A-95FE-F39145D96058}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1505279.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_163'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{D1B88FB3-947C-0748-B90E-FDDCDD5F1B76}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1950719.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_169'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{5B32D7C3-CB59-FA4E-B7D8-7DA12650EADE}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1751039.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_166'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{81D75BF8-CEC8-2D47-BEC6-207BAA3547E1}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1873919.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_168'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{665B28D6-33DB-A24D-B1F4-9BC1BDE2E1A2}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1566720,471040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_176'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{7D316013-A3E8-094A-B3ED-166E32926D94}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1781759.9,609280.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_190'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{0651F6A1-94B0-EB4D-A479-E594E9BC34CE}
+                ZoneCorridor = 4
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1781760,471040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_179'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{F2FBD090-D74A-FD4F-A70A-BCB04E3FDE18}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1689599.8,225280.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_154'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{A4388EBA-974E-7645-B21D-F01FB5403E12}
+                ZoneCorridor = 7
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1612799.9,225280.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_153'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{39AECB75-567A-8643-8568-1A1DD2CDD100}
+                ZoneCorridor = 7
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1858559.9,225280.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_156'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{91038405-C471-2A47-B54E-CEB187FEB76E}
+                ZoneCorridor = 7
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1367039.9,578560.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_185'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{E4F99A9A-9BD4-0147-9F41-D233251F8B8F}
+                ZoneCorridor = 4
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1858560,471040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_180'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{EE9D1EC6-B5B6-3846-A243-9A79BDB1F009}
+                ZoneCorridor = 5
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1950719.9,471040.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_181'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{8116343D-0C06-E94D-A2C4-930944C96798}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1858559.9,593920.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_191'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{A86FCB4D-393E-6345-8D91-1E0516373674}
+                ZoneCorridor = 4
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1505279.9,471040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_175'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{3CCC9438-4FE7-9E4F-A701-839EA77981FD}
+                ZoneCorridor = 5
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1428479.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_162'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{E17E109E-A974-B440-8B62-94092A70AEC7}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1766399.9,225280.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_155'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{0498463C-70A8-5445-B361-BCE66E636C79}
+                ZoneCorridor = 7
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1950719.8,225280.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_157'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{1ED65FA0-CE9F-C24D-8AC1-1FE46E7FA303}
+                ZoneCorridor = 7
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1658879.9,348160.2,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_165'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{EE8CC67D-BB7F-9349-BE9C-7BC4D8BFBC9E}
+                ZoneCorridor = 6
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1812479.9,363520.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_167'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{8D7FDE99-1205-3B49-B4B1-623812142D77}
+                ZoneCorridor = 6
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1505279.9,716800.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_197'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{F4B2119A-29EE-BA49-820B-B63D7F2DD501}
+                ZoneCorridor = 3
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1397759.9,732160.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_196'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{8576DF58-68C7-1C4D-9670-1C2ED58EB695}
+                ZoneCorridor = 3
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1397759.9,839680.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_206'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{0C523562-760E-F24E-AE38-B9C2B7FBE23F}
+                ZoneCorridor = 2
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1566719.9,839680.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_208'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{CEC35AC1-824B-0F4A-96F9-63E4C2D0E89E}
+                ZoneCorridor = 2
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1797119.9,947200.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_223'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{24A0A19F-8CEB-7341-A063-F7E507F450BB}
+                ZoneCorridor = 1
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1797119.9,839680.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_211'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{A67A542D-EA7A-4B42-82DE-F55FDFA2526D}
+                ZoneCorridor = 2
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1873919.9,839680.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_212'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{FA6F9B2F-420E-AF41-9CAE-96D5505FB381}
+                ZoneCorridor = 2
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1858559.9,962560.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_224'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{8BBC0588-3A2B-374A-8F16-34BED0D9A6FE}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1443839.9,962560.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_218'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{C0758457-12A8-5E46-BF54-894C0C1F2362}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1674239.9,962560.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_221'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{9D945EB1-BBA0-0A41-969A-6C8F6CD8150A}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1720319.9,855040.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_210'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{E9BAB277-D664-EF49-8037-2CDBA9D63418}
+                ZoneCorridor = 2
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1612799.9,716800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_198'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{46FDFB10-5F29-664A-B6C0-65D91612C2C1}
+                ZoneCorridor = 3
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1643519.9,855040.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_209'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{58D9861A-DC0A-9342-B8CE-2D38491B16EA}
+                ZoneCorridor = 2
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1367039.9,962560.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_217'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{1C4495D5-82FF-524B-883B-C36D9444F67D}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1597439.9,962560.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_220'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{F2D22348-D113-CD4F-95BB-ECEAA932E0A2}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1843199.9,716800.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_201'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{16136F96-FF23-6041-B7FB-72A19756A58B}
+                ZoneCorridor = 3
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1950719.9,962560.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_225'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{D7B8186A-7574-414A-88BC-C92C6EE0201A}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1520639.9,962560.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_219'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{55D01F3D-D433-644B-A9E2-B1323E9D4A61}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1766399.9,716800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_200'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{973E5C36-B6FD-5E44-A4E5-37BEFBAA0E90}
+                ZoneCorridor = 3
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1704959.9,716800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_199'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{5A32EF5E-221B-A84A-8CB7-D9AEEB6C3EAB}
+                ZoneCorridor = 3
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1735679.9,962560.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_222'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{B99C69FC-64E4-A24E-884A-4B9B09BA8691}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1474559.9,839680.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_207'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{4D073D22-ABAA-7E4F-B638-A9ABE03FEDCD}
+                ZoneCorridor = 2
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1950719.9,855040.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_213'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{C77C679C-1275-DF43-9D9F-EC4E1230B50C}
+                ZoneCorridor = 2
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1966079.9,732160.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_202'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{5F6391AE-1AC7-8748-9325-32E7CA8076AD}
+                ZoneCorridor = 3
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1121280,977920.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_214'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{0CBDBD16-79E9-DA40-9400-90822315FDF0}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1213439.9,1085440.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_227'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{7A2306B3-7E4B-9548-8546-35D9437EFC55}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1121279.9,1100800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_226'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{8423A343-3C43-954C-A1B1-495D30D5CC45}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1305599.9,1100800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_228'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{F2BE01B3-8D8D-6B43-A915-52CE1567EA34}
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1198080,977920.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_215'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{4501E749-B6AE-184B-A595-E726E3B04CE0}
+                ZoneCorridor = 1
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1367039.9,1100800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_229'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{1709ED03-C190-614B-AA98-3CA1A07481AA}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1582079.9,1085440.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_232'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{90DA0260-D656-214C-AF4F-7B7553E46C05}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1797119.9,1100800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_235'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{C7EF851A-A66F-8E47-BD39-112901D9FB3F}
+                IsACustomTouchdownZone = true
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1489919.9,1070080.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_231'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{4687F2F2-4814-8640-92A6-EDB3D6A2DA46}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1658879.9,1070080.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_233'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{DC9FB885-E5B8-3C48-971B-6A66B067257A}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1443839.9,1085440.3,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_230'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{EC583AB8-6120-CD4F-BDED-468F53215E13}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1950719.9,1100800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_237'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{CD5957E7-B4A8-2E42-B591-7301B9E862AD}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1720319.9,1100800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_234'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{E42B511F-C67B-2545-83D6-3115B19E6C51}
+            )
+        )
+        ,
+        TGameDesignItem
+        (
+            Position = float3[1858559.9,1100800.1,0]
+            Rotation = -1.566639
+            AddOn = TGameDesignAddOn_IAStratZoneInfos
+            (
+                Name = 'IAStratZoneInfos_236'
+                Ranking = 'IAStratZoneInfos'
+                GUID = GUID:{830E141B-FF4B-244C-9180-F51BF4A7FAAC}
+            )
+        )
+    ]
+)

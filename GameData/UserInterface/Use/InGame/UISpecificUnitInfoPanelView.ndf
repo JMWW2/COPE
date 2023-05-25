@@ -1097,8 +1097,7 @@ is TUISpecificUnitInfoPanelViewDescriptor
     VeteranceColorName = "Orange"
 
     AttributeDescriptorsPool = MAP
-    [
-        // Attribute Strength
+    [	
         ("AttributeStrength",       UnitInfoPanelAttribute(ElementName = "AttributeStrength" Token = "UIPA_STR" ValueToken = "UIP_VAL" HintToken = "HIP_TEAM")),
         // Attribute Speed
         ("AttributeSpeed",          UnitInfoPanelAttribute(ElementName = "AttributeSpeed" Token = "UIPA_SPD" ValueToken = "UIP_KMH" HintToken = "HIP_RSPED" )),
@@ -1119,6 +1118,8 @@ is TUISpecificUnitInfoPanelViewDescriptor
         // Attribute Resilience
         ("AttributeResilience",     UnitInfoPanelAttribute(ElementName = "AttributeResilience" Token = "UIP_RESIL" ValueToken = "UIP_VAL" HintToken = "HIP_RESIL")),
         // Attribute Production Year
+        ("AttributeMaxDamages",       UnitInfoPanelAttribute(ElementName = "AttributeMaxDamages" Token = "UIPA_MXDMG" ValueToken = "UIP_VAL" HintToken = "HIP_MXDMG" )),
+
         ("AttributeProductionYear", UnitInfoPanelAttribute(ElementName = "AttributeProductionYear" Token = "UIPA_PROD" ValueToken = "UIP_VAL" )),
         // Attribute Supply
         ("AttributeSupply",         UnitInfoPanelAttribute(ElementName = "AttributeSupply" Token = "UIPA_SUPLY" ValueToken = "UIP_VAL" HintToken = "HIP_SUPP")),
@@ -1126,11 +1127,11 @@ is TUISpecificUnitInfoPanelViewDescriptor
 
     AttributeTypeConfiguration = MAP
     [
-        ("Default", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics" ]),
-        ("Vehicule", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", ]),
-        ("VehiculeSupplier", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics",  "AttributeSupply"]),
-        ("VehiculeTransporter", ["AttributeSpeed", "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeTransportSize"]),
-        ("VehiculeTransporterSupplier", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeTransportSize", "AttributeSupply", ]),
+        ("Default", [ "AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeStrength" ]),
+        ("Vehicule", [ "AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeMaxDamages", ]),
+        ("VehiculeSupplier", [ "AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeMaxDamages",  "AttributeSupply"]),
+        ("VehiculeTransporter", [ "AttributeSpeed", "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics", "AttributeMaxDamages", "AttributeTransportSize"]),
+        ("VehiculeTransporterSupplier", ["AttributeSpeed",  "AttributeRoadSpeed", "AttributeStealth", "AttributeOptics","AttributeMaxDamages", "AttributeTransportSize", "AttributeSupply", ]),
         ("Infantry", ["AttributeStrength", "AttributeOptics", "AttributeStealth", "AttributeSize", ]),
         ("Airplane", ["AttributeSpeed", "AttributeOptics", "AttributeAgility", "AttributeResilience", ]),
     ]

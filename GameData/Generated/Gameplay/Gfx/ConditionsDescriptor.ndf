@@ -12,10 +12,76 @@ ConditionTagRaisedInUnit_Ennemi_Proche_1 is TConditionTagRaisedInUnit
     Tag             = "Ennemi_Proche"
     Amount          = 1
 )
+ConditionTagNotRaisedInUnit_Ennemi_Proche_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{e21be6ef-8fcd-4d2b-a2c6-afeaab1fd216}
+    Tag             = "Ennemi_Proche"
+    Amount          = 1
+)
+ConditionTagRaisedInUnit_Neutre_Proche_1 is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{f7855b25-e7ae-4de0-8066-e6c93d695056}
+    Tag             = "Neutre_Proche_1"
+    Amount          = 1
+)
+ConditionTagRaisedInUnit_Neutre_Proche_2 is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{2150e1cf-4fa7-457f-8e9b-cb0d60370266}
+    Tag             = "Neutre_Proche_2"
+    Amount          = 1
+)
+ConditionTagRaisedInUnit_Neutre_Proche_3 is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{abe01745-faf9-4c45-86da-2a5ba81b685d}
+    Tag             = "Neutre_Proche_3"
+    Amount          = 1
+)
+ConditionTagRaisedInUnit_Ennemi_Proche_750_1 is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{ab57fd63-c8e3-4570-90be-49bf7c8d0cc1}
+    Tag             = "Ennemi_Proche_750"
+    Amount          = 1
+)
+ConditionTagNotRaisedInUnit_Ennemi_Proche_750_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{66c8239c-b46c-4dab-b720-818520824223}
+    Tag             = "Ennemi_Proche_750"
+    Amount          = 1
+)
+ConditionTagNotRaisedInUnit_GroundUnit_Engaged_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{4b908c3b-4469-497c-a371-f732d1819289}
+    Tag             = "GroundUnit_Engaged"
+    Amount          = 1
+)
 ConditionTagRaisedInUnit_GroundUnit_Engaged_1 is TConditionTagRaisedInUnit
 (
     DescriptorId    = GUID:{ad1588bc-a715-4837-b908-214926f99973}
     Tag             = "GroundUnit_Engaged"
+    Amount          = 1
+)
+ConditionTagNotRaisedInUnit_GroundUnit_Agitated_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{4f27c6bd-add7-4195-8dfc-e591d1f4b731}
+    Tag             = "GroundUnit_Agitated"
+    Amount          = 1
+)
+ConditionTagRaisedInUnit_GroundUnit_Agitated_1 is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{a7f4830c-eeee-41af-bdeb-d2ec03644407}
+    Tag             = "GroundUnit_Agitated"
+    Amount          = 1
+)
+ConditionTagNotRaisedInUnit_Infanterie_Stressed_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{7db2d1f0-4043-412c-8bde-052057d06776}
+    Tag             = "Infanterie_Stressed"
+    Amount          = 1
+)
+ConditionTagRaisedInUnit_Infanterie_Stressed_1 is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{b52256f6-9c7a-4f98-9c21-ecb62618f8c7}
+    Tag             = "Infanterie_Stressed"
     Amount          = 1
 )
 ConditionTagRaisedInUnit_Hors_Transport_1 is TConditionTagRaisedInUnit
@@ -36,6 +102,12 @@ ConditionTagRaisedInUnit_Infanterie_Engaged_1 is TConditionTagRaisedInUnit
     Tag             = "Infanterie_Engaged"
     Amount          = 1
 )
+ConditionTagNotRaisedInUnit_Infanterie_Engaged_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{26574cf3-7511-4cec-8a61-2d14bab9e3d2}
+    Tag             = "Infanterie_Engaged"
+    Amount          = 1
+)
 ConditionTagRaisedInUnit_Panique_1 is TConditionTagRaisedInUnit
 (
     DescriptorId    = GUID:{658be03b-54ff-4ea0-a6c6-bbe9d0ed4b0c}
@@ -43,6 +115,12 @@ ConditionTagRaisedInUnit_Panique_1 is TConditionTagRaisedInUnit
     Amount          = 1
 )
 ConditionTagNotRaisedInUnit_Allie_Proche_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{d2b3b3ad-f9ed-45a2-999c-cb882f723b41}
+    Tag             = "Allie_Proche"
+    Amount          = 1
+)
+ConditionTagRaisedInUnit_Allie_Proche_1 is TConditionTagRaisedInUnit
 (
     DescriptorId    = GUID:{207cdfd5-b6db-447d-841d-6d1d19633b35}
     Tag             = "Allie_Proche"
@@ -66,3 +144,29 @@ ConditionTagNotRaisedInUnit_Retraite_1 is TConditionTagNotRaisedInUnit
     Tag             = "Retraite"
     Amount          = 1
 )
+ConditionTagRaisedInUnit_OffMap_Warning is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{ba7ac045-e2c3-476c-8f1a-bcadfd916e1d}
+    Tag             = "OffMap_Warning"
+    Amount          = 1
+)
+ConditionTagRaisedInUnit_Last_Stand_1 is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{c4c08d3e-2bfd-4fdd-b709-df0c33978ec2}
+    Tag             = "Last_Stand"
+    Amount          = 1
+)
+ConditionTagNotRaisedInUnit_Last_Stand_1 is TConditionTagNotRaisedInUnit
+(
+    DescriptorId    = GUID:{56b383a2-4b86-466c-b952-ec0c69666e3b}
+    Tag             = "Last_Stand"
+    Amount          = 1
+)
+ConditionTagRaisedInUnit_Bailed_Out is TConditionTagRaisedInUnit
+(
+    DescriptorId    = GUID:{6f4333f3-9ffb-4cac-88f4-6d3332bafb92}
+    Tag             = "Bailed_Out"
+    Amount          = 1
+)
+
+

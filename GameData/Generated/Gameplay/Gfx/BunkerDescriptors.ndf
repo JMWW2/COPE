@@ -109,10 +109,10 @@ export Descriptor_Unit_Bunker is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -383,7 +383,7 @@ export Descriptor_Unit_Bunker is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -597,10 +597,10 @@ export Descriptor_Unit_Bunker_ATR_AK is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -647,7 +647,7 @@ export Descriptor_Unit_Bunker_ATR_AK is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -885,7 +885,7 @@ export Descriptor_Unit_Bunker_ATR_AK is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -1099,10 +1099,10 @@ export Descriptor_Unit_Bunker_ATR_AWP is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -1149,7 +1149,7 @@ export Descriptor_Unit_Bunker_ATR_AWP is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1387,7 +1387,7 @@ export Descriptor_Unit_Bunker_ATR_AWP is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -1601,10 +1601,10 @@ export Descriptor_Unit_Bunker_ATR_FIN is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -1651,7 +1651,7 @@ export Descriptor_Unit_Bunker_ATR_FIN is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -1889,7 +1889,7 @@ export Descriptor_Unit_Bunker_ATR_FIN is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -2103,10 +2103,10 @@ export Descriptor_Unit_Bunker_ATR_HON is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -2153,7 +2153,7 @@ export Descriptor_Unit_Bunker_ATR_HON is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -2391,7 +2391,7 @@ export Descriptor_Unit_Bunker_ATR_HON is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -2655,7 +2655,7 @@ export Descriptor_Unit_Bunker_ATR_ROU is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -2893,7 +2893,7 @@ export Descriptor_Unit_Bunker_ATR_ROU is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -3107,10 +3107,10 @@ export Descriptor_Unit_Bunker_ATR_SOV is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -3157,7 +3157,7 @@ export Descriptor_Unit_Bunker_ATR_SOV is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3395,7 +3395,7 @@ export Descriptor_Unit_Bunker_ATR_SOV is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -3517,9 +3517,8 @@ export Descriptor_Unit_Bunker_ATR_YUG is TEntityDescriptor
                 ~/DefensePlacementConstraint_EnoughAvailableUnits,
                 ~/DefensePlacementConstraint_EnoughCurrency,
                 ~/DefensePlacementConstraint_IsInPlayableZone,
-                ~/DefensePlacementConstraint_IsInDeploymentZone,
                 ~/DefensePlacementConstraint_CheckAllowedTerrain,
-                ~/DefensePlacementConstraint_TerrainDrop,
+
             ]
             AppliedTerrain                 = ETerrainType/Bloqueur0
             PatternName                    = 'Defense_Bunker_ATR_Solothurn_HON'
@@ -3538,10 +3537,10 @@ export Descriptor_Unit_Bunker_ATR_YUG is TEntityDescriptor
 
         // DefenseProduction
         TModernWarfareProductionModuleDescriptor(
-            Factory                        = EDefaultFactories/Defense
+            Factory                        = EDefaultFactories/AT
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 5),
+                (~/Resource_CommandPoints, 15),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -3609,10 +3608,10 @@ export Descriptor_Unit_Bunker_ATR_YUG is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -3659,7 +3658,7 @@ export Descriptor_Unit_Bunker_ATR_YUG is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -3751,9 +3750,9 @@ export Descriptor_Unit_Bunker_ATR_YUG is TEntityDescriptor
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.00
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -3897,7 +3896,7 @@ export Descriptor_Unit_Bunker_ATR_YUG is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -4111,10 +4110,10 @@ export Descriptor_Unit_Bunker_AT_37mm_AK is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -4161,7 +4160,7 @@ export Descriptor_Unit_Bunker_AT_37mm_AK is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4399,7 +4398,7 @@ export Descriptor_Unit_Bunker_AT_37mm_AK is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -4613,10 +4612,10 @@ export Descriptor_Unit_Bunker_AT_37mm_GER is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -4663,7 +4662,7 @@ export Descriptor_Unit_Bunker_AT_37mm_GER is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -4901,7 +4900,7 @@ export Descriptor_Unit_Bunker_AT_37mm_GER is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -5115,10 +5114,10 @@ export Descriptor_Unit_Bunker_AT_40mm_HON is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -5165,7 +5164,7 @@ export Descriptor_Unit_Bunker_AT_40mm_HON is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -5403,7 +5402,7 @@ export Descriptor_Unit_Bunker_AT_40mm_HON is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -5617,10 +5616,10 @@ export Descriptor_Unit_Bunker_AT_45mm_AWP is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -5667,7 +5666,7 @@ export Descriptor_Unit_Bunker_AT_45mm_AWP is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -5905,7 +5904,7 @@ export Descriptor_Unit_Bunker_AT_45mm_AWP is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -6119,10 +6118,10 @@ export Descriptor_Unit_Bunker_AT_45mm_FIN is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -6169,7 +6168,7 @@ export Descriptor_Unit_Bunker_AT_45mm_FIN is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6407,7 +6406,7 @@ export Descriptor_Unit_Bunker_AT_45mm_FIN is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -6671,7 +6670,7 @@ export Descriptor_Unit_Bunker_AT_45mm_ROU is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -6909,7 +6908,7 @@ export Descriptor_Unit_Bunker_AT_45mm_ROU is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -7123,10 +7122,10 @@ export Descriptor_Unit_Bunker_AT_45mm_SOV is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -7173,7 +7172,7 @@ export Descriptor_Unit_Bunker_AT_45mm_SOV is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7411,7 +7410,7 @@ export Descriptor_Unit_Bunker_AT_45mm_SOV is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -7625,10 +7624,10 @@ export Descriptor_Unit_Bunker_AT_47mm_RSI is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -7675,7 +7674,7 @@ export Descriptor_Unit_Bunker_AT_47mm_RSI is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -7913,7 +7912,7 @@ export Descriptor_Unit_Bunker_AT_47mm_RSI is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -8035,9 +8034,8 @@ export Descriptor_Unit_Bunker_AT_47mm_YUG is TEntityDescriptor
                 ~/DefensePlacementConstraint_EnoughAvailableUnits,
                 ~/DefensePlacementConstraint_EnoughCurrency,
                 ~/DefensePlacementConstraint_IsInPlayableZone,
-                ~/DefensePlacementConstraint_IsInDeploymentZone,
                 ~/DefensePlacementConstraint_CheckAllowedTerrain,
-                ~/DefensePlacementConstraint_TerrainDrop,
+
             ]
             AppliedTerrain                 = ETerrainType/Bloqueur0
             PatternName                    = 'Defense_Bunker_AT_PaK_36'
@@ -8056,10 +8054,10 @@ export Descriptor_Unit_Bunker_AT_47mm_YUG is TEntityDescriptor
 
         // DefenseProduction
         TModernWarfareProductionModuleDescriptor(
-            Factory                        = EDefaultFactories/Defense
+            Factory                        = EDefaultFactories/AT
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 25),
+                (~/Resource_CommandPoints, 35),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -8127,10 +8125,10 @@ export Descriptor_Unit_Bunker_AT_47mm_YUG is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -8177,7 +8175,7 @@ export Descriptor_Unit_Bunker_AT_47mm_YUG is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -8269,9 +8267,9 @@ export Descriptor_Unit_Bunker_AT_47mm_YUG is TEntityDescriptor
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.00
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -8415,7 +8413,7 @@ export Descriptor_Unit_Bunker_AT_47mm_YUG is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -8629,10 +8627,10 @@ export Descriptor_Unit_Bunker_AT_57mm_FR is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -8679,7 +8677,7 @@ export Descriptor_Unit_Bunker_AT_57mm_FR is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -8917,7 +8915,7 @@ export Descriptor_Unit_Bunker_AT_57mm_FR is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -9131,10 +9129,10 @@ export Descriptor_Unit_Bunker_AT_57mm_US is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -9181,7 +9179,7 @@ export Descriptor_Unit_Bunker_AT_57mm_US is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9419,7 +9417,7 @@ export Descriptor_Unit_Bunker_AT_57mm_US is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -9633,10 +9631,10 @@ export Descriptor_Unit_Bunker_AT_6pdr_CAN is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -9683,7 +9681,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_CAN is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -9921,7 +9919,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_CAN is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -10637,10 +10635,10 @@ export Descriptor_Unit_Bunker_AT_6pdr_ITA is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -10687,7 +10685,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_ITA is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -10925,7 +10923,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_ITA is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -11139,10 +11137,10 @@ export Descriptor_Unit_Bunker_AT_6pdr_NZ is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -11189,7 +11187,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_NZ is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -11427,7 +11425,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_NZ is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -11641,10 +11639,10 @@ export Descriptor_Unit_Bunker_AT_6pdr_SA is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -11691,7 +11689,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_SA is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -11929,7 +11927,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_SA is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -12143,10 +12141,10 @@ export Descriptor_Unit_Bunker_AT_6pdr_UK is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -12193,7 +12191,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_UK is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12431,7 +12429,7 @@ export Descriptor_Unit_Bunker_AT_6pdr_UK is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -12645,10 +12643,10 @@ export Descriptor_Unit_Bunker_AT_75mm_AK is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -12695,7 +12693,7 @@ export Descriptor_Unit_Bunker_AT_75mm_AK is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -12933,7 +12931,7 @@ export Descriptor_Unit_Bunker_AT_75mm_AK is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -13147,10 +13145,10 @@ export Descriptor_Unit_Bunker_AT_75mm_FIN is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -13197,7 +13195,7 @@ export Descriptor_Unit_Bunker_AT_75mm_FIN is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -13435,7 +13433,7 @@ export Descriptor_Unit_Bunker_AT_75mm_FIN is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -13649,10 +13647,10 @@ export Descriptor_Unit_Bunker_AT_75mm_GER is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -13699,7 +13697,7 @@ export Descriptor_Unit_Bunker_AT_75mm_GER is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -13937,7 +13935,7 @@ export Descriptor_Unit_Bunker_AT_75mm_GER is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -14151,10 +14149,10 @@ export Descriptor_Unit_Bunker_AT_75mm_HON is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -14201,7 +14199,7 @@ export Descriptor_Unit_Bunker_AT_75mm_HON is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14439,7 +14437,7 @@ export Descriptor_Unit_Bunker_AT_75mm_HON is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -14703,7 +14701,7 @@ export Descriptor_Unit_Bunker_AT_75mm_ROU is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -14941,7 +14939,7 @@ export Descriptor_Unit_Bunker_AT_75mm_ROU is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -15155,10 +15153,10 @@ export Descriptor_Unit_Bunker_AT_75mm_RSI is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -15205,7 +15203,7 @@ export Descriptor_Unit_Bunker_AT_75mm_RSI is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -15443,7 +15441,7 @@ export Descriptor_Unit_Bunker_AT_75mm_RSI is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -15565,9 +15563,7 @@ export Descriptor_Unit_Bunker_AT_75mm_YUG is TEntityDescriptor
                 ~/DefensePlacementConstraint_EnoughAvailableUnits,
                 ~/DefensePlacementConstraint_EnoughCurrency,
                 ~/DefensePlacementConstraint_IsInPlayableZone,
-                ~/DefensePlacementConstraint_IsInDeploymentZone,
                 ~/DefensePlacementConstraint_CheckAllowedTerrain,
-                ~/DefensePlacementConstraint_TerrainDrop,
             ]
             AppliedTerrain                 = ETerrainType/Bloqueur0
             PatternName                    = 'Defense_Bunker_AT_PaK_40'
@@ -15586,10 +15582,10 @@ export Descriptor_Unit_Bunker_AT_75mm_YUG is TEntityDescriptor
 
         // DefenseProduction
         TModernWarfareProductionModuleDescriptor(
-            Factory                        = EDefaultFactories/Defense
+            Factory                        = EDefaultFactories/AT
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 50),
+                (~/Resource_CommandPoints, 70),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -15657,10 +15653,10 @@ export Descriptor_Unit_Bunker_AT_75mm_YUG is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -15707,7 +15703,7 @@ export Descriptor_Unit_Bunker_AT_75mm_YUG is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -15799,9 +15795,9 @@ export Descriptor_Unit_Bunker_AT_75mm_YUG is TEntityDescriptor
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.00
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -15945,7 +15941,7 @@ export Descriptor_Unit_Bunker_AT_75mm_YUG is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -16159,10 +16155,10 @@ export Descriptor_Unit_Bunker_AT_76mm_SOV is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -16209,7 +16205,7 @@ export Descriptor_Unit_Bunker_AT_76mm_SOV is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -16447,7 +16443,7 @@ export Descriptor_Unit_Bunker_AT_76mm_SOV is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -16569,9 +16565,7 @@ export Descriptor_Unit_Bunker_AT_Pantherturm_GER is TEntityDescriptor
                 ~/DefensePlacementConstraint_EnoughAvailableUnits,
                 ~/DefensePlacementConstraint_EnoughCurrency,
                 ~/DefensePlacementConstraint_IsInPlayableZone,
-                ~/DefensePlacementConstraint_IsInDeploymentZone,
                 ~/DefensePlacementConstraint_CheckAllowedTerrain,
-                ~/DefensePlacementConstraint_TerrainDrop,
             ]
             AppliedTerrain                 = ETerrainType/Bloqueur0
             PatternName                    = 'Defense_Bunker_AT_Pantherturm'
@@ -16590,10 +16584,10 @@ export Descriptor_Unit_Bunker_AT_Pantherturm_GER is TEntityDescriptor
 
         // DefenseProduction
         TModernWarfareProductionModuleDescriptor(
-            Factory                        = EDefaultFactories/Defense
+            Factory                        = EDefaultFactories/AT
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 70),
+                (~/Resource_CommandPoints, 120),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -16661,10 +16655,10 @@ export Descriptor_Unit_Bunker_AT_Pantherturm_GER is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 25.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 25
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -16711,7 +16705,7 @@ export Descriptor_Unit_Bunker_AT_Pantherturm_GER is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -16803,9 +16797,9 @@ export Descriptor_Unit_Bunker_AT_Pantherturm_GER is TEntityDescriptor
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.00
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -16949,7 +16943,7 @@ export Descriptor_Unit_Bunker_AT_Pantherturm_GER is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -17071,7 +17065,6 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_PzII_20mm_GER is TEntityDescript
                 ~/DefensePlacementConstraint_EnoughAvailableUnits,
                 ~/DefensePlacementConstraint_EnoughCurrency,
                 ~/DefensePlacementConstraint_IsInPlayableZone,
-                ~/DefensePlacementConstraint_IsInDeploymentZone,
                 ~/DefensePlacementConstraint_CheckAllowedTerrain,
                 ~/DefensePlacementConstraint_TerrainDrop,
             ]
@@ -17095,7 +17088,7 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_PzII_20mm_GER is TEntityDescript
             Factory                        = EDefaultFactories/Defense
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 20),
+                (~/Resource_CommandPoints, 25),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -17163,10 +17156,10 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_PzII_20mm_GER is TEntityDescript
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 25.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 25
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -17213,7 +17206,7 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_PzII_20mm_GER is TEntityDescript
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -17305,9 +17298,9 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_PzII_20mm_GER is TEntityDescript
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.00
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -17451,7 +17444,7 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_PzII_20mm_GER is TEntityDescript
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -17594,10 +17587,10 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_R35_37mm_GER is TEntityDescripto
 
         // DefenseProduction
         TModernWarfareProductionModuleDescriptor(
-            Factory                        = EDefaultFactories/Defense
+            Factory                        = EDefaultFactories/Support
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 30),
+                (~/Resource_CommandPoints, 35),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -17665,10 +17658,10 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_R35_37mm_GER is TEntityDescripto
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 25.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 25
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -17715,7 +17708,7 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_R35_37mm_GER is TEntityDescripto
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -17807,9 +17800,9 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_R35_37mm_GER is TEntityDescripto
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.00
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -17953,10 +17946,10 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_R35_37mm_GER is TEntityDescripto
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 70
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -18069,13 +18062,12 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_S35_47mm_GER is TEntityDescripto
             DefenseType                    = ~/EDefenseType/Bunker
             Amount                         = 1
             Angle                          = 0.00
-            Radius                         = 150.00 * Metre
+            Radius                         = 0.00 * Metre
             ClearMeshesRadius              = 100.00 * Metre
             PlacementConstraints           = [
                 ~/DefensePlacementConstraint_EnoughAvailableUnits,
                 ~/DefensePlacementConstraint_EnoughCurrency,
                 ~/DefensePlacementConstraint_IsInPlayableZone,
-                ~/DefensePlacementConstraint_IsInDeploymentZone,
                 ~/DefensePlacementConstraint_CheckAllowedTerrain,
                 ~/DefensePlacementConstraint_TerrainDrop,
             ]
@@ -18099,7 +18091,7 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_S35_47mm_GER is TEntityDescripto
             Factory                        = EDefaultFactories/Defense
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 45),
+                (~/Resource_CommandPoints, 50),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -18167,10 +18159,10 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_S35_47mm_GER is TEntityDescripto
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 25.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 25
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -18217,7 +18209,7 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_S35_47mm_GER is TEntityDescripto
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -18309,9 +18301,9 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_S35_47mm_GER is TEntityDescripto
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.00
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -18455,10 +18447,10 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_S35_47mm_GER is TEntityDescripto
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 70
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -18553,6 +18545,601 @@ export Descriptor_Unit_Bunker_AT_Panzerstellung_S35_47mm_GER is TEntityDescripto
                             MenuIconTexture = 'Texture_RTS_H_Bunker_AT'
                             ButtonTexture = 'Texture_Button_Unit_Bunker_AT_Panzerstellung_S35_47mm_GER'
                             CountryTexture = 'CommonTexture_MotherCountryFlag_GER'
+                            TypeStrategicCount = ETypeStrategicCount/NotCounted
+                        )
+                    )
+                ]
+            ),
+
+    ]
+)
+export Descriptor_Unit_Bunker_Tito_YUG is TEntityDescriptor
+(
+    DescriptorId = GUID:{f91166ea-9ef9-4d25-b46c-8f75c0c439f0}
+    ClassNameForDebug = 'Bunker_Tito_YUG'
+    Modules = [
+        // DefenseModule
+        TDefenseModuleDescriptor(
+            DefenseType                    = ~/EDefenseType/Bunker
+            Amount                         = 1
+            Angle                          = 0.00
+            Radius                         = 150.00 * Metre
+            ClearMeshesRadius              = 100.00 * Metre
+            PlacementConstraints           = [
+                ~/DefensePlacementConstraint_EnoughAvailableUnits,
+                ~/DefensePlacementConstraint_EnoughCurrency,
+                ~/DefensePlacementConstraint_IsInPlayableZone,
+                ~/DefensePlacementConstraint_IsInDeploymentZone,
+                ~/DefensePlacementConstraint_CheckAllowedTerrain,
+                ~/DefensePlacementConstraint_TerrainDrop,
+            ]
+            AppliedTerrain                 = ETerrainType/Bloqueur0
+            PatternName                    = 'Defense_Bunker_MG'
+            ExtremityPatternName           = ''
+        ),
+
+        // DefenseCadavreGenerator
+            TModuleSelector
+            (
+                Default        = TCadavreGeneratorModuleDescriptor
+                (
+                    CadavreDescriptor = ~/Descriptor_ProductionCadavre_Bunker_Tito_YUG
+                )
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // DefenseProduction
+        TModernWarfareProductionModuleDescriptor(
+            Factory                        = EDefaultFactories/Support
+            ProductionTime                 = 0
+            ProductionRessourcesNeeded = MAP [
+                (~/Resource_CommandPoints, 160),
+            ]
+            DownPayment                    = ~/SystemeDAchatCoutantParDefaut
+            RaiseDynamicTagAtSpawn         = False
+        ),
+
+        // ApparenceModelModule
+        ApparenceModel is TModuleSelector
+        (
+            Default        = TApparenceModelModuleDescriptor
+            (
+                PickableObject                        = True
+                HideInNoFow                           = False
+                CreateTimelyChannelOnlyOnFirstSight   = False
+                Depiction = TTimelyReceiverFactoryCarrier
+                (
+                    DepictionTemplate = nil
+                    ModifyLB                         = TemplateTimelyDescriptorBatimentWithLevelDesignPattern_OnlyLevelBuild
+                    (
+                        SceneryDescriptorName      = 'Defense_Bunker_MG'
+                        LevelBuildDescriptor       = ~/DefenseUnitLevelBuildViewDescriptor
+                        RenderStyleProviderDescriptor = ~/DefaultRenderStyleProvider
+                    )
+                )
+            )
+            Selection      =
+            [
+                TModuleSelectorFilter
+                (
+                    Condition  = TModuleSelectorCondition_ParamEquals_Integer(ParamId=~/Parameter_ModuleCreationSelectionFilter  ParamValue=~/ModuleCreationFilter_Ghost)
+                    Descriptor = TApparenceModelModuleDescriptor
+                    (
+                        PickableObject = True
+                        Depiction = TTimelyReceiverFactoryCarrier
+                        (
+                            DepictionTemplate = nil
+                            ModifyLB  = TemplateTimelyDescriptorBatimentWithLevelDesignPattern_OnlyLevelBuild
+                            (
+                                SceneryDescriptorName = 'Defense_Bunker_MG'
+                                LevelBuildDescriptor  = ~/DefenseUnitLevelBuildViewDescriptor
+                                RenderStyleProviderDescriptor = ~/DefaultRenderStyleProvider
+                            )
+                        )
+                    )
+                ),
+                ~/NilDescriptorIfCadavre
+            ]
+        ),
+		 //Commander
+        TModuleSelector
+        (
+            Default        = TCommanderModuleDescriptor
+            (
+                CommanderLevel = 2
+            )
+            Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
+        ),
+       // Observer
+            TModuleSelector
+            (
+                Default            = TObserverModuleDescriptor
+                (
+                    Radius              = 13000 * Metre
+                    ArtilleryToSpawn    = ~/Descriptor_Unit_100mm_YUG
+                )
+                Selection          = [ ~/NilDescriptorIfGhostOrCadavre]
+            ),
+        // Damage
+            TDamageModuleDescriptor
+            (
+                CommonDamageDescriptor = TDamageDescriptor
+                (
+                    SuppressDamagesRegenRatio = ~/Bunker_SuppressDamagesRegenRatioList
+                    SuppressDamagesRegenRatioOutOfRange = ~/Bunker_SuppressDamagesRegenRatioOutOfRange
+                    StunDamagesRegen = ~/Bunker_StunDamagesRegen
+                    StunDamagesToGetStunned = ~/Bunker_StunDamagesToGetStunned
+                    StunFreezesUnits = False
+                    BlindageProperties = TBlindageProperties
+                    (
+                        ArmorDescriptorFront = ArmorDescriptor_Batiment_Lourd
+                        ArmorDescriptorSides = ArmorDescriptor_Batiment_Lourd
+                        ArmorDescriptorRear = ArmorDescriptor_Batiment_Lourd
+                        ArmorDescriptorTop = ArmorDescriptor_Batiment_Lourd
+                    )
+                    MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
+                )
+                MaxDamages = 30.0
+                HitRollSize = 5.0
+                HitRollECM = 0.0
+                MaxHPForHUD = 30
+                AutoOrientation = False
+                IsTargetableAsBoat = False
+                IsTargetableOutsideCenter = False
+                SkipCadavreCreation  = True
+                FxDoImpactOnUnit = True
+                UseDamageMultiplierForFirePower = False
+                UseTopArmorAgainstFire = False
+                PhysicalDamageLevelsPack = ~/DamageLevelsPackDescriptor_Default_pack_paliers_degats_phy
+                SuppressDamageLevelsPack = ~/DamageLevelsPackDescriptor_Infanterie_packSupp
+                TypeForGroundDamageModifier = EGroundDamageModifierType/Undefined
+            ),
+
+        // OrderableModule
+      // Orderable
+            TModuleSelector
+            (
+                Default                   = TOrderableModuleDescriptor
+                (
+                    CanHoldPosition           = False
+                    CanMove                   = False
+                    CanBeHarvested            = False
+                    CanHarvest                = False
+                    CanChangeTransferTarget   = False
+                    CanSell                   = False
+                    CanBuild                  = False
+                    CanAttack                 = False
+                    CanStop                   = True
+                    CanFollowFormation        = False
+                    CanShoot                  = True
+                    CanMerge                  = False
+                    CanUnloadFromTransport    = False
+                    CanLand                   = False
+                    CanGoUp                   = False
+                    CanGoDown                 = False
+                    CanMoveAndAttack          = False
+                    CanSpread                 = False
+                    CanReverse                = False
+                    CanSupplyUnit             = True
+                    CanAskForSupply           = True
+                    CanGoGetSupply            = True
+                    CanEnterDistrict          = False
+                    CanAirplanePatrol         = False
+                    CanAirplaneAttack         = False
+                    CanLoadIntoTransport      = True
+                    CanLoadUnit               = False
+                    CanAirplaneTakeOff        = False
+                    CanAirplaneEvacuate       = False
+                    CanRefuelAirplane         = False
+                    CanRepairAirplane         = False
+                    CanRearmAirplane          = False
+                    CanAirplaneShoot          = False
+                    CanBombard                = False
+                    CanFortify                = False
+                    CanFortifyAntiAir         = False
+                    CanAIDefend               = False
+                    CanAIAiplaneAutoManage    = False
+                    CanAIAttack               = False
+                    CanAIManageArtillery      = False
+                    CanAIStop                 = False
+                    CanSmartHoldFire          = False
+                )
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // TypeUnitModule
+        TTypeUnitModuleDescriptor
+        (
+            TypeUnitValue                    = ETypeUnit/Command
+            MotherCountry                    = 'YUG'
+        ),
+
+        // VisibilityModule
+        TModuleSelector
+        (
+            Default        = TVisibilityModuleDescriptor
+            (
+                AutoRevealType                  = EAutoRevealType/AutoRevealAllies
+                UnitConcealmentBonus            = 6.0
+                VisionUnitType                  = EVisionUnitType/AlwaysOnGround
+                VisionObstructionType           = EVisionObstructionType/Vehicle
+                GroundDissimulationModifierType = EGroundDissumulationModifierType/Ground
+            )
+            Selection = [~/NilDescriptorIfGhostOrCadavre]
+        ),
+
+        // Capacite
+            TModuleSelector
+            (
+                Default        = TCapaciteModuleDescriptor
+                (
+                    DefaultSkillList = [
+                        ~/Capacite_Reddition_Vehicle,
+						~/Capacite_Menace_Ennemi_Proche,
+                        ~/Capacite_Soutien_Allie_Proche,
+                    ]
+                    PostOrderSkillList = MAP [
+                    ]
+                )
+                Selection      = [ ~/NilDescriptorIfGhostOrCadavre ]
+            ),
+
+      // CubeAction
+            TModuleSelector
+            (
+                Default        = TCubeActionModuleDescriptor
+                (
+                    CubeActionDescriptor = ~/CubeAction_Menu_Ordres_observers
+                )
+                Selection      = [
+                    ~/NilDescriptorIfCadavre
+                ]
+            ),
+
+        // Debug
+            ~/DebugModuleDescriptor,
+
+        // EffectApplier
+            ~/EffectApplierModuleSelector,
+
+        // Experience
+            TModuleSelector
+            (
+                Default        = TExperienceModuleDescriptor
+                (
+                    ExperienceLevelsPackDescriptor = ~/ExperienceLevelsPackDescriptor_Experience_Infanterie
+                    CanWinExperience = True
+                    ExperienceGainBySecond = 0.0
+                    KillExperienceBonus = 0.0
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+
+        // Flags
+            TFlagsModuleDescriptor
+            (
+                InitialFlagSet =
+                [
+                    Flag_Detectable,
+                    Flag_Selectionnable,
+                    Flag_Batiment,
+                    Flag_Highlightable,
+                    Flag_Target,
+                    Flag_Blessable,
+                    Flag_DEPRECATED_NePasUtiliser_OnlyForBriquePython_UniteDeCommandement,
+                ]
+            ),
+			// Supply
+            TModuleSelector
+            (
+                Default        = TSupplyModuleDescriptor
+                (
+                    SupplyDescriptor   = ~/StandardSupply
+                    SupplyCapacity     = 40000.0
+                    DeploymentDuration = 0.0
+                    WithdrawalDuration = 0.0
+                    SupplyPriority     = -1
+                )
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // GhostModule
+            TModuleSelector
+            (
+                Default        = nil
+                Selection      = [
+                    TModuleSelectorFilter
+                    (
+                        Condition  = TModuleSelectorCondition_ParamEquals_Integer(ParamId=~/Parameter_ModuleCreationSelectionFilter  ParamValue=~/ModuleCreationFilter_Ghost)
+                        Descriptor = TGhostModuleDescriptor
+                        (
+                            TerrainsAndColorsForPlacementGhostFeedback = [
+                            ]
+                        )
+                    )
+                ]
+            ),
+
+        // GroupableUnit
+            ~/GroupableUnitModuleSelector,
+
+        // IAStrat
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 1
+                    GameplayBehavior = EGameplayBehavior/Nothing
+                )
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // InfluenceMap
+             ~/InfluenceDataModuleSelector,
+
+        // InfluenceMap
+             TModuleSelector
+             (
+                 Default = TInfluenceMapModuleDescriptor
+                 (
+                     InfluenceStrength = 0.4
+                     MinimumInfluenceStrength = 0.3
+                     StrengthDecayPerSecond = 0.05
+                     PreventsDecayInZone = False
+                 )
+                 Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
+             ),
+
+        // LinkTeam
+            ~/LinkTeamModuleDescriptor,
+
+        // Label
+        TModuleSelector
+        (
+            Default        = TWargameLabelModuleDescriptor
+            (
+                IsBuilding           = True
+                IsCommandementUnit   = True
+                IsSupply             = True
+                UnitName             = 'Bunk_Tito'
+                HintToken            = 'Command'
+                IdentifiedTexture    = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_Bunker_HMG",
+                        "Texture_Non_identifiee_Defense",
+                    ]
+                )
+                DefaultSpecialtyToken      = "Spec_super_commandement_Unite"
+                SpecialtyHintTitleToken    = 'SPE_COT'
+                SpecialtyHintBodyToken     = 'SPE_COB'
+                SpecialtyHintExtendedToken = 'SPE_COE'
+                UnidentifiedTexture  = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_Non_identifiee_Bunker",
+                        "Texture_Non_identifiee_Defense",
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+                PlatingValue         = 0
+                APValue              = 0
+                APValueBazooka       = False
+                NbSoldiers           = 0
+                IsParachutist        = False
+            )
+            Selection      = [  ~/NilDescriptorIfCadavreOrGhostNotForProd  ]
+        ),
+
+        // OrderDisplay
+            ~/OrderDisplayModuleSelector,
+
+        // PackSignaux
+            ~/PackSignauxModuleSelector,
+
+        // Position
+            TModuleSelector
+            (
+                Default        = TPositionModuleDescriptor
+                (
+                    StickToGround              = True
+                    InGeoDb                    = True
+                    PorteurMustBeVisible       = True
+                    MustUpdateZoneIndice       = False
+                    ClampInWorld               = True
+                    ClampOutMap                = False
+                    HasNearlyNullBBox          = False
+                    GfxDescriptorPorteur       = ~/GfxPorteurBatiment
+                    Radius                     = ((100) * Metre)
+                    RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                    CameraFollower             = nil
+                    LowAltitudeFlyingAltitude  = ((0) * Metre)
+                    NearGroundFlyingAltitude   = ((0) * Metre)
+                )
+                Selection = [
+                    TModuleSelectorFilter
+                    (
+                        Condition  = TModuleSelectorCondition_ParamEquals_Integer(ParamId=~/Parameter_ModuleCreationSelectionFilter  ParamValue=~/ModuleCreationFilter_Cadavre)
+                        Descriptor = TPositionModuleDescriptor
+                        (
+                            StickToGround              = True
+                            InGeoDb                    = False
+                            PorteurMustBeVisible       = True
+                            MustUpdateZoneIndice       = False
+                            ClampInWorld               = True
+                            ClampOutMap                = False
+                            HasNearlyNullBBox          = False
+                            GfxDescriptorPorteur       = ~/GfxPorteurBatiment
+                            Radius                     = ((100) * Metre)
+                            RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                            CameraFollower             = nil
+                            LowAltitudeFlyingAltitude  = ((0) * Metre)
+                            NearGroundFlyingAltitude   = ((0) * Metre)
+                        )
+                    ),
+                ]
+            ),
+
+        // InfluencePosition
+        ~/InfluencePositionModuleDescriptor,
+
+        // BuildingDescription
+        TBuildingDescriptionModuleDescriptor
+        (
+            SymbolName                    = 'Defense_Bunker_MG'
+            LevelBuildSymbolDatabaseProxy = $/M3D/Scene/LevelBuildSymbolDatabaseProxy
+            Height                        = 10 * Metre
+        ),
+
+        // Scanner
+            TModuleSelector
+            (
+                Default        = TReverseScannerWithIdentificationDescriptor
+                (
+                    VisibilityRollRule = TModernWarfareVisibilityRollRule
+                    (
+                        IdentifyBaseProbability     = 0.1
+                        TimeBetweenEachIdentifyRoll = 2.0
+                        VisibilityRuleDescriptor    = ~/StandardWargameVisibilityRollRule
+                        DistanceMultiplierRule      = TModernWarfareDistanceMultiplierRollRuleDescriptor
+                        (
+                            MultiplicateurAPorteeMaximale            = DefaultMultiplicateurAPorteeMaximale
+                            MultiplicateurAPorteeMinimale            = DefaultMultiplicateurAPorteeMinimale
+                            Exposant                                 = DefaultExposant
+                            MultiplicateurAPorteeMaximaleEnMouvement = DefaultMultiplicateurAPorteeMaximaleEnMouvement
+                            MultiplicateurAPorteeMinimaleEnMouvement = DefaultMultiplicateurAPorteeMinimaleEnMouvement
+                            ExposantEnMouvement                      = DefaultExposantEnMouvement
+                        )
+                    )
+                )
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // Selection
+        ~/TemplateSelectionModule,
+
+        // ScannerConfiguration
+            TModuleSelector
+            (
+                Default        = TScannerConfigurationDescriptor
+                (
+                    OpticsAltitudeConfig = ~/EVisionOpticsAltitudeConfig/DontUse
+                    DoesNotCountInScannerAbsoluteMaxRange = False
+                    PorteeVisionTBA = ((0.0) * Metre)
+                    PorteeVisionFOW = ((0.0) * Metre)
+                    DetectionTBA = ((11250) * Metre)
+                    PorteeVision = ((12500) * Metre)
+                    PorteeIdentification = 0.0
+                    OpticalStrength = 160
+                    OpticalStrengthAltitude = 60
+                    UnitDetectStealthUnit = False
+                    SpecializedDetections = MAP [
+                        ( EVisionUnitType/AlwaysInHighAltitude, 12500.0 * Metre ),
+                        ( EVisionUnitType/Boat, 12500.0 * Metre ),
+                    ]
+                    SpecializedOpticalStrengths = MAP [
+                    ]
+                    IgnoreObstacles = MAP []
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+
+        // StateEngine
+            TModuleSelector
+            (
+                Default        = TStateEngineModuleDescriptor
+                (
+                    InitialStateId = 'UnitIdle'
+                    StateEngineUpdateMode = WorldControllerAccess_InWorld
+                )
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // StateEngineCompany
+            TModuleSelector
+            (
+                Default        = TStateEngineCompanyModuleDescriptor
+                (
+                    InitialStateId = 'CompanyInit'
+                    StateEngineUpdateMode = WorldControllerAccess_InWorld
+                )
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // Tags
+            TTagsModuleDescriptor
+            (
+                TagSet = [
+                    "GagneXP",
+                    "Defense_BunkerMG",
+					"Vehicule_Logistique",
+					"Artillerie_Observateur",
+					"Commandant",
+					
+                ]
+            ),
+
+        // TargetManager
+            ~/TargetManagerModuleSelector,
+
+        // WeaponManager
+        WeaponManager is
+            TModuleSelector
+            (
+                Default        = $/GFX/Everything/WeaponDescriptor_Bunker_HMG42_YUG
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // UnitUI
+            TModuleSelector
+            (
+                Default = TUnitUIModuleDescriptor
+                (
+                    HintToken = 'Bunker'
+                    SpecialtiesList = [
+					'Spec_super_commandement_Unite',
+					'Spec_ravitaillement_Unite',
+					'Spec_OffMap_Unite',
+                    'Spec_radio_Unite',
+					 
+                    ]
+                    NameToken = 'Bunk_Tito'
+                    InfoPanelConfigurationToken = 'Default'
+                    TypeSpecificToken = ''
+                    ShowInMenu = True
+                    IsAce = True
+                    GenerateName = true
+                    TopViewTexture = 'Texture_Unit_TopView_Bunker_HMG42_YUG'
+                    MenuIconTexture = 'Texture_RTS_H_Bunker_HMG'
+                    ButtonTexture = 'Texture_Button_Unit_Bunker_HMG42_YUG'
+                    CountryTexture = 'CommonTexture_MotherCountryFlag_YUG'
+                    TypeStrategicCount = ETypeStrategicCount/NotCounted
+                )
+                Selection = [
+                    NilDescriptorIfCadavre,
+                    TModuleSelectorFilter
+                    (
+                        Condition  = TModuleSelectorCondition_ParamEquals_Integer
+                        (
+                            ParamId = ~/Parameter_ModuleCreationSelectionFilter
+                            ParamValue = ~/ModuleCreationFilter_Ghost
+                        )
+                        Descriptor = TUnitUIModuleDescriptor
+                        (
+                            HintToken = 'Bunker'
+                            NameToken = 'Bunk_Tito'
+                            InfoPanelConfigurationToken = 'Default'
+                            TypeSpecificToken = ''
+                            TopViewTexture = 'Texture_Unit_TopView_Bunker_HMG42_YUG'
+                            MenuIconTexture = 'Texture_RTS_H_Bunker_HMG'
+                            ButtonTexture = 'Texture_Button_Unit_Bunker_HMG42_YUG'
+                            CountryTexture = 'CommonTexture_MotherCountryFlag_YUG'
                             TypeStrategicCount = ETypeStrategicCount/NotCounted
                         )
                     )
@@ -18669,10 +19256,10 @@ export Descriptor_Unit_Bunker_HMG42 is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -18690,6 +19277,8 @@ export Descriptor_Unit_Bunker_HMG42 is TEntityDescriptor
         (
             CanShoot  = True
             CanStop   = True
+			                    
+
         ),
 
         // TypeUnitModule
@@ -18719,14 +19308,24 @@ export Descriptor_Unit_Bunker_HMG42 is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
+						~/Capacite_Menace_Ennemi_Proche,
+                        ~/Capacite_Soutien_Allie_Proche,
                     ]
                     PostOrderSkillList = MAP [
                     ]
                 )
                 Selection      = [ ~/NilDescriptorIfGhostOrCadavre ]
             ),
-
+				 //Commander
+        TModuleSelector
+        (
+            Default        = TCommanderModuleDescriptor
+            (
+                CommanderLevel = 1
+            )
+            Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
+        ),
         // CubeAction
             TModuleSelector
             (
@@ -18812,7 +19411,7 @@ export Descriptor_Unit_Bunker_HMG42 is TEntityDescriptor
                  Default = TInfluenceMapModuleDescriptor
                  (
                      InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
+                     MinimumInfluenceStrength = 0.2
                      StrengthDecayPerSecond = 0.01
                      PreventsDecayInZone = False
                  )
@@ -18957,10 +19556,10 @@ export Descriptor_Unit_Bunker_HMG42 is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -19171,10 +19770,10 @@ export Descriptor_Unit_Bunker_HMG42_AK is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -19221,7 +19820,7 @@ export Descriptor_Unit_Bunker_HMG42_AK is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19330,7 +19929,7 @@ export Descriptor_Unit_Bunker_HMG42_AK is TEntityDescriptor
             Default        = TWargameLabelModuleDescriptor
             (
                 IsBuilding           = True
-                IsCommandementUnit   = False
+                IsCommandementUnit   = True
                 UnitName             = 'Bunk_HMG42'
                 HintToken            = 'Bunker'
                 IdentifiedTexture    = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
@@ -19459,10 +20058,10 @@ export Descriptor_Unit_Bunker_HMG42_AK is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -19723,7 +20322,7 @@ export Descriptor_Unit_Bunker_HMG42_ROU is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -19961,7 +20560,7 @@ export Descriptor_Unit_Bunker_HMG42_ROU is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -20083,9 +20682,7 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
                 ~/DefensePlacementConstraint_EnoughAvailableUnits,
                 ~/DefensePlacementConstraint_EnoughCurrency,
                 ~/DefensePlacementConstraint_IsInPlayableZone,
-                ~/DefensePlacementConstraint_IsInDeploymentZone,
                 ~/DefensePlacementConstraint_CheckAllowedTerrain,
-                ~/DefensePlacementConstraint_TerrainDrop,
             ]
             AppliedTerrain                 = ETerrainType/Bloqueur0
             PatternName                    = 'Defense_Bunker_MG'
@@ -20104,10 +20701,10 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
 
         // DefenseProduction
         TModernWarfareProductionModuleDescriptor(
-            Factory                        = EDefaultFactories/Defense
+            Factory                        = EDefaultFactories/Support
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 5),
+                (~/Resource_CommandPoints, 50),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -20155,7 +20752,15 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
                 ~/NilDescriptorIfCadavre
             ]
         ),
-
+		 //Commander
+        TModuleSelector
+        (
+            Default        = TCommanderModuleDescriptor
+            (
+                CommanderLevel = 1
+            )
+            Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
+        ),
         // Damage
             TDamageModuleDescriptor
             (
@@ -20175,10 +20780,10 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -20196,6 +20801,7 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
         (
             CanShoot  = True
             CanStop   = True
+			 CanLoadIntoTransport      = True
         ),
 
         // TypeUnitModule
@@ -20225,7 +20831,10 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
+                        ~/Capacite_Soutien_Allie_Proche,
+                        ~/Capacite_Malus_Suppress_Zone_Influence_Ennemie,
+						
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -20317,9 +20926,9 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.0
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -20334,7 +20943,7 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
             Default        = TWargameLabelModuleDescriptor
             (
                 IsBuilding           = True
-                IsCommandementUnit   = False
+                IsCommandementUnit   = True
                 UnitName             = 'Bunk_HMG42'
                 HintToken            = 'Bunker'
                 IdentifiedTexture    = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
@@ -20463,10 +21072,10 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -20508,6 +21117,7 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
                 TagSet = [
                     "GagneXP",
                     "Defense_BunkerMG",
+					"Commandant",
                 ]
             ),
 
@@ -20529,10 +21139,11 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
                 (
                     HintToken = 'Bunker'
                     SpecialtiesList = [
+                    'Spec_commandement_Unite',
                     ]
                     NameToken = 'Bunk_HMG42'
                     InfoPanelConfigurationToken = 'Default'
-                    TypeSpecificToken = ''
+                    TypeSpecificToken = 'TInfCmd'
                     ShowInMenu = True
                     IsAce = False
                     GenerateName = true
@@ -20556,7 +21167,7 @@ export Descriptor_Unit_Bunker_HMG42_YUG is TEntityDescriptor
                             HintToken = 'Bunker'
                             NameToken = 'Bunk_HMG42'
                             InfoPanelConfigurationToken = 'Default'
-                            TypeSpecificToken = ''
+                            TypeSpecificToken = 'TInfCmd'
                             TopViewTexture = 'Texture_Unit_TopView_Bunker_HMG42_YUG'
                             MenuIconTexture = 'Texture_RTS_H_Bunker_HMG'
                             ButtonTexture = 'Texture_Button_Unit_Bunker_HMG42_YUG'
@@ -20585,7 +21196,6 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
                 ~/DefensePlacementConstraint_EnoughAvailableUnits,
                 ~/DefensePlacementConstraint_EnoughCurrency,
                 ~/DefensePlacementConstraint_IsInPlayableZone,
-                ~/DefensePlacementConstraint_IsInDeploymentZone,
                 ~/DefensePlacementConstraint_CheckAllowedTerrain,
                 ~/DefensePlacementConstraint_TerrainDrop,
             ]
@@ -20609,7 +21219,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
             Factory                        = EDefaultFactories/Defense
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 5),
+                (~/Resource_CommandPoints, 25),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -20677,10 +21287,10 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -20698,6 +21308,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
         (
             CanShoot  = True
             CanStop   = True
+			CanLoadIntoTransport      = True
         ),
 
         // TypeUnitModule
@@ -20727,7 +21338,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -20820,8 +21431,8 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
                  Default = TInfluenceMapModuleDescriptor
                  (
                      InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     MinimumInfluenceStrength = 0.2
+                     StrengthDecayPerSecond = 0.1
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -20965,10 +21576,10 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -21010,6 +21621,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
                 TagSet = [
                     "GagneXP",
                     "Defense_BunkerMG",
+					
                 ]
             ),
 
@@ -21034,7 +21646,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
                     ]
                     NameToken = 'GRVOEFAOLK'
                     InfoPanelConfigurationToken = 'Default'
-                    TypeSpecificToken = ''
+                    TypeSpecificToken = 'TInfLdr'
                     ShowInMenu = True
                     IsAce = False
                     GenerateName = true
@@ -21058,7 +21670,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_ITA is TEntityDescriptor
                             HintToken = 'Bunker'
                             NameToken = 'GRVOEFAOLK'
                             InfoPanelConfigurationToken = 'Default'
-                            TypeSpecificToken = ''
+                            TypeSpecificToken = 'TInfLdr'
                             TopViewTexture = 'Texture_Unit_TopView_Bunker_HMG_Breda_ITA'
                             MenuIconTexture = 'Texture_RTS_H_Bunker_HMG'
                             ButtonTexture = 'Texture_Button_Unit_Bunker_HMG_Breda_ITA'
@@ -21179,10 +21791,10 @@ export Descriptor_Unit_Bunker_HMG_Breda_RSI is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -21229,7 +21841,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_RSI is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21467,10 +22079,10 @@ export Descriptor_Unit_Bunker_HMG_Breda_RSI is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -21588,10 +22200,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
             PlacementConstraints           = [
                 ~/DefensePlacementConstraint_EnoughAvailableUnits,
                 ~/DefensePlacementConstraint_EnoughCurrency,
-                ~/DefensePlacementConstraint_IsInPlayableZone,
-                ~/DefensePlacementConstraint_IsInDeploymentZone,
                 ~/DefensePlacementConstraint_CheckAllowedTerrain,
-                ~/DefensePlacementConstraint_TerrainDrop,
             ]
             AppliedTerrain                 = ETerrainType/Bloqueur0
             PatternName                    = 'Defense_Bunker_HMG_Breda_YUG'
@@ -21610,10 +22219,10 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
 
         // DefenseProduction
         TModernWarfareProductionModuleDescriptor(
-            Factory                        = EDefaultFactories/Defense
+            Factory                        = EDefaultFactories/Support
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 5),
+                (~/Resource_CommandPoints, 45),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -21681,10 +22290,10 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -21707,7 +22316,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
         // TypeUnitModule
         TTypeUnitModuleDescriptor
         (
-            TypeUnitValue                    = ETypeUnit/Undef
+            TypeUnitValue                    = ETypeUnit/Command
             MotherCountry                    = 'YUG'
         ),
 
@@ -21724,14 +22333,26 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
             )
             Selection = [~/NilDescriptorIfGhostOrCadavre]
         ),
-
+		 //Commander
+        TModuleSelector
+        (
+            Default        = TCommanderModuleDescriptor
+            (
+                CommanderLevel = 1
+            )
+            Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
+        ),
         // Capacite
             TModuleSelector
             (
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
+                        ~/Capacite_Menace_Ennemi_Proche,
+                        ~/Capacite_Soutien_Allie_Proche,
+                        ~/Capacite_Malus_Suppress_Zone_Influence_Ennemie,
+                        
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -21823,9 +22444,9 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.0
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -21840,7 +22461,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
             Default        = TWargameLabelModuleDescriptor
             (
                 IsBuilding           = True
-                IsCommandementUnit   = False
+                IsCommandementUnit   = True
                 UnitName             = 'MHKKDVVYLC'
                 HintToken            = 'Bunker'
                 IdentifiedTexture    = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
@@ -21850,9 +22471,13 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
                     Values =
                     [
                         "Texture_RTS_H_Bunker_HMG",
-                        "Texture_Non_identifiee_Defense",
+                        "Texture_HQ_infantry",
                     ]
                 )
+                DefaultSpecialtyToken      = "Spec_commandement_Unite"
+                SpecialtyHintTitleToken    = 'SPE_CMDT'
+                SpecialtyHintBodyToken     = 'SPE_CMDB'
+                SpecialtyHintExtendedToken = 'SPE_CMDE'
                 UnidentifiedTexture  = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
                 (
                     CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -21969,10 +22594,10 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -22014,6 +22639,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
                 TagSet = [
                     "GagneXP",
                     "Defense_BunkerMG",
+                    "Commandant",
                 ]
             ),
 
@@ -22035,6 +22661,7 @@ export Descriptor_Unit_Bunker_HMG_Breda_YUG is TEntityDescriptor
                 (
                     HintToken = 'Bunker'
                     SpecialtiesList = [
+                    'Spec_commandement_Unite',
                     ]
                     NameToken = 'MHKKDVVYLC'
                     InfoPanelConfigurationToken = 'Default'
@@ -22183,10 +22810,10 @@ export Descriptor_Unit_Bunker_HMG_FR is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -22233,7 +22860,7 @@ export Descriptor_Unit_Bunker_HMG_FR is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -22471,10 +23098,10 @@ export Descriptor_Unit_Bunker_HMG_FR is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -22685,10 +23312,10 @@ export Descriptor_Unit_Bunker_HMG_US is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -22735,7 +23362,7 @@ export Descriptor_Unit_Bunker_HMG_US is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -22973,10 +23600,10 @@ export Descriptor_Unit_Bunker_HMG_US is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -23187,10 +23814,10 @@ export Descriptor_Unit_Bunker_MG_CAN is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -23237,7 +23864,7 @@ export Descriptor_Unit_Bunker_MG_CAN is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -23475,10 +24102,10 @@ export Descriptor_Unit_Bunker_MG_CAN is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -24191,10 +24818,10 @@ export Descriptor_Unit_Bunker_MG_FR is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -24241,7 +24868,7 @@ export Descriptor_Unit_Bunker_MG_FR is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -24479,10 +25106,10 @@ export Descriptor_Unit_Bunker_MG_FR is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -24693,10 +25320,10 @@ export Descriptor_Unit_Bunker_MG_HON is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -24743,7 +25370,7 @@ export Descriptor_Unit_Bunker_MG_HON is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -24981,10 +25608,10 @@ export Descriptor_Unit_Bunker_MG_HON is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -25195,10 +25822,10 @@ export Descriptor_Unit_Bunker_MG_NZ is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -25245,7 +25872,7 @@ export Descriptor_Unit_Bunker_MG_NZ is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -25483,10 +26110,10 @@ export Descriptor_Unit_Bunker_MG_NZ is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -25697,10 +26324,10 @@ export Descriptor_Unit_Bunker_MG_POL is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -25747,7 +26374,7 @@ export Descriptor_Unit_Bunker_MG_POL is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -25985,10 +26612,10 @@ export Descriptor_Unit_Bunker_MG_POL is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -26199,10 +26826,10 @@ export Descriptor_Unit_Bunker_MG_UK is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -26249,7 +26876,7 @@ export Descriptor_Unit_Bunker_MG_UK is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -26487,10 +27114,10 @@ export Descriptor_Unit_Bunker_MG_UK is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -26701,10 +27328,10 @@ export Descriptor_Unit_Bunker_MG_US is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -26751,7 +27378,7 @@ export Descriptor_Unit_Bunker_MG_US is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -26989,10 +27616,10 @@ export Descriptor_Unit_Bunker_MG_US is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -27203,10 +27830,10 @@ export Descriptor_Unit_Bunker_MG_Vickers_SA is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -27253,7 +27880,7 @@ export Descriptor_Unit_Bunker_MG_Vickers_SA is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -27491,10 +28118,10 @@ export Descriptor_Unit_Bunker_MG_Vickers_SA is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -27705,10 +28332,10 @@ export Descriptor_Unit_Bunker_Maxim_AWP is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -27755,7 +28382,7 @@ export Descriptor_Unit_Bunker_Maxim_AWP is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -27993,10 +28620,10 @@ export Descriptor_Unit_Bunker_Maxim_AWP is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -28207,10 +28834,10 @@ export Descriptor_Unit_Bunker_Maxim_FIN is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -28257,7 +28884,7 @@ export Descriptor_Unit_Bunker_Maxim_FIN is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -28495,10 +29122,10 @@ export Descriptor_Unit_Bunker_Maxim_FIN is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -28709,10 +29336,10 @@ export Descriptor_Unit_Bunker_Maxim_SOV is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -28759,7 +29386,7 @@ export Descriptor_Unit_Bunker_Maxim_SOV is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -28997,10 +29624,10 @@ export Descriptor_Unit_Bunker_Maxim_SOV is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -29211,10 +29838,10 @@ export Descriptor_Unit_Bunker_PaK_50mm is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -29261,7 +29888,7 @@ export Descriptor_Unit_Bunker_PaK_50mm is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -29499,10 +30126,10 @@ export Descriptor_Unit_Bunker_PaK_50mm is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -29713,10 +30340,10 @@ export Descriptor_Unit_Bunker_PaK_50mm_AK is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -29763,7 +30390,7 @@ export Descriptor_Unit_Bunker_PaK_50mm_AK is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -30001,10 +30628,10 @@ export Descriptor_Unit_Bunker_PaK_50mm_AK is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -30265,7 +30892,7 @@ export Descriptor_Unit_Bunker_PaK_50mm_ROU is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -30503,7 +31130,7 @@ export Descriptor_Unit_Bunker_PaK_50mm_ROU is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
                     OpticalStrength = 250
@@ -30717,10 +31344,10 @@ export Descriptor_Unit_Bunker_PaK_50mm_RSI is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -30767,7 +31394,7 @@ export Descriptor_Unit_Bunker_PaK_50mm_RSI is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -31005,10 +31632,10 @@ export Descriptor_Unit_Bunker_PaK_50mm_RSI is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [
@@ -31151,7 +31778,7 @@ export Descriptor_Unit_Bunker_PaK_50mm_YUG is TEntityDescriptor
             Factory                        = EDefaultFactories/Defense
             ProductionTime                 = 0
             ProductionRessourcesNeeded = MAP [
-                (~/Resource_CommandPoints, 30),
+                (~/Resource_CommandPoints, 45),
             ]
             DownPayment                    = ~/SystemeDAchatCoutantParDefaut
             RaiseDynamicTagAtSpawn         = False
@@ -31219,10 +31846,10 @@ export Descriptor_Unit_Bunker_PaK_50mm_YUG is TEntityDescriptor
                     )
                     MaxSuppressionDamages = ~/Bunker_MaxSuppressionDamages
                 )
-                MaxDamages = 30.0
+                MaxDamages = 20.0
                 HitRollSize = 5.0
                 HitRollECM = 0.0
-                MaxHPForHUD = 30
+                MaxHPForHUD = 20
                 AutoOrientation = False
                 IsTargetableAsBoat = False
                 IsTargetableOutsideCenter = False
@@ -31269,7 +31896,7 @@ export Descriptor_Unit_Bunker_PaK_50mm_YUG is TEntityDescriptor
                 Default        = TCapaciteModuleDescriptor
                 (
                     DefaultSkillList = [
-                        ~/Capacite_Reddition,
+                        ~/Capacite_Reddition_Vehicle,
                     ]
                     PostOrderSkillList = MAP [
                     ]
@@ -31361,9 +31988,9 @@ export Descriptor_Unit_Bunker_PaK_50mm_YUG is TEntityDescriptor
              (
                  Default = TInfluenceMapModuleDescriptor
                  (
-                     InfluenceStrength = 0.3
-                     MinimumInfluenceStrength = 0.1
-                     StrengthDecayPerSecond = 0.01
+                     InfluenceStrength = 0.0
+                     MinimumInfluenceStrength = 0.0
+                     StrengthDecayPerSecond = 0.00
                      PreventsDecayInZone = False
                  )
                  Selection = [ ~/NilDescriptorIfGhostOrCadavre ]
@@ -31507,10 +32134,10 @@ export Descriptor_Unit_Bunker_PaK_50mm_YUG is TEntityDescriptor
                     DoesNotCountInScannerAbsoluteMaxRange = False
                     PorteeVisionTBA = ((0.0) * Metre)
                     PorteeVisionFOW = ((0.0) * Metre)
-                    DetectionTBA = ((12500) * Metre)
+                    DetectionTBA = ((11250) * Metre)
                     PorteeVision = ((12500) * Metre)
                     PorteeIdentification = 0.0
-                    OpticalStrength = 250
+                    OpticalStrength = 160
                     OpticalStrengthAltitude = 60
                     UnitDetectStealthUnit = False
                     SpecializedDetections = MAP [

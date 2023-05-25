@@ -471,7 +471,7 @@ export Descriptor_ProductionCadavre_Bunker_ATR_AWP is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -675,7 +675,7 @@ export Descriptor_ProductionCadavre_Bunker_ATR_FIN is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -879,7 +879,7 @@ export Descriptor_ProductionCadavre_Bunker_ATR_HON is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -1287,7 +1287,7 @@ export Descriptor_ProductionCadavre_Bunker_ATR_SOV is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -1491,7 +1491,7 @@ export Descriptor_ProductionCadavre_Bunker_ATR_YUG is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -1695,7 +1695,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_37mm_AK is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -1899,7 +1899,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_37mm_GER is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -2103,7 +2103,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_40mm_HON is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -2307,7 +2307,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_45mm_AWP is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -2511,7 +2511,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_45mm_FIN is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -2919,7 +2919,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_45mm_SOV is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -3123,7 +3123,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_47mm_RSI is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -3327,7 +3327,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_47mm_YUG is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -3531,7 +3531,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_57mm_FR is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -3735,7 +3735,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_57mm_US is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -3939,7 +3939,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_6pdr_CAN is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -4347,7 +4347,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_6pdr_ITA is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -4551,7 +4551,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_6pdr_NZ is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -4755,7 +4755,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_6pdr_SA is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -4959,7 +4959,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_6pdr_UK is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -5163,7 +5163,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_75mm_AK is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -5367,7 +5367,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_75mm_FIN is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -5571,7 +5571,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_75mm_GER is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -5775,7 +5775,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_75mm_HON is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -6183,7 +6183,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_75mm_RSI is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -6387,7 +6387,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_75mm_YUG is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -6591,7 +6591,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_76mm_SOV is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -6795,7 +6795,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_Pantherturm_GER is TEntityDescript
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -6999,7 +6999,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_Panzerstellung_PzII_20mm_GER is TE
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -7203,7 +7203,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_Panzerstellung_R35_37mm_GER is TEn
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -7407,7 +7407,7 @@ export Descriptor_ProductionCadavre_Bunker_AT_Panzerstellung_S35_47mm_GER is TEn
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -7611,7 +7611,7 @@ export Descriptor_ProductionCadavre_Bunker_HMG42 is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -7815,7 +7815,7 @@ export Descriptor_ProductionCadavre_Bunker_HMG42_AK is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -7949,6 +7949,226 @@ export Descriptor_ProductionCadavre_Bunker_HMG42_AK is TEntityDescriptor
                             MenuIconTexture = 'Texture_RTS_H_Bunker_HMG'
                             ButtonTexture = 'Texture_Button_Unit_Bunker_HMG42_AK'
                             CountryTexture = 'CommonTexture_MotherCountryFlag_POL'
+                            TypeStrategicCount = ETypeStrategicCount/NotCounted
+                        )
+                    )
+                ]
+            ),
+
+    ]
+
+)
+export Descriptor_ProductionCadavre_Bunker_Tito_YUG is TEntityDescriptor
+(
+    DescriptorId = GUID:{5ff39286-9bc6-4109-9078-665dd77364d2}
+    ClassNameForDebug = 'CadavreBunker_Tito_YUG'
+    Modules = [
+        // TypeUnit
+            TModuleSelector
+            (
+                Default            = TTypeUnitModuleDescriptor
+                (
+                    TypeUnitValue                    = ETypeUnit/Command
+                    MotherCountry                    = 'YUG'
+                )
+                Selection = [ ~/NilDescriptorIfCadavre ]
+            ),
+
+        // Tags
+            TTagsModuleDescriptor
+            (
+                TagSet = [
+                    "Standard",
+                    "GagneXP",
+                    "Defense_BunkerMG",
+					"Vehicule_Logistique",
+					"Artillerie_Observateur",
+					"Commandant",
+                ]
+            ),
+
+        // Flags
+            TFlagsModuleDescriptor
+            (
+                InitialFlagSet =
+                [
+                    Flag_Detectable,
+                    Flag_Selectionnable,
+                    Flag_Batiment,
+                    Flag_Highlightable,
+                    Flag_Target,
+                    Flag_Blessable,
+                    Flag_DEPRECATED_NePasUtiliser_OnlyForBriquePython_UniteDeCommandement,
+                ]
+            ),
+
+        // Position
+            TPositionModuleDescriptor
+            (
+                StickToGround              = True
+                InGeoDb                    = False
+                PorteurMustBeVisible       = True
+                MustUpdateZoneIndice       = False
+                ClampInWorld               = False
+                ClampOutMap                = False
+                HasNearlyNullBBox          = False
+                GfxDescriptorPorteur       = ~/GfxPorteurBatiment
+                Radius                     = ((100) * Metre)
+                RelativeScanningPosition   = ~/DecalageParDefautDuPointDeVision
+                CameraFollower             = nil
+                LowAltitudeFlyingAltitude  = ((0) * Metre)
+                NearGroundFlyingAltitude   = ((0) * Metre)
+            ),
+
+        // LinkTeam
+            ~/LinkTeamModuleDescriptor,
+
+        // Cadavre
+            TCadavreModuleDescriptor
+            (
+                ExplodeAtEnd = True
+                KillAsVehicule = False
+                KillAsInfanterie = False
+                KillAsHelico = False
+                KillAsAirplane = False
+                KillAsBatiment = True
+                FollowVisibilityRules = False
+                CadavreDuration = 10*3600
+                DisappearanceDuration = ($/GFX/Everything/CadavreDurationApresFeu_Batiment - 5)
+                CadavreFireDuration = $/GFX/Everything/CadavrePeriodEnFeu_Batiment
+                FxBinderStartCrashing = ""
+                FxBinderOnCrash = ""
+                FxBinderBurning = ""
+                FadingDuration = 6
+                DamageRatio = 1.
+                DeathExplosionAmmo = nil
+                SecondaryDeathExplosionAmmo = nil
+                InvulnerablePeriod = $/GFX/Everything/CadavreInvulnerablePeriode
+                ModuleDescriptorsToSteal =
+                [
+                   $/GFX/Everything/Descriptor_Unit_Bunker_HMG42_YUG/ApparenceModel,
+                ]
+            ),
+            $/GFX/Everything/Descriptor_Unit_Bunker_HMG42_YUG/ApparenceModel,
+
+        // Label
+        TModuleSelector
+        (
+            Default        = TWargameLabelModuleDescriptor
+            (
+                IsBuilding           = True
+                IsCommandementUnit   = True
+                IsSupply             = True
+                UnitName             = 'Bunk_Tito'
+                HintToken            = 'Command'
+                IdentifiedTexture    = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_Bunker_HMG",
+                        "Texture_Non_identifiee_Defense",
+                    ]
+                )
+                DefaultSpecialtyToken      = "Spec_super_commandement_Unite"
+                SpecialtyHintTitleToken    = 'SPE_COT'
+                SpecialtyHintBodyToken     = 'SPE_COB'
+                SpecialtyHintExtendedToken = 'SPE_COE'
+                UnidentifiedTexture  = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
+                (
+                    CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
+                    Alterator = $/GUIOption/IconType
+                    Values =
+                    [
+                        "Texture_RTS_H_Non_identifiee_Bunker",
+                        "Texture_Non_identifiee_Defense",
+                    ]
+                )
+                PositionHeightOffset = 1000.0
+                PlatingValue         = 0
+                APValue              = 0
+                APValueBazooka       = False
+                NbSoldiers           = 0
+                IsParachutist        = False
+            )
+            Selection      = [  ]
+        ),
+
+        // Debug
+            ~/DebugModuleDescriptor,
+
+        // IAStrat
+            TModuleSelector
+            (
+                Default        = TIAStratModuleDescriptor
+                (
+                    DatabaseId = 2
+                    GameplayBehavior = EGameplayBehavior/Nothing
+                )
+                Selection      = [~/NilDescriptorIfGhostOrCadavre]
+            ),
+
+        // VisibilityModule
+        TModuleSelector
+        (
+            Default        = TVisibilityModuleDescriptor
+            (
+                AutoRevealType                  = EAutoRevealType/AutoRevealAllies
+                UnitConcealmentBonus            = 0.0
+                VisionUnitType                  = EVisionUnitType/AlwaysOnGround
+                VisionObstructionType           = EVisionObstructionType/Vehicle
+                GroundDissimulationModifierType = EGroundDissumulationModifierType/Ground
+            )
+            Selection = []
+        ),
+
+        // PackSignaux
+            ~/PackSignauxModuleSelector,
+
+        // UnitUI
+            TModuleSelector
+            (
+                Default = TUnitUIModuleDescriptor
+                (
+                    HintToken = 'Command'
+                    SpecialtiesList = [	
+					'Spec_super_commandement_Unite',
+					'Spec_OffMap_Unite',
+                    'Spec_radio_Unite',
+					'Spec_reconnaissance_Unite',
+                    ]
+                    NameToken = 'Bunk_Tito'
+                    InfoPanelConfigurationToken = 'Default'
+                    TypeSpecificToken = ''
+                    ShowInMenu = True
+                    IsAce = True
+                    GenerateName = true
+                    TopViewTexture = 'Texture_Unit_TopView_Bunker_HMG42_YUG'
+                    MenuIconTexture = 'Texture_RTS_H_Bunker_HMG'
+                    ButtonTexture = 'Texture_Button_Unit_Bunker_HMG42_YUG'
+                    CountryTexture = 'CommonTexture_MotherCountryFlag_YUG'
+                    TypeStrategicCount = ETypeStrategicCount/NotCounted
+                )
+                Selection = [
+                    NilDescriptorIfCadavre,
+                    TModuleSelectorFilter
+                    (
+                        Condition  = TModuleSelectorCondition_ParamEquals_Integer
+                        (
+                            ParamId = ~/Parameter_ModuleCreationSelectionFilter
+                            ParamValue = ~/ModuleCreationFilter_Ghost
+                        )
+                        Descriptor = TUnitUIModuleDescriptor
+                        (
+                            HintToken = 'Command'
+                            NameToken = 'Bunk_Tito'
+                            InfoPanelConfigurationToken = 'Default'
+                            TypeSpecificToken = ''
+                            TopViewTexture = 'Texture_Unit_TopView_Bunker_HMG42_YUG'
+                            MenuIconTexture = 'Texture_RTS_H_Bunker_HMG'
+                            ButtonTexture = 'Texture_Button_Unit_Bunker_HMG42_YUG'
+                            CountryTexture = 'CommonTexture_MotherCountryFlag_YUG'
                             TypeStrategicCount = ETypeStrategicCount/NotCounted
                         )
                     )
@@ -8223,7 +8443,7 @@ export Descriptor_ProductionCadavre_Bunker_HMG42_YUG is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -8246,7 +8466,7 @@ export Descriptor_ProductionCadavre_Bunker_HMG42_YUG is TEntityDescriptor
                    $/GFX/Everything/Descriptor_Unit_Bunker_HMG42_YUG/ApparenceModel,
                 ]
             ),
-            $/GFX/Everything/Descriptor_Unit_Bunker_HMG42_YUG/ApparenceModel,
+            $/GFX/Everything/Descriptor_Unit_Bunker_HMG42/ApparenceModel,
 
         // Label
         TModuleSelector
@@ -8427,7 +8647,7 @@ export Descriptor_ProductionCadavre_Bunker_HMG_Breda_ITA is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -8631,7 +8851,7 @@ export Descriptor_ProductionCadavre_Bunker_HMG_Breda_RSI is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -8835,7 +9055,7 @@ export Descriptor_ProductionCadavre_Bunker_HMG_Breda_YUG is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -8879,6 +9099,10 @@ export Descriptor_ProductionCadavre_Bunker_HMG_Breda_YUG is TEntityDescriptor
                         "Texture_Non_identifiee_Defense",
                     ]
                 )
+                DefaultSpecialtyToken      = "Spec_commandement_Unite"
+                SpecialtyHintTitleToken    = 'SPE_CMDT'
+                SpecialtyHintBodyToken     = 'SPE_CMDB'
+                SpecialtyHintExtendedToken = 'SPE_CMDE'
                 UnidentifiedTexture  = TBUCKToolAlternativeValues_TUIValueTextureNameFromTEugBMutableInteger
                 (
                     CommandNameTrigger = ~/SpecificCommandName/UpdateGUIFromIconType
@@ -9039,7 +9263,7 @@ export Descriptor_ProductionCadavre_Bunker_HMG_FR is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -9243,7 +9467,7 @@ export Descriptor_ProductionCadavre_Bunker_HMG_US is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -9447,7 +9671,7 @@ export Descriptor_ProductionCadavre_Bunker_MG_CAN is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -9855,7 +10079,7 @@ export Descriptor_ProductionCadavre_Bunker_MG_FR is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -10059,7 +10283,7 @@ export Descriptor_ProductionCadavre_Bunker_MG_HON is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -10263,7 +10487,7 @@ export Descriptor_ProductionCadavre_Bunker_MG_NZ is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -10467,7 +10691,7 @@ export Descriptor_ProductionCadavre_Bunker_MG_POL is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -10671,7 +10895,7 @@ export Descriptor_ProductionCadavre_Bunker_MG_UK is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -10875,7 +11099,7 @@ export Descriptor_ProductionCadavre_Bunker_MG_US is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -11079,7 +11303,7 @@ export Descriptor_ProductionCadavre_Bunker_MG_Vickers_SA is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -11283,7 +11507,7 @@ export Descriptor_ProductionCadavre_Bunker_Maxim_AWP is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -11487,7 +11711,7 @@ export Descriptor_ProductionCadavre_Bunker_Maxim_FIN is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -11691,7 +11915,7 @@ export Descriptor_ProductionCadavre_Bunker_Maxim_SOV is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -11895,7 +12119,7 @@ export Descriptor_ProductionCadavre_Bunker_PaK_50mm is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -12099,7 +12323,7 @@ export Descriptor_ProductionCadavre_Bunker_PaK_50mm_AK is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -12507,7 +12731,7 @@ export Descriptor_ProductionCadavre_Bunker_PaK_50mm_RSI is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False
@@ -12711,7 +12935,7 @@ export Descriptor_ProductionCadavre_Bunker_PaK_50mm_YUG is TEntityDescriptor
         // Cadavre
             TCadavreModuleDescriptor
             (
-                ExplodeAtEnd = False
+                ExplodeAtEnd = True
                 KillAsVehicule = False
                 KillAsInfanterie = False
                 KillAsHelico = False

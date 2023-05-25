@@ -178,7 +178,7 @@ MinMaxValuesInterfaceHelper is TWeaponsMinMaxValuesInterfaceHelper
                )
                MaxRange = TMinMaxValue (
                        Min = 3750 // Canon 37_42M 40mm HEAT
-                       Max = 10000 // Howz QF 114mm HE
+                       Max = 11250 // Howz QF 114mm HE
                )
                AimTime = TMinMaxValue (
                        Min = 3 // Canon 37_42M 40mm HEAT
